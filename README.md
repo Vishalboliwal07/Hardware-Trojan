@@ -128,24 +128,6 @@ Hardware-Trojan/
 │           ├── rsa_scan.spf
 │           ├── synthesised_scan.v
 │           └── tb_scan.v
-├── docs/
-│   ├── schematics/
-│   │   ├── schematic_aes_core.png
-│   │   ├── schematic_c2670_alu.png
-│   │   ├── schematic_c5315_alu.png
-│   │   ├── schematic_c6288_multiplier.png
-│   │   ├── schematic_c7552_comparator.png
-│   │   ├── schematic_darkriscv_core.png
-│   │   ├── schematic_femtorv32_core.png
-│   │   ├── schematic_hardware_trojan_anatomy.png
-│   │   ├── schematic_mc_atpg_clique_graph.png
-│   │   ├── schematic_nd_atpg_architecture.png
-│   │   ├── schematic_overall_flow.png
-│   │   ├── schematic_picorv32_core.png
-│   │   ├── schematic_rsa_core.png
-│   │   └── schematic_scan_dft_chain.png
-│   ├── Hardware_Trojan_Detection_Presentation_.pptx 
-│   └── presentation_figure
 ├── results/
 │   ├── SUMMARY_RESULTS.md
 │   ├── logs/
