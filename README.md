@@ -153,7 +153,7 @@ Hardware-Trojan/
 ├── scripts/
 │   └── run_all_benchmarks.sh
 └── .git/
-
+```
 
 All architectural diagram assets and schematics are indexed below and located in [`docs/schematics/`](file:///docs/schematics):
 - `schematic_hardware_trojan_anatomy.png`: Trojan trigger network (AND tree of rare nets) and malicious XOR/MUX payload.
