@@ -12,14 +12,14 @@ module tb_c5315;
 
   localparam NUM_PIS = 178;
   localparam NUM_POS = 123;
-  localparam NUM_PATS = 4162;
+  localparam MAX_PATS = 100000;
   localparam CLK_PERIOD = 10;
 
-  reg [NUM_PIS-1:0] pi_mem [0:NUM_PATS-1];
+  reg [NUM_PIS-1:0] pi_mem [0:MAX_PATS-1];
   reg [NUM_PIS-1:0] pi;
   wire [NUM_POS-1:0] po;
 
-  integer p_idx;
+  integer p_idx, total_pats, fd, scan_ret;
   integer hit_count = 0;
   reg [199:0] hit_recorded;
 
@@ -329,19 +329,31 @@ module tb_c5315;
   );
 
   initial begin
-    $display("================================================================================");
-    $display("[START] Running Gate-Level Trojan Activation Testbench: C5315 (%0d patterns)", NUM_PATS);
-    $display("================================================================================");
+    // Load ASCII binary test patterns dynamically
+    fd = $fopen("scan_pi.txt", "r");
+    if (fd == 0) begin
+      $display("[-] ERROR: Could not open scan_pi.txt");
+      $finish;
+    end
+    total_pats = 0;
+    while (!$feof(fd) && total_pats < MAX_PATS) begin
+      scan_ret = $fscanf(fd, "%b\n", pi_mem[total_pats]);
+      if (scan_ret == 1) begin
+        total_pats = total_pats + 1;
+      end
+    end
+    $fclose(fd);
 
-    // Load ASCII binary test patterns
-    $readmemb("scan_pi.txt", pi_mem);
+    $display("================================================================================");
+    $display("[START] Running Gate-Level Trojan Activation Testbench: C5315 (%0d patterns)", total_pats);
+    $display("================================================================================");
 
     hit_recorded = 0;
     pi = 0;
     #20;
 
     // Pattern Replay Loop
-    for (p_idx = 0; p_idx < NUM_PATS; p_idx = p_idx + 1) begin
+    for (p_idx = 0; p_idx < total_pats; p_idx = p_idx + 1) begin
       pi = pi_mem[p_idx];
       #CLK_PERIOD; // Allow combinational logic to propagate and settle
       check_trojans();
