@@ -1,0 +1,683 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `darkriscv'";
+    Date "Mon Nov  9 15:40:54 2026";
+    Source "DFT Compiler T-2022.03-SP5";
+}
+Signals {
+    "CLK" In;
+    "DATAI[0]" In;
+    "DATAI[10]" In;
+    "DATAI[11]" In;
+    "DATAI[12]" In;
+    "DATAI[13]" In;
+    "DATAI[14]" In;
+    "DATAI[15]" In;
+    "DATAI[16]" In;
+    "DATAI[17]" In;
+    "DATAI[18]" In;
+    "DATAI[19]" In;
+    "DATAI[1]" In;
+    "DATAI[20]" In;
+    "DATAI[21]" In;
+    "DATAI[22]" In;
+    "DATAI[23]" In;
+    "DATAI[24]" In;
+    "DATAI[25]" In;
+    "DATAI[26]" In;
+    "DATAI[27]" In;
+    "DATAI[28]" In;
+    "DATAI[29]" In;
+    "DATAI[2]" In;
+    "DATAI[30]" In;
+    "DATAI[31]" In;
+    "DATAI[3]" In;
+    "DATAI[4]" In;
+    "DATAI[5]" In;
+    "DATAI[6]" In;
+    "DATAI[7]" In;
+    "DATAI[8]" In;
+    "DATAI[9]" In;
+    "DBERR" In;
+    "DDACK" In;
+    "IBERR" In;
+    "IDACK" In;
+    "IDATA[0]" In;
+    "IDATA[10]" In;
+    "IDATA[11]" In;
+    "IDATA[12]" In;
+    "IDATA[13]" In;
+    "IDATA[14]" In;
+    "IDATA[15]" In;
+    "IDATA[16]" In;
+    "IDATA[17]" In;
+    "IDATA[18]" In;
+    "IDATA[19]" In;
+    "IDATA[1]" In;
+    "IDATA[20]" In;
+    "IDATA[21]" In;
+    "IDATA[22]" In;
+    "IDATA[23]" In;
+    "IDATA[24]" In;
+    "IDATA[25]" In;
+    "IDATA[26]" In;
+    "IDATA[27]" In;
+    "IDATA[28]" In;
+    "IDATA[29]" In;
+    "IDATA[2]" In;
+    "IDATA[30]" In;
+    "IDATA[31]" In;
+    "IDATA[3]" In;
+    "IDATA[4]" In;
+    "IDATA[5]" In;
+    "IDATA[6]" In;
+    "IDATA[7]" In;
+    "IDATA[8]" In;
+    "IDATA[9]" In;
+    "IRQ" In;
+    "RES" In;
+    "scan_enable" In;
+    "scan_in" In;
+    "DADDR[0]" Out;
+    "DADDR[10]" Out;
+    "DADDR[11]" Out;
+    "DADDR[12]" Out;
+    "DADDR[13]" Out;
+    "DADDR[14]" Out;
+    "DADDR[15]" Out;
+    "DADDR[16]" Out;
+    "DADDR[17]" Out;
+    "DADDR[18]" Out;
+    "DADDR[19]" Out;
+    "DADDR[1]" Out;
+    "DADDR[20]" Out;
+    "DADDR[21]" Out;
+    "DADDR[22]" Out;
+    "DADDR[23]" Out;
+    "DADDR[24]" Out;
+    "DADDR[25]" Out;
+    "DADDR[26]" Out;
+    "DADDR[27]" Out;
+    "DADDR[28]" Out;
+    "DADDR[29]" Out;
+    "DADDR[2]" Out;
+    "DADDR[30]" Out;
+    "DADDR[31]" Out;
+    "DADDR[3]" Out;
+    "DADDR[4]" Out;
+    "DADDR[5]" Out;
+    "DADDR[6]" Out;
+    "DADDR[7]" Out;
+    "DADDR[8]" Out;
+    "DADDR[9]" Out;
+    "DATAO[0]" Out;
+    "DATAO[10]" Out;
+    "DATAO[11]" Out;
+    "DATAO[12]" Out;
+    "DATAO[13]" Out;
+    "DATAO[14]" Out;
+    "DATAO[15]" Out;
+    "DATAO[16]" Out;
+    "DATAO[17]" Out;
+    "DATAO[18]" Out;
+    "DATAO[19]" Out;
+    "DATAO[1]" Out;
+    "DATAO[20]" Out;
+    "DATAO[21]" Out;
+    "DATAO[22]" Out;
+    "DATAO[23]" Out;
+    "DATAO[24]" Out;
+    "DATAO[25]" Out;
+    "DATAO[26]" Out;
+    "DATAO[27]" Out;
+    "DATAO[28]" Out;
+    "DATAO[29]" Out;
+    "DATAO[2]" Out;
+    "DATAO[30]" Out;
+    "DATAO[31]" Out;
+    "DATAO[3]" Out;
+    "DATAO[4]" Out;
+    "DATAO[5]" Out;
+    "DATAO[6]" Out;
+    "DATAO[7]" Out;
+    "DATAO[8]" Out;
+    "DATAO[9]" Out;
+    "DBE[0]" Out;
+    "DBE[1]" Out;
+    "DBE[2]" Out;
+    "DBE[3]" Out;
+    "DDREQ" Out;
+    "DEBUG[0]" Out;
+    "DEBUG[1]" Out;
+    "DEBUG[2]" Out;
+    "DEBUG[3]" Out;
+    "DLEN[0]" Out;
+    "DLEN[1]" Out;
+    "DLEN[2]" Out;
+    "DRD" Out;
+    "DRW" Out;
+    "DWR" Out;
+    "IADDR[0]" Out;
+    "IADDR[10]" Out;
+    "IADDR[11]" Out;
+    "IADDR[12]" Out;
+    "IADDR[13]" Out;
+    "IADDR[14]" Out;
+    "IADDR[15]" Out;
+    "IADDR[16]" Out;
+    "IADDR[17]" Out;
+    "IADDR[18]" Out;
+    "IADDR[19]" Out;
+    "IADDR[1]" Out;
+    "IADDR[20]" Out;
+    "IADDR[21]" Out;
+    "IADDR[22]" Out;
+    "IADDR[23]" Out;
+    "IADDR[24]" Out;
+    "IADDR[25]" Out;
+    "IADDR[26]" Out;
+    "IADDR[27]" Out;
+    "IADDR[28]" Out;
+    "IADDR[29]" Out;
+    "IADDR[2]" Out;
+    "IADDR[30]" Out;
+    "IADDR[31]" Out;
+    "IADDR[3]" Out;
+    "IADDR[4]" Out;
+    "IADDR[5]" Out;
+    "IADDR[6]" Out;
+    "IADDR[7]" Out;
+    "IADDR[8]" Out;
+    "IADDR[9]" Out;
+    "IDREQ" Out;
+    "scan_out" Out;
+}
+SignalGroups {
+    "_si" = '"scan_in"' {
+        ScanIn;
+    }
+    "_so" = '"scan_out"' {
+        ScanOut;
+    }
+    "_clk" = '"CLK" + "RES"';
+    "all_inputs" = '"CLK" + "DATAI[0]" + "DATAI[10]" + "DATAI[11]" + "DATAI[12]" 
+    + "DATAI[13]" + "DATAI[14]" + "DATAI[15]" + "DATAI[16]" + "DATAI[17]" + 
+    "DATAI[18]" + "DATAI[19]" + "DATAI[1]" + "DATAI[20]" + "DATAI[21]" + 
+    "DATAI[22]" + "DATAI[23]" + "DATAI[24]" + "DATAI[25]" + "DATAI[26]" + 
+    "DATAI[27]" + "DATAI[28]" + "DATAI[29]" + "DATAI[2]" + "DATAI[30]" + 
+    "DATAI[31]" + "DATAI[3]" + "DATAI[4]" + "DATAI[5]" + "DATAI[6]" + "DATAI[7]" 
+    + "DATAI[8]" + "DATAI[9]" + "DBERR" + "DDACK" + "IBERR" + "IDACK" + 
+    "IDATA[0]" + "IDATA[10]" + "IDATA[11]" + "IDATA[12]" + "IDATA[13]" + 
+    "IDATA[14]" + "IDATA[15]" + "IDATA[16]" + "IDATA[17]" + "IDATA[18]" + 
+    "IDATA[19]" + "IDATA[1]" + "IDATA[20]" + "IDATA[21]" + "IDATA[22]" + 
+    "IDATA[23]" + "IDATA[24]" + "IDATA[25]" + "IDATA[26]" + "IDATA[27]" + 
+    "IDATA[28]" + "IDATA[29]" + "IDATA[2]" + "IDATA[30]" + "IDATA[31]" + 
+    "IDATA[3]" + "IDATA[4]" + "IDATA[5]" + "IDATA[6]" + "IDATA[7]" + "IDATA[8]" 
+    + "IDATA[9]" + "IRQ" + "RES" + "scan_enable" + "scan_in"';
+    "all_outputs" = '"DADDR[0]" + "DADDR[10]" + "DADDR[11]" + "DADDR[12]" + 
+    "DADDR[13]" + "DADDR[14]" + "DADDR[15]" + "DADDR[16]" + "DADDR[17]" + 
+    "DADDR[18]" + "DADDR[19]" + "DADDR[1]" + "DADDR[20]" + "DADDR[21]" + 
+    "DADDR[22]" + "DADDR[23]" + "DADDR[24]" + "DADDR[25]" + "DADDR[26]" + 
+    "DADDR[27]" + "DADDR[28]" + "DADDR[29]" + "DADDR[2]" + "DADDR[30]" + 
+    "DADDR[31]" + "DADDR[3]" + "DADDR[4]" + "DADDR[5]" + "DADDR[6]" + "DADDR[7]" 
+    + "DADDR[8]" + "DADDR[9]" + "DATAO[0]" + "DATAO[10]" + "DATAO[11]" + 
+    "DATAO[12]" + "DATAO[13]" + "DATAO[14]" + "DATAO[15]" + "DATAO[16]" + 
+    "DATAO[17]" + "DATAO[18]" + "DATAO[19]" + "DATAO[1]" + "DATAO[20]" + 
+    "DATAO[21]" + "DATAO[22]" + "DATAO[23]" + "DATAO[24]" + "DATAO[25]" + 
+    "DATAO[26]" + "DATAO[27]" + "DATAO[28]" + "DATAO[29]" + "DATAO[2]" + 
+    "DATAO[30]" + "DATAO[31]" + "DATAO[3]" + "DATAO[4]" + "DATAO[5]" + 
+    "DATAO[6]" + "DATAO[7]" + "DATAO[8]" + "DATAO[9]" + "DBE[0]" + "DBE[1]" + 
+    "DBE[2]" + "DBE[3]" + "DDREQ" + "DEBUG[0]" + "DEBUG[1]" + "DEBUG[2]" + 
+    "DEBUG[3]" + "DLEN[0]" + "DLEN[1]" + "DLEN[2]" + "DRD" + "DRW" + "DWR" + 
+    "IADDR[0]" + "IADDR[10]" + "IADDR[11]" + "IADDR[12]" + "IADDR[13]" + 
+    "IADDR[14]" + "IADDR[15]" + "IADDR[16]" + "IADDR[17]" + "IADDR[18]" + 
+    "IADDR[19]" + "IADDR[1]" + "IADDR[20]" + "IADDR[21]" + "IADDR[22]" + 
+    "IADDR[23]" + "IADDR[24]" + "IADDR[25]" + "IADDR[26]" + "IADDR[27]" + 
+    "IADDR[28]" + "IADDR[29]" + "IADDR[2]" + "IADDR[30]" + "IADDR[31]" + 
+    "IADDR[3]" + "IADDR[4]" + "IADDR[5]" + "IADDR[6]" + "IADDR[7]" + "IADDR[8]" 
+    + "IADDR[9]" + "IDREQ" + "scan_out"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"CLK" + "DATAI[0]" + "DATAI[10]" + "DATAI[11]" + "DATAI[12]" + 
+    "DATAI[13]" + "DATAI[14]" + "DATAI[15]" + "DATAI[16]" + "DATAI[17]" + 
+    "DATAI[18]" + "DATAI[19]" + "DATAI[1]" + "DATAI[20]" + "DATAI[21]" + 
+    "DATAI[22]" + "DATAI[23]" + "DATAI[24]" + "DATAI[25]" + "DATAI[26]" + 
+    "DATAI[27]" + "DATAI[28]" + "DATAI[29]" + "DATAI[2]" + "DATAI[30]" + 
+    "DATAI[31]" + "DATAI[3]" + "DATAI[4]" + "DATAI[5]" + "DATAI[6]" + "DATAI[7]" 
+    + "DATAI[8]" + "DATAI[9]" + "DBERR" + "DDACK" + "IBERR" + "IDACK" + 
+    "IDATA[0]" + "IDATA[10]" + "IDATA[11]" + "IDATA[12]" + "IDATA[13]" + 
+    "IDATA[14]" + "IDATA[15]" + "IDATA[16]" + "IDATA[17]" + "IDATA[18]" + 
+    "IDATA[19]" + "IDATA[1]" + "IDATA[20]" + "IDATA[21]" + "IDATA[22]" + 
+    "IDATA[23]" + "IDATA[24]" + "IDATA[25]" + "IDATA[26]" + "IDATA[27]" + 
+    "IDATA[28]" + "IDATA[29]" + "IDATA[2]" + "IDATA[30]" + "IDATA[31]" + 
+    "IDATA[3]" + "IDATA[4]" + "IDATA[5]" + "IDATA[6]" + "IDATA[7]" + "IDATA[8]" 
+    + "IDATA[9]" + "IRQ" + "RES" + "scan_enable" + "scan_in"';
+    "_po" = '"DADDR[0]" + "DADDR[10]" + "DADDR[11]" + "DADDR[12]" + "DADDR[13]" 
+    + "DADDR[14]" + "DADDR[15]" + "DADDR[16]" + "DADDR[17]" + "DADDR[18]" + 
+    "DADDR[19]" + "DADDR[1]" + "DADDR[20]" + "DADDR[21]" + "DADDR[22]" + 
+    "DADDR[23]" + "DADDR[24]" + "DADDR[25]" + "DADDR[26]" + "DADDR[27]" + 
+    "DADDR[28]" + "DADDR[29]" + "DADDR[2]" + "DADDR[30]" + "DADDR[31]" + 
+    "DADDR[3]" + "DADDR[4]" + "DADDR[5]" + "DADDR[6]" + "DADDR[7]" + "DADDR[8]" 
+    + "DADDR[9]" + "DATAO[0]" + "DATAO[10]" + "DATAO[11]" + "DATAO[12]" + 
+    "DATAO[13]" + "DATAO[14]" + "DATAO[15]" + "DATAO[16]" + "DATAO[17]" + 
+    "DATAO[18]" + "DATAO[19]" + "DATAO[1]" + "DATAO[20]" + "DATAO[21]" + 
+    "DATAO[22]" + "DATAO[23]" + "DATAO[24]" + "DATAO[25]" + "DATAO[26]" + 
+    "DATAO[27]" + "DATAO[28]" + "DATAO[29]" + "DATAO[2]" + "DATAO[30]" + 
+    "DATAO[31]" + "DATAO[3]" + "DATAO[4]" + "DATAO[5]" + "DATAO[6]" + "DATAO[7]" 
+    + "DATAO[8]" + "DATAO[9]" + "DBE[0]" + "DBE[1]" + "DBE[2]" + "DBE[3]" + 
+    "DDREQ" + "DEBUG[0]" + "DEBUG[1]" + "DEBUG[2]" + "DEBUG[3]" + "DLEN[0]" + 
+    "DLEN[1]" + "DLEN[2]" + "DRD" + "DRW" + "DWR" + "IADDR[0]" + "IADDR[10]" + 
+    "IADDR[11]" + "IADDR[12]" + "IADDR[13]" + "IADDR[14]" + "IADDR[15]" + 
+    "IADDR[16]" + "IADDR[17]" + "IADDR[18]" + "IADDR[19]" + "IADDR[1]" + 
+    "IADDR[20]" + "IADDR[21]" + "IADDR[22]" + "IADDR[23]" + "IADDR[24]" + 
+    "IADDR[25]" + "IADDR[26]" + "IADDR[27]" + "IADDR[28]" + "IADDR[29]" + 
+    "IADDR[2]" + "IADDR[30]" + "IADDR[31]" + "IADDR[3]" + "IADDR[4]" + 
+    "IADDR[5]" + "IADDR[6]" + "IADDR[7]" + "IADDR[8]" + "IADDR[9]" + "IDREQ" + 
+    "scan_out"';
+}
+ScanStructures {
+    ScanChain "1" {
+        ScanLength 1710;
+        ScanIn "scan_in";
+        ScanOut "scan_out";
+        ScanEnable "scan_enable";
+        ScanMasterClock "CLK";
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "RES" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "RES" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "RES" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "RES" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "RES" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r69 N 0NN;
+            "all_outputs" = \r113 X;
+        }
+        V {
+            "_pi" = \r73 #;
+            "_po" = \r113 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r69 N 0NN;
+            "all_outputs" = \r113 X;
+        }
+        V {
+            "_pi" = \r73 #;
+            "_po" = \r113 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "all_inputs" = 0 \r69 N 0NN;
+            "all_outputs" = \r113 X;
+        }
+        V {
+            "_pi" = \r73 #;
+            "_po" = \r113 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r69 N 0NN;
+            "all_outputs" = \r113 X;
+        }
+        V {
+            "_pi" = \r73 #;
+            "_po" = \r113 #;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = 0 \r69 N 0NN;
+            "all_outputs" = \r113 X;
+        }
+        "Internal_scan_pre_shift" : V {
+            "scan_enable" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = P0;
+                "_si" = #;
+                "_so" = #;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r73 N;
+            "all_outputs" = \r113 X;
+        }
+        V {
+            "CLK" = 0;
+            "RES" = 0;
+        }
+        V {
+        }
+    }
+}
+

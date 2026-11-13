@@ -1,0 +1,185 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid this.
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03_Full64; Runtime version U-2023.03_Full64;  Nov 13 21:01 2026
+[SCL] 11/13/2026 21:01:45 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 11/13/2026 21:01:45 PID:11182 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded VCS-BASE-RUNTIME 2023.03 from VCS-Base-Runtime-Pkg
+================================================================================
+[START] Running Gate-Level Trojan Activation Testbench: C2670 (2328 patterns)
+================================================================================
+HIT 39
+HIT 44
+HIT 51
+HIT 52
+HIT 55
+HIT 61
+HIT 64
+HIT 65
+HIT 66
+HIT 67
+HIT 114
+HIT 10
+HIT 42
+HIT 69
+HIT 70
+HIT 76
+HIT 85
+HIT 90
+HIT 92
+HIT 94
+HIT 120
+HIT 45
+HIT 83
+HIT 100
+HIT 102
+HIT 103
+HIT 108
+HIT 117
+HIT 121
+HIT 22
+HIT 38
+HIT 49
+HIT 62
+HIT 80
+HIT 95
+HIT 27
+HIT 28
+HIT 30
+HIT 72
+HIT 97
+HIT 104
+HIT 119
+HIT 29
+HIT 34
+HIT 41
+HIT 48
+HIT 58
+HIT 87
+HIT 135
+HIT 0
+HIT 14
+HIT 20
+HIT 112
+HIT 116
+HIT 3
+HIT 6
+HIT 8
+HIT 18
+HIT 19
+HIT 26
+HIT 40
+HIT 54
+HIT 59
+HIT 60
+HIT 75
+HIT 96
+HIT 105
+HIT 110
+HIT 111
+HIT 123
+HIT 139
+HIT 150
+HIT 1
+HIT 4
+HIT 5
+HIT 31
+HIT 50
+HIT 82
+HIT 98
+HIT 113
+HIT 118
+HIT 122
+HIT 21
+HIT 25
+HIT 124
+HIT 133
+HIT 138
+HIT 11
+HIT 13
+HIT 35
+HIT 79
+HIT 86
+HIT 93
+HIT 56
+HIT 77
+HIT 91
+HIT 12
+HIT 17
+HIT 36
+HIT 37
+HIT 74
+HIT 89
+HIT 101
+HIT 144
+HIT 53
+HIT 68
+HIT 71
+HIT 9
+HIT 33
+HIT 84
+HIT 57
+HIT 81
+HIT 23
+HIT 88
+HIT 106
+HIT 24
+HIT 147
+HIT 149
+HIT 107
+HIT 115
+HIT 131
+HIT 73
+HIT 47
+HIT 46
+HIT 180
+HIT 43
+HIT 63
+HIT 129
+HIT 153
+HIT 109
+HIT 15
+HIT 16
+HIT 145
+HIT 125
+HIT 137
+HIT 132
+HIT 7
+HIT 172
+HIT 126
+HIT 148
+HIT 160
+HIT 78
+HIT 140
+HIT 142
+HIT 127
+HIT 141
+HIT 151
+HIT 134
+HIT 155
+HIT 170
+HIT 159
+HIT 164
+HIT 157
+HIT 146
+HIT 191
+HIT 189
+HIT 166
+HIT 165
+HIT 183
+HIT 176
+HIT 128
+HIT 171
+HIT 130
+HIT 152
+================================================================================
+[DONE] Simulation Complete. Total Unique Trojans Triggered: 164 / 199
+================================================================================
+$finish called from file "tb_c2670.v", line 426.
+$finish at simulation time             23300000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 23300000 ps
+CPU Time:      0.240 seconds;       Data structure size:   0.2Mb
+Fri Nov 13 21:01:46 2026
+[SCL] 11/13/2026 21:01:46 PID:11182 Client:nanodc.iitgn.ac.in checkin (null) 

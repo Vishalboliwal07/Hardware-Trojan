@@ -1,0 +1,146 @@
+WARNING:  file defined by STDMACROS environment variable was not found at:
+          '/home/nanodcmaster/Synopsys/tools/testmax/U-2022.12-SP3/auxx/syn/stdmacros.dat'
+WARNING:  directory defined by LTRAN_ROOT environment variable not found at:
+          '/home/nanodcmaster/Synopsys/tools/testmax/U-2022.12-SP3/linux64/syn/ltran'
+
+WARNING:  User's Guide 'tmax_ug.pdf' missing or no read permission. Was expected at:
+          '/home/nanodcmaster/Synopsys/tools/testmax/U-2022.12-SP3/doc/test/olh_tmax/pdf/tmax_ug.pdf'
+
+                             Synopsys TestMAX (TM) 
+                                  TetraMAX (R)
+
+          Version V-2023.12-DEV-20230411 for linux64 - Apr 11, 2023  
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+ Tcl mode is on by default. Use -notcl to run in native mode.
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Synopsys-Release
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:33:59 PID:24041 Client:nanodc.iitgn.ac.in Authorization failed Synopsys-Release 2022.12
+[SCL] 11/12/2026 00:34:01 PID:24041 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Design-Compiler 2022.12
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Test-Compile
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:34:01 PID:24041 Client:nanodc.iitgn.ac.in Authorization failed Test-Compile 2022.12
+[SCL] 11/12/2026 00:34:02 PID:24041 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Test-Analysis-P4 2022.12
+Checkout succeeded: Test-Analysis-P4/EF4AA4E7C0EB8B5C4198
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:34:02 Checking status for feature Test-Analysis-P4
+[SCL] 11/12/2026 00:34:02 PID:24041 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Test-Analysis-P4 2022.12
+read_netlist /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog_udp.v -library
+ Begin reading netlist ( /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog_udp.v )...
+ End parsing Verilog file /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog_udp.v with 0 errors.
+ End reading netlist: #modules=617, top=xr03da_func, #lines=15216, CPU_time=0.02 sec, Memory=2MB
+read_netlist /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog.v -library
+ Begin reading netlist ( /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog.v )...
+ End parsing Verilog file /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/tmax_model/lib_flow_ss/verilog.v with 0 errors.
+ End reading netlist: #modules=534, top=xr03da, #lines=27663, CPU_time=0.01 sec, Memory=1MB
+read_netlist synthesised_scan.v
+ Begin reading netlist ( synthesised_scan.v )...
+ End parsing Verilog file synthesised_scan.v with 0 errors.
+ End reading netlist: #modules=1, top=rsa, #lines=20429, CPU_time=0.04 sec, Memory=4MB
+set_rules N17 ignore
+set_rules N20 ignore
+set_rules C4 ignore
+run_build_model rsa
+ ------------------------------------------------------------------------------
+ Begin build model for topcut = rsa ...
+ ------------------------------------------------------------------------------
+ There were 44723 primitives and 1 faultable pins removed during model optimizations
+ Warning: Rule B8 (unconnected module input pin) was violated 1 times.
+ Warning: Rule B9 (undriven module internal net) was violated 14 times.
+ Warning: Rule B10 (unconnected module internal net) was violated 14 times.
+ End build model: #primitives=43679, CPU_time=0.04 sec, Memory=15MB
+ ------------------------------------------------------------------------------
+ Begin learning analyses...
+ End learning analyses, total learning CPU time=0.21 sec.
+ ------------------------------------------------------------------------------
+catch {add_clocks 0 CLK}
+ Error: Invalid primary input name "CLK". (M31)
+1
+if {[file exists rsa_scan.spf]} {
+    run_drc rsa_scan.spf
+} else {
+    run_drc
+}
+ ------------------------------------------------------------------------------
+ Begin scan design rules checking...
+ ------------------------------------------------------------------------------
+ Begin reading test protocol file rsa_scan.spf...
+ End parsing STIL file rsa_scan.spf with 0 errors.
+ Test protocol file reading completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin simulating test protocol procedures...
+ Test protocol simulation completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin scan chain operation checking...
+ Chain 1 successfully traced with 250 scan_cells.
+ Scan chain operation checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin clock rules checking...
+ Clock rules checking completed, CPU time=0.00 sec.
+ Performing clock grouping analysis for 2 clocks.
+ The following clocks were identified as groupable with clock clk (32).
+    rst (33)
+ Clock grouping results: #pairs=1, #groups=1, #serial_pairs=0, #disturbed_pairs=0, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin tracing connection cones...
+ Tracing connection cones completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin nonscan rules checking...
+ Nonscan cell summary: #DFF=0  #DLAT=0  #RAM_outs=0  tla_usage_type=none
+ Nonscan rules checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin DRC dependent learning...
+ Fast-sequential depth results: control=0(0), observe=0(0), detect=0(0), CPU time=0.00 sec
+ DRC dependent learning completed, CPU time=0.01 sec.
+ ------------------------------------------------------------------------------
+ Begin set operation for load unload constant latches...
+ Set operation for load unload constant latches completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ DRC Summary Report
+ ------------------------------------------------------------------------------
+ No violations occurred during DRC process.
+ 1 potential clock groups were identified.
+ Design rules checking was successful, total CPU time=0.02 sec.
+ ------------------------------------------------------------------------------
+write_image rsa.image -replace
+ End write image: #bytes=1479415, CPU time=0.20 sec.
+exit
+[SCL] 11/12/2026 00:34:02 PID:24041 Client:nanodc.iitgn.ac.in checkin Test-Analysis-P4 
+[*] Extracting circuit information: rsa...
+[+] Circuit: rsa | PIs: 39 | Gates: 9953 | Rare Nodes: 7534
+[*] Building TetraMAX image for SAT checks...
+[*] Processing trigger size q = 1...
+    -> Retained 125 feasible triggers for q = 1
+[*] Processing trigger size q = 2...
+    [*] Retaining independent rare-node combinations for q = 2...
+    -> Retained 125 feasible triggers for q = 2
+[*] Processing trigger size q = 3...
+    [*] Retaining independent rare-node combinations for q = 3...
+    -> Retained 125 feasible triggers for q = 3
+[*] Processing trigger size q = 4...
+    [*] Retaining independent rare-node combinations for q = 4...
+    -> Retained 125 feasible triggers for q = 4
+[+] Locked benchmark saved: locked_trojans.json (Total Feasible: 500)

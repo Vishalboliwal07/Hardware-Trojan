@@ -1,0 +1,3206 @@
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Synopsys-Release
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:53 PID:14158 Client:nanodc.iitgn.ac.in Authorization failed Synopsys-Release 2022.03
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Design-Compiler 2022.03
+Checkout succeeded: Design-Compiler/6FDAB497AF27996224DB
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:56 Checking status for feature Design-Compiler
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Design-Compiler 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Synopsys
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Authorization failed Synopsys 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       DC-Debug
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Authorization failed DC-Debug 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       DC-NXT-DPX-Beta
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Authorization failed DC-NXT-DPX-Beta 2022.03
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version T-2022.03-SP5 for linux64 - Oct 11, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+[SCL] 11/12/2026 00:13:56 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Expert 2022.03
+set target_library "/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db"
+/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+set link_library "* /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db"
+* /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+remove_design -designs
+1
+analyze -format sverilog [list /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/round.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/aes_128.v]
+Running PRESTO HDLC
+Checkout succeeded: HDL-Compiler/5F9A44B79739DDFECE11
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:13:57 Checking status for feature HDL-Compiler
+[SCL] 11/12/2026 00:13:57 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded HDL-Compiler 2022.03
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/round.v
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/aes_128.v
+Presto compilation completed successfully.
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+1
+elaborate aes_128
+Loading db file '/home/nanodcmaster/Synopsys/tools/syn/T-2022.03-SP5/libraries/syn/gtech.db'
+Loading db file '/home/nanodcmaster/Synopsys/tools/syn/T-2022.03-SP5/libraries/syn/standard.sldb'
+  Loading link library 'tsl18fs120_scl_ss'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine aes_128 line 26 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/aes_128.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       s0_reg        | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+|       k0_reg        | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (aes_128)
+Elaborated 1 design.
+Current design is now 'aes_128'.
+Information: Building the design 'expand_key_128'. (HDL-193)
+
+Inferred memory devices in process
+	in routine expand_key_128 line 77 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/aes_128.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       k3a_reg       | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|       k0a_reg       | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|       k1a_reg       | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|       k2a_reg       | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine expand_key_128 line 88 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/aes_128.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      out_1_reg      | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (expand_key_128)
+Information: Building the design 'one_round'. (HDL-193)
+
+Inferred memory devices in process
+	in routine one_round line 45 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/round.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    state_out_reg    | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (one_round)
+Information: Building the design 'final_round'. (HDL-193)
+
+Inferred memory devices in process
+	in routine final_round line 78 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/round.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    state_out_reg    | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (final_round)
+Information: Building the design 'S4'. (HDL-193)
+Presto compilation completed successfully. (S4)
+Information: Building the design 'table_lookup'. (HDL-193)
+Presto compilation completed successfully. (table_lookup)
+Information: Building the design 'S'. (HDL-193)
+
+Statistics for case statements in always block at line 64 in file
+	'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            65            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine S line 64 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (S)
+Information: Building the design 'T'. (HDL-193)
+Presto compilation completed successfully. (T)
+Information: Building the design 'xS'. (HDL-193)
+
+Statistics for case statements in always block at line 331 in file
+	'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           332            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine xS line 331 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/table.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       out_reg       | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (xS)
+1
+current_design aes_128
+Current design is 'aes_128'.
+{aes_128}
+link
+
+  Linking design 'aes_128'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (9 designs)               /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/aes_128/aes_128.db, etc
+  tsl18fs120_scl_ss (library) /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP5
+Date:        Thu Nov 12 00:14:00 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      8
+    Shorted outputs (LINT-31)                                       8
+
+Cells                                                              92
+    Connected to power or ground (LINT-32)                         80
+    Nets connected to multiple pins on same cell (LINT-33)         12
+--------------------------------------------------------------------------------
+
+Warning: In design 'T', output port 'out[31]' is connected directly to output port 'out[23]'. (LINT-31)
+Warning: In design 'T', output port 'out[30]' is connected directly to output port 'out[22]'. (LINT-31)
+Warning: In design 'T', output port 'out[29]' is connected directly to output port 'out[21]'. (LINT-31)
+Warning: In design 'T', output port 'out[28]' is connected directly to output port 'out[20]'. (LINT-31)
+Warning: In design 'T', output port 'out[27]' is connected directly to output port 'out[19]'. (LINT-31)
+Warning: In design 'T', output port 'out[26]' is connected directly to output port 'out[18]'. (LINT-31)
+Warning: In design 'T', output port 'out[25]' is connected directly to output port 'out[17]'. (LINT-31)
+Warning: In design 'T', output port 'out[24]' is connected directly to output port 'out[16]'. (LINT-31)
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a2' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a3' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a4' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a5' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a6' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a7' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a8' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a9' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[7]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[6]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[5]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[4]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[3]' is connected to logic 0. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[2]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[1]' is connected to logic 1. 
+Warning: In design 'aes_128', a pin on submodule 'a10' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'rcon[0]' is connected to logic 0. 
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a1'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[4]', 'rcon[3]', 'rcon[2]', 'rcon[1]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a2'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[4]', 'rcon[3]', 'rcon[2]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a3'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[4]', 'rcon[3]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a4'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[4]', 'rcon[2]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a5'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[3]', 'rcon[2]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a6'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[4]', 'rcon[3]', 'rcon[2]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a7'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[5]'', 'rcon[4]', 'rcon[3]', 'rcon[2]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a8'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[6]', 'rcon[5]'', 'rcon[4]', 'rcon[3]', 'rcon[2]', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a9'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[5]', 'rcon[2]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a9'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'rcon[4]', 'rcon[3]'', 'rcon[1]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a10'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'rcon[7]', 'rcon[6]'', 'rcon[3]', 'rcon[0]'.
+Warning: In design 'aes_128', the same net is connected to more than one pin on submodule 'a10'. (LINT-33)
+   Net '*Logic1*' is connected to pins 'rcon[5]', 'rcon[4]'', 'rcon[2]', 'rcon[1]'.
+1
+compile -map_effort medium
+[SCL] 11/12/2026 00:14:00 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Ultra-Opt 2022.03
+[SCL] 11/12/2026 00:14:01 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Ultra-Features 2022.03
+[SCL] 11/12/2026 00:14:01 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DesignWare 2022.03
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | T-2022.03-DWBB_202203.4 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 315840                                 |
+| Number of User Hierarchies                              | 558                                    |
+| Sequential Cell Count                                   | 6848                                   |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 1                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 0                                      |
+| Number of Dont Touch Cells                              | 176128                                 |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 100 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'S_0'
+  Processing 'S4_0'
+  Processing 'final_round'
+  Processing 'xS_0'
+  Processing 'T_0'
+  Processing 'table_lookup_0'
+  Processing 'one_round_0'
+  Processing 'expand_key_128_0'
+  Processing 'aes_128'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'aes_128' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'xS_143'
+  Mapping 'xS_143'
+  Structuring 'xS_142'
+  Mapping 'xS_142'
+  Structuring 'xS_141'
+  Mapping 'xS_141'
+  Structuring 'xS_140'
+  Mapping 'xS_140'
+  Structuring 'xS_139'
+  Mapping 'xS_139'
+  Structuring 'xS_138'
+  Mapping 'xS_138'
+  Structuring 'xS_137'
+  Mapping 'xS_137'
+  Structuring 'xS_136'
+  Mapping 'xS_136'
+  Structuring 'xS_135'
+  Mapping 'xS_135'
+  Structuring 'xS_134'
+  Mapping 'xS_134'
+  Structuring 'xS_133'
+  Mapping 'xS_133'
+  Structuring 'xS_132'
+  Mapping 'xS_132'
+  Structuring 'xS_131'
+  Mapping 'xS_131'
+  Structuring 'xS_130'
+  Mapping 'xS_130'
+  Structuring 'xS_129'
+  Mapping 'xS_129'
+  Structuring 'xS_128'
+  Mapping 'xS_128'
+  Structuring 'xS_127'
+  Mapping 'xS_127'
+  Structuring 'xS_126'
+  Mapping 'xS_126'
+  Structuring 'xS_125'
+  Mapping 'xS_125'
+  Structuring 'xS_124'
+  Mapping 'xS_124'
+  Structuring 'xS_123'
+  Mapping 'xS_123'
+  Structuring 'xS_122'
+  Mapping 'xS_122'
+  Structuring 'xS_121'
+  Mapping 'xS_121'
+  Structuring 'xS_120'
+  Mapping 'xS_120'
+  Structuring 'xS_119'
+  Mapping 'xS_119'
+  Structuring 'xS_118'
+  Mapping 'xS_118'
+  Structuring 'xS_117'
+  Mapping 'xS_117'
+  Structuring 'xS_116'
+  Mapping 'xS_116'
+  Structuring 'xS_115'
+  Mapping 'xS_115'
+  Structuring 'xS_114'
+  Mapping 'xS_114'
+  Structuring 'xS_113'
+  Mapping 'xS_113'
+  Structuring 'xS_112'
+  Mapping 'xS_112'
+  Structuring 'xS_111'
+  Mapping 'xS_111'
+  Structuring 'xS_110'
+  Mapping 'xS_110'
+  Structuring 'xS_109'
+  Mapping 'xS_109'
+  Structuring 'xS_108'
+  Mapping 'xS_108'
+  Structuring 'xS_107'
+  Mapping 'xS_107'
+  Structuring 'xS_106'
+  Mapping 'xS_106'
+  Structuring 'xS_105'
+  Mapping 'xS_105'
+  Structuring 'xS_104'
+  Mapping 'xS_104'
+  Structuring 'xS_103'
+  Mapping 'xS_103'
+  Structuring 'xS_102'
+  Mapping 'xS_102'
+  Structuring 'xS_101'
+  Mapping 'xS_101'
+  Structuring 'xS_100'
+  Mapping 'xS_100'
+  Structuring 'xS_99'
+  Mapping 'xS_99'
+  Structuring 'xS_98'
+  Mapping 'xS_98'
+  Structuring 'xS_97'
+  Mapping 'xS_97'
+  Structuring 'xS_96'
+  Mapping 'xS_96'
+  Structuring 'xS_95'
+  Mapping 'xS_95'
+  Structuring 'xS_94'
+  Mapping 'xS_94'
+  Structuring 'xS_93'
+  Mapping 'xS_93'
+  Structuring 'xS_92'
+  Mapping 'xS_92'
+  Structuring 'xS_91'
+  Mapping 'xS_91'
+  Structuring 'xS_90'
+  Mapping 'xS_90'
+  Structuring 'xS_89'
+  Mapping 'xS_89'
+  Structuring 'xS_88'
+  Mapping 'xS_88'
+  Structuring 'xS_87'
+  Mapping 'xS_87'
+  Structuring 'xS_86'
+  Mapping 'xS_86'
+  Structuring 'xS_85'
+  Mapping 'xS_85'
+  Structuring 'xS_84'
+  Mapping 'xS_84'
+  Structuring 'xS_83'
+  Mapping 'xS_83'
+  Structuring 'xS_82'
+  Mapping 'xS_82'
+  Structuring 'xS_81'
+  Mapping 'xS_81'
+  Structuring 'xS_80'
+  Mapping 'xS_80'
+  Structuring 'xS_79'
+  Mapping 'xS_79'
+  Structuring 'xS_78'
+  Mapping 'xS_78'
+  Structuring 'xS_77'
+  Mapping 'xS_77'
+  Structuring 'xS_76'
+  Mapping 'xS_76'
+  Structuring 'xS_75'
+  Mapping 'xS_75'
+  Structuring 'xS_74'
+  Mapping 'xS_74'
+  Structuring 'xS_73'
+  Mapping 'xS_73'
+  Structuring 'xS_72'
+  Mapping 'xS_72'
+  Structuring 'xS_71'
+  Mapping 'xS_71'
+  Structuring 'xS_70'
+  Mapping 'xS_70'
+  Structuring 'xS_69'
+  Mapping 'xS_69'
+  Structuring 'xS_68'
+  Mapping 'xS_68'
+  Structuring 'xS_67'
+  Mapping 'xS_67'
+  Structuring 'xS_66'
+  Mapping 'xS_66'
+  Structuring 'xS_65'
+  Mapping 'xS_65'
+  Structuring 'xS_64'
+  Mapping 'xS_64'
+  Structuring 'xS_63'
+  Mapping 'xS_63'
+  Structuring 'xS_62'
+  Mapping 'xS_62'
+  Structuring 'xS_61'
+  Mapping 'xS_61'
+  Structuring 'xS_60'
+  Mapping 'xS_60'
+  Structuring 'xS_59'
+  Mapping 'xS_59'
+  Structuring 'xS_58'
+  Mapping 'xS_58'
+  Structuring 'xS_57'
+  Mapping 'xS_57'
+  Structuring 'xS_56'
+  Mapping 'xS_56'
+  Structuring 'xS_55'
+  Mapping 'xS_55'
+  Structuring 'xS_54'
+  Mapping 'xS_54'
+  Structuring 'xS_53'
+  Mapping 'xS_53'
+  Structuring 'xS_52'
+  Mapping 'xS_52'
+  Structuring 'xS_51'
+  Mapping 'xS_51'
+  Structuring 'xS_50'
+  Mapping 'xS_50'
+  Structuring 'xS_49'
+  Mapping 'xS_49'
+  Structuring 'xS_48'
+  Mapping 'xS_48'
+  Structuring 'xS_47'
+  Mapping 'xS_47'
+  Structuring 'xS_46'
+  Mapping 'xS_46'
+  Structuring 'xS_45'
+  Mapping 'xS_45'
+  Structuring 'xS_44'
+  Mapping 'xS_44'
+  Structuring 'xS_43'
+  Mapping 'xS_43'
+  Structuring 'xS_42'
+  Mapping 'xS_42'
+  Structuring 'xS_41'
+  Mapping 'xS_41'
+  Structuring 'xS_40'
+  Mapping 'xS_40'
+  Structuring 'xS_39'
+  Mapping 'xS_39'
+  Structuring 'xS_38'
+  Mapping 'xS_38'
+  Structuring 'xS_37'
+  Mapping 'xS_37'
+  Structuring 'xS_36'
+  Mapping 'xS_36'
+  Structuring 'xS_35'
+  Mapping 'xS_35'
+  Structuring 'xS_34'
+  Mapping 'xS_34'
+  Structuring 'xS_33'
+  Mapping 'xS_33'
+  Structuring 'xS_32'
+  Mapping 'xS_32'
+  Structuring 'xS_31'
+  Mapping 'xS_31'
+  Structuring 'xS_30'
+  Mapping 'xS_30'
+  Structuring 'xS_29'
+  Mapping 'xS_29'
+  Structuring 'xS_28'
+  Mapping 'xS_28'
+  Structuring 'xS_27'
+  Mapping 'xS_27'
+  Structuring 'xS_26'
+  Mapping 'xS_26'
+  Structuring 'xS_25'
+  Mapping 'xS_25'
+  Structuring 'xS_24'
+  Mapping 'xS_24'
+  Structuring 'xS_23'
+  Mapping 'xS_23'
+  Structuring 'xS_22'
+  Mapping 'xS_22'
+  Structuring 'xS_21'
+  Mapping 'xS_21'
+  Structuring 'xS_20'
+  Mapping 'xS_20'
+  Structuring 'xS_19'
+  Mapping 'xS_19'
+  Structuring 'xS_18'
+  Mapping 'xS_18'
+  Structuring 'xS_17'
+  Mapping 'xS_17'
+  Structuring 'xS_16'
+  Mapping 'xS_16'
+  Structuring 'xS_15'
+  Mapping 'xS_15'
+  Structuring 'xS_14'
+  Mapping 'xS_14'
+  Structuring 'xS_13'
+  Mapping 'xS_13'
+  Structuring 'xS_12'
+  Mapping 'xS_12'
+  Structuring 'xS_11'
+  Mapping 'xS_11'
+  Structuring 'xS_10'
+  Mapping 'xS_10'
+  Structuring 'xS_9'
+  Mapping 'xS_9'
+  Structuring 'xS_8'
+  Mapping 'xS_8'
+  Structuring 'xS_7'
+  Mapping 'xS_7'
+  Structuring 'xS_6'
+  Mapping 'xS_6'
+  Structuring 'xS_5'
+  Mapping 'xS_5'
+  Structuring 'xS_4'
+  Mapping 'xS_4'
+  Structuring 'xS_3'
+  Mapping 'xS_3'
+  Structuring 'xS_2'
+  Mapping 'xS_2'
+  Structuring 'xS_1'
+  Mapping 'xS_1'
+  Structuring 'T_143'
+  Mapping 'T_143'
+  Structuring 'T_142'
+  Mapping 'T_142'
+  Structuring 'T_141'
+  Mapping 'T_141'
+  Structuring 'T_140'
+  Mapping 'T_140'
+  Structuring 'T_139'
+  Mapping 'T_139'
+  Structuring 'T_138'
+  Mapping 'T_138'
+  Structuring 'T_137'
+  Mapping 'T_137'
+  Structuring 'T_136'
+  Mapping 'T_136'
+  Structuring 'T_135'
+  Mapping 'T_135'
+  Structuring 'T_134'
+  Mapping 'T_134'
+  Structuring 'T_133'
+  Mapping 'T_133'
+  Structuring 'T_132'
+  Mapping 'T_132'
+  Structuring 'T_131'
+  Mapping 'T_131'
+  Structuring 'T_130'
+  Mapping 'T_130'
+  Structuring 'T_129'
+  Mapping 'T_129'
+  Structuring 'T_128'
+  Mapping 'T_128'
+  Structuring 'T_127'
+  Mapping 'T_127'
+  Structuring 'T_126'
+  Mapping 'T_126'
+  Structuring 'T_125'
+  Mapping 'T_125'
+  Structuring 'T_124'
+  Mapping 'T_124'
+  Structuring 'T_123'
+  Mapping 'T_123'
+  Structuring 'T_122'
+  Mapping 'T_122'
+  Structuring 'T_121'
+  Mapping 'T_121'
+  Structuring 'T_120'
+  Mapping 'T_120'
+  Structuring 'T_119'
+  Mapping 'T_119'
+  Structuring 'T_118'
+  Mapping 'T_118'
+  Structuring 'T_117'
+  Mapping 'T_117'
+  Structuring 'T_116'
+  Mapping 'T_116'
+  Structuring 'T_115'
+  Mapping 'T_115'
+  Structuring 'T_114'
+  Mapping 'T_114'
+  Structuring 'T_113'
+  Mapping 'T_113'
+  Structuring 'T_112'
+  Mapping 'T_112'
+  Structuring 'T_111'
+  Mapping 'T_111'
+  Structuring 'T_110'
+  Mapping 'T_110'
+  Structuring 'T_109'
+  Mapping 'T_109'
+  Structuring 'T_108'
+  Mapping 'T_108'
+  Structuring 'T_107'
+  Mapping 'T_107'
+  Structuring 'T_106'
+  Mapping 'T_106'
+  Structuring 'T_105'
+  Mapping 'T_105'
+  Structuring 'T_104'
+  Mapping 'T_104'
+  Structuring 'T_103'
+  Mapping 'T_103'
+  Structuring 'T_102'
+  Mapping 'T_102'
+  Structuring 'T_101'
+  Mapping 'T_101'
+  Structuring 'T_100'
+  Mapping 'T_100'
+  Structuring 'T_99'
+  Mapping 'T_99'
+  Structuring 'T_98'
+  Mapping 'T_98'
+  Structuring 'T_97'
+  Mapping 'T_97'
+  Structuring 'T_96'
+  Mapping 'T_96'
+  Structuring 'T_95'
+  Mapping 'T_95'
+  Structuring 'T_94'
+  Mapping 'T_94'
+  Structuring 'T_93'
+  Mapping 'T_93'
+  Structuring 'T_92'
+  Mapping 'T_92'
+  Structuring 'T_91'
+  Mapping 'T_91'
+  Structuring 'T_90'
+  Mapping 'T_90'
+  Structuring 'T_89'
+  Mapping 'T_89'
+  Structuring 'T_88'
+  Mapping 'T_88'
+  Structuring 'T_87'
+  Mapping 'T_87'
+  Structuring 'T_86'
+  Mapping 'T_86'
+  Structuring 'T_85'
+  Mapping 'T_85'
+  Structuring 'T_84'
+  Mapping 'T_84'
+  Structuring 'T_83'
+  Mapping 'T_83'
+  Structuring 'T_82'
+  Mapping 'T_82'
+  Structuring 'T_81'
+  Mapping 'T_81'
+  Structuring 'T_80'
+  Mapping 'T_80'
+  Structuring 'T_79'
+  Mapping 'T_79'
+  Structuring 'T_78'
+  Mapping 'T_78'
+  Structuring 'T_77'
+  Mapping 'T_77'
+  Structuring 'T_76'
+  Mapping 'T_76'
+  Structuring 'T_75'
+  Mapping 'T_75'
+  Structuring 'T_74'
+  Mapping 'T_74'
+  Structuring 'T_73'
+  Mapping 'T_73'
+  Structuring 'T_72'
+  Mapping 'T_72'
+  Structuring 'T_71'
+  Mapping 'T_71'
+  Structuring 'T_70'
+  Mapping 'T_70'
+  Structuring 'T_69'
+  Mapping 'T_69'
+  Structuring 'T_68'
+  Mapping 'T_68'
+  Structuring 'T_67'
+  Mapping 'T_67'
+  Structuring 'T_66'
+  Mapping 'T_66'
+  Structuring 'T_65'
+  Mapping 'T_65'
+  Structuring 'T_64'
+  Mapping 'T_64'
+  Structuring 'T_63'
+  Mapping 'T_63'
+  Structuring 'T_62'
+  Mapping 'T_62'
+  Structuring 'T_61'
+  Mapping 'T_61'
+  Structuring 'T_60'
+  Mapping 'T_60'
+  Structuring 'T_59'
+  Mapping 'T_59'
+  Structuring 'T_58'
+  Mapping 'T_58'
+  Structuring 'T_57'
+  Mapping 'T_57'
+  Structuring 'T_56'
+  Mapping 'T_56'
+  Structuring 'T_55'
+  Mapping 'T_55'
+  Structuring 'T_54'
+  Mapping 'T_54'
+  Structuring 'T_53'
+  Mapping 'T_53'
+  Structuring 'T_52'
+  Mapping 'T_52'
+  Structuring 'T_51'
+  Mapping 'T_51'
+  Structuring 'T_50'
+  Mapping 'T_50'
+  Structuring 'T_49'
+  Mapping 'T_49'
+  Structuring 'T_48'
+  Mapping 'T_48'
+  Structuring 'T_47'
+  Mapping 'T_47'
+  Structuring 'T_46'
+  Mapping 'T_46'
+  Structuring 'T_45'
+  Mapping 'T_45'
+  Structuring 'T_44'
+  Mapping 'T_44'
+  Structuring 'T_43'
+  Mapping 'T_43'
+  Structuring 'T_42'
+  Mapping 'T_42'
+  Structuring 'T_41'
+  Mapping 'T_41'
+  Structuring 'T_40'
+  Mapping 'T_40'
+  Structuring 'T_39'
+  Mapping 'T_39'
+  Structuring 'T_38'
+  Mapping 'T_38'
+  Structuring 'T_37'
+  Mapping 'T_37'
+  Structuring 'T_36'
+  Mapping 'T_36'
+  Structuring 'T_35'
+  Mapping 'T_35'
+  Structuring 'T_34'
+  Mapping 'T_34'
+  Structuring 'T_33'
+  Mapping 'T_33'
+  Structuring 'T_32'
+  Mapping 'T_32'
+  Structuring 'T_31'
+  Mapping 'T_31'
+  Structuring 'T_30'
+  Mapping 'T_30'
+  Structuring 'T_29'
+  Mapping 'T_29'
+  Structuring 'T_28'
+  Mapping 'T_28'
+  Structuring 'T_27'
+  Mapping 'T_27'
+  Structuring 'T_26'
+  Mapping 'T_26'
+  Structuring 'T_25'
+  Mapping 'T_25'
+  Structuring 'T_24'
+  Mapping 'T_24'
+  Structuring 'T_23'
+  Mapping 'T_23'
+  Structuring 'T_22'
+  Mapping 'T_22'
+  Structuring 'T_21'
+  Mapping 'T_21'
+  Structuring 'T_20'
+  Mapping 'T_20'
+  Structuring 'T_19'
+  Mapping 'T_19'
+  Structuring 'T_18'
+  Mapping 'T_18'
+  Structuring 'T_17'
+  Mapping 'T_17'
+  Structuring 'T_16'
+  Mapping 'T_16'
+  Structuring 'T_15'
+  Mapping 'T_15'
+  Structuring 'T_14'
+  Mapping 'T_14'
+  Structuring 'T_13'
+  Mapping 'T_13'
+  Structuring 'T_12'
+  Mapping 'T_12'
+  Structuring 'T_11'
+  Mapping 'T_11'
+  Structuring 'T_10'
+  Mapping 'T_10'
+  Structuring 'T_9'
+  Mapping 'T_9'
+  Structuring 'T_8'
+  Mapping 'T_8'
+  Structuring 'T_7'
+  Mapping 'T_7'
+  Structuring 'T_6'
+  Mapping 'T_6'
+  Structuring 'T_5'
+  Mapping 'T_5'
+  Structuring 'T_4'
+  Mapping 'T_4'
+  Structuring 'T_3'
+  Mapping 'T_3'
+  Structuring 'T_2'
+  Mapping 'T_2'
+  Structuring 'T_1'
+  Mapping 'T_1'
+  Structuring 'S_199'
+  Mapping 'S_199'
+  Structuring 'S_198'
+  Mapping 'S_198'
+  Structuring 'S_197'
+  Mapping 'S_197'
+  Structuring 'S_196'
+  Mapping 'S_196'
+  Structuring 'S_195'
+  Mapping 'S_195'
+  Structuring 'S_194'
+  Mapping 'S_194'
+  Structuring 'S_193'
+  Mapping 'S_193'
+  Structuring 'S_192'
+  Mapping 'S_192'
+  Structuring 'S_191'
+  Mapping 'S_191'
+  Structuring 'S_190'
+  Mapping 'S_190'
+  Structuring 'S_189'
+  Mapping 'S_189'
+  Structuring 'S_188'
+  Mapping 'S_188'
+  Structuring 'S_187'
+  Mapping 'S_187'
+  Structuring 'S_186'
+  Mapping 'S_186'
+  Structuring 'S_185'
+  Mapping 'S_185'
+  Structuring 'S_184'
+  Mapping 'S_184'
+  Structuring 'S_183'
+  Mapping 'S_183'
+  Structuring 'S_182'
+  Mapping 'S_182'
+  Structuring 'S_181'
+  Mapping 'S_181'
+  Structuring 'S_180'
+  Mapping 'S_180'
+  Structuring 'S_179'
+  Mapping 'S_179'
+  Structuring 'S_178'
+  Mapping 'S_178'
+  Structuring 'S_177'
+  Mapping 'S_177'
+  Structuring 'S_176'
+  Mapping 'S_176'
+  Structuring 'S_175'
+  Mapping 'S_175'
+  Structuring 'S_174'
+  Mapping 'S_174'
+  Structuring 'S_173'
+  Mapping 'S_173'
+  Structuring 'S_172'
+  Mapping 'S_172'
+  Structuring 'S_171'
+  Mapping 'S_171'
+  Structuring 'S_170'
+  Mapping 'S_170'
+  Structuring 'S_169'
+  Mapping 'S_169'
+  Structuring 'S_168'
+  Mapping 'S_168'
+  Structuring 'S_167'
+  Mapping 'S_167'
+  Structuring 'S_166'
+  Mapping 'S_166'
+  Structuring 'S_165'
+  Mapping 'S_165'
+  Structuring 'S_164'
+  Mapping 'S_164'
+  Structuring 'S_163'
+  Mapping 'S_163'
+  Structuring 'S_162'
+  Mapping 'S_162'
+  Structuring 'S_161'
+  Mapping 'S_161'
+  Structuring 'S_160'
+  Mapping 'S_160'
+  Structuring 'S_159'
+  Mapping 'S_159'
+  Structuring 'S_158'
+  Mapping 'S_158'
+  Structuring 'S_157'
+  Mapping 'S_157'
+  Structuring 'S_156'
+  Mapping 'S_156'
+  Structuring 'S_155'
+  Mapping 'S_155'
+  Structuring 'S_154'
+  Mapping 'S_154'
+  Structuring 'S_153'
+  Mapping 'S_153'
+  Structuring 'S_152'
+  Mapping 'S_152'
+  Structuring 'S_151'
+  Mapping 'S_151'
+  Structuring 'S_150'
+  Mapping 'S_150'
+  Structuring 'S_149'
+  Mapping 'S_149'
+  Structuring 'S_148'
+  Mapping 'S_148'
+  Structuring 'S_147'
+  Mapping 'S_147'
+  Structuring 'S_146'
+  Mapping 'S_146'
+  Structuring 'S_145'
+  Mapping 'S_145'
+  Structuring 'S_144'
+  Mapping 'S_144'
+  Structuring 'S_143'
+  Mapping 'S_143'
+  Structuring 'S_142'
+  Mapping 'S_142'
+  Structuring 'S_141'
+  Mapping 'S_141'
+  Structuring 'S_140'
+  Mapping 'S_140'
+  Structuring 'S_139'
+  Mapping 'S_139'
+  Structuring 'S_138'
+  Mapping 'S_138'
+  Structuring 'S_137'
+  Mapping 'S_137'
+  Structuring 'S_136'
+  Mapping 'S_136'
+  Structuring 'S_135'
+  Mapping 'S_135'
+  Structuring 'S_134'
+  Mapping 'S_134'
+  Structuring 'S_133'
+  Mapping 'S_133'
+  Structuring 'S_132'
+  Mapping 'S_132'
+  Structuring 'S_131'
+  Mapping 'S_131'
+  Structuring 'S_130'
+  Mapping 'S_130'
+  Structuring 'S_129'
+  Mapping 'S_129'
+  Structuring 'S_128'
+  Mapping 'S_128'
+  Structuring 'S_127'
+  Mapping 'S_127'
+  Structuring 'S_126'
+  Mapping 'S_126'
+  Structuring 'S_125'
+  Mapping 'S_125'
+  Structuring 'S_124'
+  Mapping 'S_124'
+  Structuring 'S_123'
+  Mapping 'S_123'
+  Structuring 'S_122'
+  Mapping 'S_122'
+  Structuring 'S_121'
+  Mapping 'S_121'
+  Structuring 'S_120'
+  Mapping 'S_120'
+  Structuring 'S_119'
+  Mapping 'S_119'
+  Structuring 'S_118'
+  Mapping 'S_118'
+  Structuring 'S_117'
+  Mapping 'S_117'
+  Structuring 'S_116'
+  Mapping 'S_116'
+  Structuring 'S_115'
+  Mapping 'S_115'
+  Structuring 'S_114'
+  Mapping 'S_114'
+  Structuring 'S_113'
+  Mapping 'S_113'
+  Structuring 'S_112'
+  Mapping 'S_112'
+  Structuring 'S_111'
+  Mapping 'S_111'
+  Structuring 'S_110'
+  Mapping 'S_110'
+  Structuring 'S_109'
+  Mapping 'S_109'
+  Structuring 'S_108'
+  Mapping 'S_108'
+  Structuring 'S_107'
+  Mapping 'S_107'
+  Structuring 'S_106'
+  Mapping 'S_106'
+  Structuring 'S_105'
+  Mapping 'S_105'
+  Structuring 'S_104'
+  Mapping 'S_104'
+  Structuring 'S_103'
+  Mapping 'S_103'
+  Structuring 'S_102'
+  Mapping 'S_102'
+  Structuring 'S_101'
+  Mapping 'S_101'
+  Structuring 'S_100'
+  Mapping 'S_100'
+  Structuring 'S_99'
+  Mapping 'S_99'
+  Structuring 'S_98'
+  Mapping 'S_98'
+  Structuring 'S_97'
+  Mapping 'S_97'
+  Structuring 'S_96'
+  Mapping 'S_96'
+  Structuring 'S_95'
+  Mapping 'S_95'
+  Structuring 'S_94'
+  Mapping 'S_94'
+  Structuring 'S_93'
+  Mapping 'S_93'
+  Structuring 'S_92'
+  Mapping 'S_92'
+  Structuring 'S_91'
+  Mapping 'S_91'
+  Structuring 'S_90'
+  Mapping 'S_90'
+  Structuring 'S_89'
+  Mapping 'S_89'
+  Structuring 'S_88'
+  Mapping 'S_88'
+  Structuring 'S_87'
+  Mapping 'S_87'
+  Structuring 'S_86'
+  Mapping 'S_86'
+  Structuring 'S_85'
+  Mapping 'S_85'
+  Structuring 'S_84'
+  Mapping 'S_84'
+  Structuring 'S_83'
+  Mapping 'S_83'
+  Structuring 'S_82'
+  Mapping 'S_82'
+  Structuring 'S_81'
+  Mapping 'S_81'
+  Structuring 'S_80'
+  Mapping 'S_80'
+  Structuring 'S_79'
+  Mapping 'S_79'
+  Structuring 'S_78'
+  Mapping 'S_78'
+  Structuring 'S_77'
+  Mapping 'S_77'
+  Structuring 'S_76'
+  Mapping 'S_76'
+  Structuring 'S_75'
+  Mapping 'S_75'
+  Structuring 'S_74'
+  Mapping 'S_74'
+  Structuring 'S_73'
+  Mapping 'S_73'
+  Structuring 'S_72'
+  Mapping 'S_72'
+  Structuring 'S_71'
+  Mapping 'S_71'
+  Structuring 'S_70'
+  Mapping 'S_70'
+  Structuring 'S_69'
+  Mapping 'S_69'
+  Structuring 'S_68'
+  Mapping 'S_68'
+  Structuring 'S_67'
+  Mapping 'S_67'
+  Structuring 'S_66'
+  Mapping 'S_66'
+  Structuring 'S_65'
+  Mapping 'S_65'
+  Structuring 'S_64'
+  Mapping 'S_64'
+  Structuring 'S_63'
+  Mapping 'S_63'
+  Structuring 'S_62'
+  Mapping 'S_62'
+  Structuring 'S_61'
+  Mapping 'S_61'
+  Structuring 'S_60'
+  Mapping 'S_60'
+  Structuring 'S_59'
+  Mapping 'S_59'
+  Structuring 'S_58'
+  Mapping 'S_58'
+  Structuring 'S_57'
+  Mapping 'S_57'
+  Structuring 'S_56'
+  Mapping 'S_56'
+  Structuring 'S_55'
+  Mapping 'S_55'
+  Structuring 'S_54'
+  Mapping 'S_54'
+  Structuring 'S_53'
+  Mapping 'S_53'
+  Structuring 'S_52'
+  Mapping 'S_52'
+  Structuring 'S_51'
+  Mapping 'S_51'
+  Structuring 'S_50'
+  Mapping 'S_50'
+  Structuring 'S_49'
+  Mapping 'S_49'
+  Structuring 'S_48'
+  Mapping 'S_48'
+  Structuring 'S_47'
+  Mapping 'S_47'
+  Structuring 'S_46'
+  Mapping 'S_46'
+  Structuring 'S_45'
+  Mapping 'S_45'
+  Structuring 'S_44'
+  Mapping 'S_44'
+  Structuring 'S_43'
+  Mapping 'S_43'
+  Structuring 'S_42'
+  Mapping 'S_42'
+  Structuring 'S_41'
+  Mapping 'S_41'
+  Structuring 'S_40'
+  Mapping 'S_40'
+  Structuring 'S_39'
+  Mapping 'S_39'
+  Structuring 'S_38'
+  Mapping 'S_38'
+  Structuring 'S_37'
+  Mapping 'S_37'
+  Structuring 'S_36'
+  Mapping 'S_36'
+  Structuring 'S_35'
+  Mapping 'S_35'
+  Structuring 'S_34'
+  Mapping 'S_34'
+  Structuring 'S_33'
+  Mapping 'S_33'
+  Structuring 'S_32'
+  Mapping 'S_32'
+  Structuring 'S_31'
+  Mapping 'S_31'
+  Structuring 'S_30'
+  Mapping 'S_30'
+  Structuring 'S_29'
+  Mapping 'S_29'
+  Structuring 'S_28'
+  Mapping 'S_28'
+  Structuring 'S_27'
+  Mapping 'S_27'
+  Structuring 'S_26'
+  Mapping 'S_26'
+  Structuring 'S_25'
+  Mapping 'S_25'
+  Structuring 'S_24'
+  Mapping 'S_24'
+  Structuring 'S_23'
+  Mapping 'S_23'
+  Structuring 'S_22'
+  Mapping 'S_22'
+  Structuring 'S_21'
+  Mapping 'S_21'
+  Structuring 'S_20'
+  Mapping 'S_20'
+  Structuring 'S_19'
+  Mapping 'S_19'
+  Structuring 'S_18'
+  Mapping 'S_18'
+  Structuring 'S_17'
+  Mapping 'S_17'
+  Structuring 'S_16'
+  Mapping 'S_16'
+  Structuring 'S_15'
+  Mapping 'S_15'
+  Structuring 'S_14'
+  Mapping 'S_14'
+  Structuring 'S_13'
+  Mapping 'S_13'
+  Structuring 'S_12'
+  Mapping 'S_12'
+  Structuring 'S_11'
+  Mapping 'S_11'
+  Structuring 'S_10'
+  Mapping 'S_10'
+  Structuring 'S_9'
+  Mapping 'S_9'
+  Structuring 'S_8'
+  Mapping 'S_8'
+  Structuring 'S_7'
+  Mapping 'S_7'
+  Structuring 'S_6'
+  Mapping 'S_6'
+  Structuring 'S_5'
+  Mapping 'S_5'
+  Structuring 'S_4'
+  Mapping 'S_4'
+  Structuring 'S_3'
+  Mapping 'S_3'
+  Structuring 'S_2'
+  Mapping 'S_2'
+  Structuring 'S_1'
+  Mapping 'S_1'
+  Structuring 'one_round_8'
+  Mapping 'one_round_8'
+  Structuring 'one_round_7'
+  Mapping 'one_round_7'
+  Structuring 'one_round_6'
+  Mapping 'one_round_6'
+  Structuring 'one_round_5'
+  Mapping 'one_round_5'
+  Structuring 'one_round_4'
+  Mapping 'one_round_4'
+  Structuring 'one_round_3'
+  Mapping 'one_round_3'
+  Structuring 'one_round_2'
+  Mapping 'one_round_2'
+  Structuring 'one_round_1'
+  Mapping 'one_round_1'
+  Structuring 'expand_key_128_9'
+  Mapping 'expand_key_128_9'
+  Structuring 'expand_key_128_8'
+  Mapping 'expand_key_128_8'
+  Structuring 'expand_key_128_7'
+  Mapping 'expand_key_128_7'
+  Structuring 'expand_key_128_6'
+  Mapping 'expand_key_128_6'
+  Structuring 'expand_key_128_5'
+  Mapping 'expand_key_128_5'
+  Structuring 'expand_key_128_4'
+  Mapping 'expand_key_128_4'
+  Structuring 'expand_key_128_3'
+  Mapping 'expand_key_128_3'
+  Structuring 'expand_key_128_2'
+  Mapping 'expand_key_128_2'
+  Structuring 'expand_key_128_1'
+  Mapping 'expand_key_128_1'
+  Structuring 'xS_0'
+  Mapping 'xS_0'
+  Structuring 'T_0'
+  Mapping 'T_0'
+  Structuring 'S_0'
+  Mapping 'S_0'
+  Structuring 'final_round'
+  Mapping 'final_round'
+  Structuring 'one_round_0'
+  Mapping 'one_round_0'
+  Structuring 'expand_key_128_0'
+  Mapping 'expand_key_128_0'
+  Structuring 'aes_128'
+  Mapping 'aes_128'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:41 2754632.2      0.00       0.0 1348563.0                          
+    0:00:43 2754632.2      0.00       0.0 1348563.0                          
+    0:00:44 2689424.2      0.00       0.0 1348563.0                          
+    0:00:45 2688586.4      0.00       0.0 1348563.0                          
+    0:00:54 2688586.4      0.00       0.0  783125.9                          
+    0:00:55 2688586.4      0.00       0.0  783125.9                          
+    0:00:55 2688586.4      0.00       0.0  783125.9                          
+    0:00:56 2688586.4      0.00       0.0  783125.9                          
+    0:00:56 2688586.4      0.00       0.0  783125.9                          
+    0:01:09 2732994.4      0.00       0.0  730601.5                          
+    0:01:20 2765334.7      0.00       0.0  649495.9                          
+    0:01:27 2789120.3      0.00       0.0  626738.4                          
+    0:01:32 2819553.9      0.00       0.0  583987.0                          
+    0:01:36 2846352.0      0.00       0.0  532379.7                          
+    0:01:41 2871117.1      0.00       0.0  494270.2                          
+    0:01:47 2894345.5      0.00       0.0  448727.2                          
+    0:01:54 2925656.1      0.00       0.0  384708.5                          
+    0:01:58 2950718.9      0.00       0.0  364626.0                          
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:01 2967024.9      0.00       0.0  357628.9                          
+    0:02:02 2968091.1      0.00       0.0  354188.5 r2/t0/t3/s4/net211544    
+    0:02:02 2969157.3      0.00       0.0  350748.0 r3/t1/t3/s4/net219104    
+    0:02:02 2970223.5      0.00       0.0  347307.6 r4/t2/t3/s4/net226664    
+    0:02:02 2971289.7      0.00       0.0  343867.2 r5/t3/t3/s4/net234224    
+    0:02:02 2972355.9      0.00       0.0  340426.8 r7/t0/t3/s4/net241784    
+    0:02:02 2973635.3      0.00       0.0  336298.3 r8/t3/t1/s4/net251612    
+    0:02:02 2974964.9      0.00       0.0  332223.2 r7/t1/t1/s4/net242540    
+    0:02:03 2976545.3      0.00       0.0  328415.3 r8/t2/t1/s4/net250155    
+    0:02:03 2978125.7      0.00       0.0  324607.4 r7/t0/t1/s4/net241083    
+    0:02:03 2979706.1      0.00       0.0  320799.5 r5/t2/t1/s4/net232011    
+    0:02:03 2981286.5      0.00       0.0  316991.6 r4/t0/t1/s4/net222939    
+    0:02:03 2982866.9      0.00       0.0  313183.8 r2/t2/t1/s4/net213867    
+    0:02:03 2984209.0      0.00       0.0  309387.1 r1/t0/t1/s4/net204795    
+    0:02:03 2984359.5      0.00       0.0  305646.6 r8/t2/t1/s4/net250163    
+    0:02:03 2984510.0      0.00       0.0  301906.1 r7/t0/t1/s4/net241091    
+    0:02:04 2984804.7      0.00       0.0  298477.3 r5/t2/t3/s4/net232775    
+    0:02:04 2984955.2      0.00       0.0  294736.8 r4/t0/t3/s4/net223703    
+    0:02:04 2985105.7      0.00       0.0  290996.3 r2/t2/t3/s4/net214631    
+    0:02:04 2985350.2      0.00       0.0  287262.1 r1/t0/t3/s4/net205559    
+    0:02:04 2985688.9      0.00       0.0  283596.5 r8/t2/t3/s4/net250859    
+    0:02:04 2986027.5      0.00       0.0  279930.9 r7/t0/t3/s4/net241787    
+    0:02:04 2986366.2      0.00       0.0  276265.3 r5/t2/t3/s4/net232715    
+    0:02:04 2986704.8      0.00       0.0  272599.6 r4/t0/t3/s4/net223643    
+    0:02:04 2987043.4      0.00       0.0  268934.0 r2/t2/t3/s4/net214571    
+    0:02:04 2987460.5      0.00       0.0  265267.6 r1/t0/t3/s4/net205499    
+    0:02:04 2987965.3      0.00       0.0  261744.7 r1/t0/t0/s4/net349401    
+    0:02:04 2988140.9      0.00       0.0  260519.4 r1/t2/t0/s4/net207419    
+    0:02:05 2988316.5      0.00       0.0  259294.1 r2/t0/t0/s4/net210443    
+    0:02:05 2988492.1      0.00       0.0  258068.7 r2/t2/t0/s4/net213467    
+    0:02:05 2988667.7      0.00       0.0  256843.4 r3/t0/t0/s4/net216491    
+    0:02:05 2988843.3      0.00       0.0  255618.1 r3/t2/t0/s4/net219515    
+    0:02:05 2989018.9      0.00       0.0  254392.7 r4/t0/t0/s4/net222539    
+    0:02:05 2989194.5      0.00       0.0  253167.4 r8/t0/t1/s4/net247109    
+    0:02:05 2989370.1      0.00       0.0  251942.0 r7/t2/t1/s4/net244085    
+    0:02:05 2989545.7      0.00       0.0  250716.7 r7/t0/t1/s4/net241061    
+    0:02:05 2989721.3      0.00       0.0  249491.4 r6/t2/t1/s4/net238037    
+    0:02:05 2989896.9      0.00       0.0  248266.0 r6/t0/t1/s4/net235013    
+    0:02:05 2990072.5      0.00       0.0  247040.7 r5/t2/t1/s4/net231989    
+    0:02:05 2991599.4      0.00       0.0  237304.1 r1/t2/t2/s4/net208143    
+    0:02:06 2991749.9      0.00       0.0  236091.6 r2/t0/t2/s4/net211167    
+    0:02:06 2991900.3      0.00       0.0  234879.2 r2/t2/t2/s4/net214191    
+    0:02:06 2992050.8      0.00       0.0  233666.8 r3/t0/t2/s4/net217215    
+    0:02:06 2992201.3      0.00       0.0  232454.3 r3/t2/t2/s4/net220239    
+    0:02:06 2992351.8      0.00       0.0  231241.9 r4/t0/t2/s4/net223263    
+    0:02:06 2992502.3      0.00       0.0  230029.4 r4/t2/t2/s4/net226287    
+    0:02:06 2992652.7      0.00       0.0  228817.0 r7/t2/t3/s4/net244809    
+    0:02:06 2992803.2      0.00       0.0  227604.6 r7/t0/t3/s4/net241785    
+    0:02:06 2992953.7      0.00       0.0  226392.1 r6/t2/t3/s4/net238761    
+    0:02:06 2993104.2      0.00       0.0  225179.7 r6/t0/t3/s4/net235737    
+    0:02:06 2993254.7      0.00       0.0  223967.2 r5/t2/t3/s4/net232713    
+    0:02:06 2993405.1      0.00       0.0  222754.8 r5/t0/t3/s4/net229689    
+    0:02:06 2993561.9      0.00       0.0  221567.2 r1/t0/t0/s4/net349460    
+    0:02:06 2993787.7      0.00       0.0  220426.9 r1/t2/t1/s4/net207856    
+    0:02:06 2994013.5      0.00       0.0  219286.6 r2/t0/t2/s4/net211258    
+    0:02:06 2994239.3      0.00       0.0  218146.3 r2/t2/t3/s4/net214660    
+    0:02:07 2994465.1      0.00       0.0  217005.9 r3/t1/t0/s4/net218062    
+    0:02:07 2994691.0      0.00       0.0  215865.6 r3/t3/t1/s4/net221464    
+    0:02:07 2994916.8      0.00       0.0  214725.3 r9/t1/t3/s4/net255484    
+    0:02:07 2995142.6      0.00       0.0  213585.0 r8/t3/t2/s4/net252082    
+    0:02:07 2995368.4      0.00       0.0  212444.7 r8/t1/t1/s4/net248680    
+    0:02:07 2995594.2      0.00       0.0  211304.4 r7/t3/t0/s4/net245278    
+    0:02:07 2995820.0      0.00       0.0  210164.1 r7/t0/t3/s4/net241876    
+    0:02:07 2995945.5      0.00       0.0  209530.6                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:07 2995945.5      0.00       0.0  209530.6                          
+    0:02:07 2995945.5      0.00       0.0  209530.6                          
+    0:02:11 2994308.4      0.00       0.0  209530.6                          
+    0:02:11 2994038.3      0.00       0.0  209530.6                          
+    0:02:11 2993994.4      0.00       0.0  209530.6                          
+    0:02:12 2993950.4      0.00       0.0  209530.6                          
+    0:02:12 2993950.4      0.00       0.0  209530.6                          
+    0:02:12 2993950.4      0.00       0.0  209530.6                          
+    0:02:13 2993950.4      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+    0:02:18 2828219.1      0.00       0.0  209530.6                          
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+[SCL] 11/12/2026 00:16:22 PID:14158 Client:nanodc.iitgn.ac.in checkin electromigration_drc 
+1
+ungroup -all -flatten
+Information: Updating graph... (UID-83)
+1
+change_names -rules verilog -hierarchy
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+1
+write -format verilog -hierarchy -output synthesised_scl.v
+Writing verilog file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/aes_128/synthesised_scl.v'.
+1
+create_port -direction in scan_in
+Creating port 'scan_in' in design 'aes_128'.
+1
+create_port -direction out scan_out
+Creating port 'scan_out' in design 'aes_128'.
+1
+create_port -direction in scan_enable
+Creating port 'scan_enable' in design 'aes_128'.
+1
+set latches [all_registers -level_sensitive]
+if {[sizeof_collection $latches] > 0} {
+    set_scan_element false $latches
+}
+set_scan_configuration -chain_count 1 -style multiplexed_flip_flop -clock_mixing mix_clocks
+Accepted scan configuration for modes: all_dft
+1
+compile -scan -incremental
+[SCL] 11/12/2026 00:16:29 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Test-Compiler 2022.03
+Checkout succeeded: Test-Compiler/BFEA94871D02468F8ACD
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:16:29 Checking status for feature Test-Compiler
+[SCL] 11/12/2026 00:16:29 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Test-Compiler 2022.03
+Information: Choosing a test methodology will restrict the optimization of sequential cells. (UIO-12)
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+| Comand Line  | -scan                                                                             |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 146695                                 |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 6848                                   |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 1                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 0                                      |
+| Number of Dont Touch Cells                              | 0                                      |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 131 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: The register 'a10_out_1_reg_127_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_126_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_125_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_124_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_123_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_122_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_121_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_120_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_119_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_118_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_117_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_116_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_115_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_114_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_113_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_112_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_111_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_110_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_109_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_108_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_107_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_106_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_105_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_104_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_103_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_102_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_101_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_100_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_99_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_98_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_97_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_96_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_95_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_94_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_93_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_92_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_91_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_90_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_89_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_88_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_87_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_86_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_85_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_84_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_83_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_82_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_81_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_80_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_79_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_78_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_77_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_76_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_75_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_74_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_73_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_72_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_71_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_70_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_69_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_68_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_67_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_66_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_65_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_64_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_63_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_62_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_61_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_60_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_59_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_58_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_57_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_56_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_55_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_54_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_53_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_52_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_51_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_50_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_49_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_48_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_47_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_46_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_45_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_44_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_43_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_42_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_41_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_40_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_39_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_38_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_37_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_36_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_35_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_34_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_33_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_32_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_31_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_30_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_29_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_28_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_27_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_26_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_25_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_24_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_23_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_22_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_21_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_20_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_19_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_18_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_17_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_16_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_15_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_14_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_13_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_12_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_11_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_10_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_9_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_8_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_7_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_6_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_5_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_4_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_3_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_2_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_1_' will be removed. (OPT-1207)
+Information: The register 'a10_out_1_reg_0_' will be removed. (OPT-1207)
+Information: Updating design information... (UID-85)
+Information: Design 'aes_128' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12 3008040.5      0.00       0.0  209536.9                          
+    0:00:15 3008040.5      0.00       0.0  209536.9                          
+    0:00:15 3008040.5      0.00       0.0  209536.9                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:15 3008040.5      0.00       0.0  209536.9                          
+    0:00:15 3008642.7      0.00       0.0  206496.0 r5_t1_t1_s4_n126         
+    0:00:15 3009244.9      0.00       0.0  203455.2 r6_t3_t1_s4_n126         
+    0:00:15 3009846.8      0.00       0.0  199686.6 rf_S4_4_S_3_n70          
+    0:00:16 3010411.1      0.00       0.0  195917.6 r9_t0_t1_s0_n70          
+    0:00:16 3010975.4      0.00       0.0  192148.7 r7_t0_t3_s0_n71          
+    0:00:16 3011539.7      0.00       0.0  188379.7 r5_t1_t1_s0_n70          
+    0:00:16 3012066.4      0.00       0.0  184862.0 r3_t2_t1_s0_n70          
+    0:00:16 3012630.7      0.00       0.0  181093.0 r1_t2_t3_s0_n71          
+    0:00:16 3013195.0      0.00       0.0  177324.1 a6_S4_0_S_1_n70          
+    0:00:17 3013841.0      0.00       0.0  173555.9 r9_t2_t3_s0_n73          
+    0:00:17 3014389.7      0.00       0.0  170415.9 r7_t3_t1_s0_n72          
+    0:00:17 3014719.0      0.00       0.0  168531.9 a5_S4_0_S_1_n72          
+    0:00:17 3014916.5      0.00       0.0  167401.5 a7_S4_0_S_2_n72          
+    0:00:17 3015114.1      0.00       0.0  166271.1 a9_S4_0_S_3_n72          
+    0:00:17 3015311.6      0.00       0.0  165140.7 r7_t0_t1_s0_n72          
+    0:00:17 3015509.2      0.00       0.0  164010.3 r6_t2_t0_s0_n72          
+    0:00:17 3015706.7      0.00       0.0  162879.9 r5_t3_t3_s0_n73          
+    0:00:17 3015904.3      0.00       0.0  161749.5 r5_t1_t2_s0_n72          
+    0:00:17 3017309.1      0.00       0.0  153711.1 r3_t0_t3_s0_n73          
+    0:00:17 3017491.0      0.00       0.0  152798.2 r1_t1_t3_s4_n122         
+    0:00:17 3017660.3      0.00       0.0  152059.3 r2_t0_t2_s4_n122         
+    0:00:17 3017829.7      0.00       0.0  151320.5 r9_t3_t3_s4_n122         
+    0:00:18 3017999.1      0.00       0.0  150581.5 r6_t3_t2_s4_n122         
+    0:00:18 3018068.2      0.00       0.0  149842.6 r3_t2_t0_s4_n121         
+    0:00:18 3018237.5      0.00       0.0  149103.7 r9_t3_t1_s4_n121         
+    0:00:18 3018406.9      0.00       0.0  148364.8 r3_t1_t0_s4_n121         
+    0:00:18 3018563.8      0.00       0.0  147625.9 r3_t3_t3_s4_n122         
+    0:00:18 3018620.3      0.00       0.0  146887.0 r4_t2_t1_s4_n121         
+    0:00:18 3018727.0      0.00       0.0  146148.1 r9_t1_t2_s4_n122         
+    0:00:18 3018896.3      0.00       0.0  145409.2 r8_t2_t3_s4_n122         
+    0:00:18 3019065.7      0.00       0.0  144670.3 r8_t0_t1_s4_n121         
+    0:00:19 3019216.3      0.00       0.0  144013.5                          
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+[SCL] 11/12/2026 00:16:50 PID:14158 Client:nanodc.iitgn.ac.in checkin electromigration_drc 
+1
+set_dft_signal -view exist -type ScanClock -port clk -timing {45 55}
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataIn -port scan_in
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataOut -port scan_out
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanEnable -port scan_enable -active_state 1
+Accepted dft signal specification for modes: all_dft
+1
+create_test_protocol
+In mode: all_dft...
+
+Information: Starting test protocol creation. (TEST-219)
+  ...reading user specified clock signals...
+Information: Identified system/test clock port clk (45.0,55.0). (TEST-265)
+  ...reading user specified asynchronous signals...
+1
+dft_drc
+In mode: all_dft...
+  Pre-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  	...checking for scan equivalents...
+  ...checking vector rules...
+  ...checking pre-dft rules...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 6720 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *6720 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1
+insert_dft
+  Information: Using test design rule information from previous dft_drc run.
+  Architecting Scan Chains
+  Routing Scan Chains
+  Routing Global Signals
+  Mapping New Logic
+Resetting current test mode
+Warning: Design 'aes_128' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+
+  Beginning Phase 1 Design Rule Fixing  (max_transition)  (max_capacitance)
+  ------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:04 3240549.3      0.00       0.0  143931.4 r5_t0_t1_s4_n121         
+    0:00:04 3240549.3      0.00       0.0  143931.4 r5_t0_t1_s4_n121         
+    0:00:04 3240549.3      0.00       0.0  143931.4 r5_t0_t1_s4_n121         
+    0:00:04 3240580.0      0.00       0.0  143849.3 r5_t0_t2_s4_n122         
+    0:00:04 3240580.0      0.00       0.0  143849.3 r5_t0_t2_s4_n122         
+    0:00:04 3240580.0      0.00       0.0  143849.3 r5_t0_t2_s4_n122         
+    0:00:04 3240610.7      0.00       0.0  143767.2 r5_t0_t3_s4_n122         
+    0:00:04 3240610.7      0.00       0.0  143767.2 r5_t0_t3_s4_n122         
+    0:00:04 3240610.7      0.00       0.0  143767.2 r5_t0_t3_s4_n122         
+    0:00:04 3240641.3      0.00       0.0  143685.1 r5_t1_t0_s4_n121         
+    0:00:04 3240641.3      0.00       0.0  143685.1 r5_t1_t0_s4_n121         
+    0:00:04 3240641.3      0.00       0.0  143685.1 r5_t1_t0_s4_n121         
+    0:00:04 3240672.0      0.00       0.0  143603.0 r5_t1_t1_s4_n121         
+    0:00:04 3240672.0      0.00       0.0  143603.0 r5_t1_t1_s4_n121         
+    0:00:04 3240672.0      0.00       0.0  143603.0 r5_t1_t1_s4_n121         
+    0:00:04 3240702.7      0.00       0.0  143520.9 r5_t1_t3_s4_n122         
+    0:00:04 3240702.7      0.00       0.0  143520.9 r5_t1_t3_s4_n122         
+    0:00:04 3240702.7      0.00       0.0  143520.9 r5_t1_t3_s4_n122         
+    0:00:04 3240733.4      0.00       0.0  143438.8 r5_t2_t0_s4_n121         
+    0:00:04 3240733.4      0.00       0.0  143438.8 r5_t2_t0_s4_n121         
+    0:00:04 3240733.4      0.00       0.0  143438.8 r5_t2_t0_s4_n121         
+    0:00:04 3240764.0      0.00       0.0  143356.7 r5_t2_t1_s4_n121         
+    0:00:04 3240764.0      0.00       0.0  143356.7 r5_t2_t1_s4_n121         
+    0:00:04 3240764.0      0.00       0.0  143356.7 r5_t2_t1_s4_n121         
+    0:00:04 3240794.7      0.00       0.0  143274.6 r5_t2_t2_s4_n122         
+    0:00:04 3240794.7      0.00       0.0  143274.6 r5_t2_t2_s4_n122         
+    0:00:04 3240794.7      0.00       0.0  143274.6 r5_t2_t2_s4_n122         
+    0:00:04 3240825.4      0.00       0.0  143192.5 r5_t2_t3_s4_n122         
+    0:00:04 3240825.4      0.00       0.0  143192.5 r5_t2_t3_s4_n122         
+    0:00:04 3240825.4      0.00       0.0  143192.5 r5_t2_t3_s4_n122         
+    0:00:04 3240856.1      0.00       0.0  143110.4 r5_t3_t1_s4_n121         
+    0:00:04 3240856.1      0.00       0.0  143110.4 r5_t3_t1_s4_n121         
+    0:00:04 3240856.1      0.00       0.0  143110.4 r5_t3_t1_s4_n121         
+    0:00:04 3240886.8      0.00       0.0  143028.3 r5_t3_t2_s4_n122         
+    0:00:04 3240886.8      0.00       0.0  143028.3 r5_t3_t2_s4_n122         
+    0:00:04 3240886.8      0.00       0.0  143028.3 r5_t3_t2_s4_n122         
+    0:00:04 3240917.4      0.00       0.0  142946.2 r5_t3_t3_s4_n122         
+    0:00:04 3240917.4      0.00       0.0  142946.2 r5_t3_t3_s4_n122         
+    0:00:04 3240917.4      0.00       0.0  142946.2 r5_t3_t3_s4_n122         
+    0:00:04 3240948.1      0.00       0.0  142864.1 r6_t0_t0_s4_n121         
+    0:00:04 3240948.1      0.00       0.0  142864.1 r6_t0_t0_s4_n121         
+    0:00:04 3240948.1      0.00       0.0  142864.1 r6_t0_t0_s4_n121         
+    0:00:04 3240978.8      0.00       0.0  142782.0 r6_t0_t1_s4_n121         
+    0:00:04 3240978.8      0.00       0.0  142782.0 r6_t0_t1_s4_n121         
+    0:00:04 3240978.8      0.00       0.0  142782.0 r6_t0_t1_s4_n121         
+    0:00:04 3241009.5      0.00       0.0  142699.9 r6_t0_t3_s4_n122         
+    0:00:04 3241009.5      0.00       0.0  142699.9 r6_t0_t3_s4_n122         
+    0:00:04 3241009.5      0.00       0.0  142699.9 r6_t0_t3_s4_n122         
+    0:00:04 3241040.1      0.00       0.0  142617.8 r6_t1_t0_s4_n121         
+    0:00:04 3241040.1      0.00       0.0  142617.8 r6_t1_t0_s4_n121         
+    0:00:04 3241040.1      0.00       0.0  142617.8 r6_t1_t0_s4_n121         
+    0:00:04 3241070.8      0.00       0.0  142535.7 r6_t1_t1_s4_n121         
+    0:00:04 3241070.8      0.00       0.0  142535.7 r6_t1_t1_s4_n121         
+    0:00:04 3241070.8      0.00       0.0  142535.7 r6_t1_t1_s4_n121         
+    0:00:04 3241101.5      0.00       0.0  142453.6 r6_t1_t2_s4_n122         
+    0:00:04 3241101.5      0.00       0.0  142453.6 r6_t1_t2_s4_n122         
+    0:00:04 3241101.5      0.00       0.0  142453.6 r6_t1_t2_s4_n122         
+    0:00:04 3241132.2      0.00       0.0  142371.5 r6_t1_t3_s4_n122         
+    0:00:04 3241132.2      0.00       0.0  142371.5 r6_t1_t3_s4_n122         
+    0:00:04 3241132.2      0.00       0.0  142371.5 r6_t1_t3_s4_n122         
+    0:00:04 3241162.8      0.00       0.0  142289.4 r6_t2_t1_s4_n121         
+    0:00:04 3241162.8      0.00       0.0  142289.4 r6_t2_t1_s4_n121         
+    0:00:04 3241162.8      0.00       0.0  142289.4 r6_t2_t1_s4_n121         
+    0:00:04 3241193.5      0.00       0.0  142207.3 r6_t2_t2_s4_n122         
+    0:00:04 3241193.5      0.00       0.0  142207.3 r6_t2_t2_s4_n122         
+    0:00:04 3241193.5      0.00       0.0  142207.3 r6_t2_t2_s4_n122         
+    0:00:04 3241224.2      0.00       0.0  142125.2 r6_t2_t3_s4_n122         
+    0:00:04 3241224.2      0.00       0.0  142125.2 r6_t2_t3_s4_n122         
+    0:00:04 3241224.2      0.00       0.0  142125.2 r6_t2_t3_s4_n122         
+    0:00:04 3241254.9      0.00       0.0  142043.1 r6_t3_t0_s4_n121         
+    0:00:04 3241254.9      0.00       0.0  142043.1 r6_t3_t0_s4_n121         
+    0:00:04 3241254.9      0.00       0.0  142043.1 r6_t3_t0_s4_n121         
+    0:00:04 3241285.5      0.00       0.0  141961.0 r6_t3_t1_s4_n121         
+    0:00:04 3241285.5      0.00       0.0  141961.0 r6_t3_t1_s4_n121         
+    0:00:04 3241285.5      0.00       0.0  141961.0 r6_t3_t1_s4_n121         
+    0:00:04 3241316.2      0.00       0.0  141878.9 r6_t3_t3_s4_n122         
+    0:00:04 3241316.2      0.00       0.0  141878.9 r6_t3_t3_s4_n122         
+    0:00:04 3241316.2      0.00       0.0  141878.9 r6_t3_t3_s4_n122         
+    0:00:04 3241346.9      0.00       0.0  141796.8 r7_t0_t0_s4_n121         
+    0:00:04 3241346.9      0.00       0.0  141796.8 r7_t0_t0_s4_n121         
+    0:00:04 3241346.9      0.00       0.0  141796.8 r7_t0_t0_s4_n121         
+    0:00:04 3241377.6      0.00       0.0  141714.7 r7_t0_t1_s4_n121         
+    0:00:04 3241377.6      0.00       0.0  141714.7 r7_t0_t1_s4_n121         
+    0:00:04 3241377.6      0.00       0.0  141714.7 r7_t0_t1_s4_n121         
+    0:00:04 3241408.3      0.00       0.0  141632.6 r7_t0_t2_s4_n122         
+    0:00:04 3241408.3      0.00       0.0  141632.6 r7_t0_t2_s4_n122         
+    0:00:04 3241408.3      0.00       0.0  141632.6 r7_t0_t2_s4_n122         
+    0:00:04 3241438.9      0.00       0.0  141550.5 r7_t0_t3_s4_n122         
+    0:00:04 3241438.9      0.00       0.0  141550.5 r7_t0_t3_s4_n122         
+    0:00:04 3241438.9      0.00       0.0  141550.5 r7_t0_t3_s4_n122         
+    0:00:05 3241469.6      0.00       0.0  141468.4 r7_t1_t1_s4_n121         
+    0:00:05 3241469.6      0.00       0.0  141468.4 r7_t1_t1_s4_n121         
+    0:00:05 3241469.6      0.00       0.0  141468.4 r7_t1_t1_s4_n121         
+    0:00:05 3241500.3      0.00       0.0  141386.3 r7_t1_t2_s4_n122         
+    0:00:05 3241500.3      0.00       0.0  141386.3 r7_t1_t2_s4_n122         
+    0:00:05 3241500.3      0.00       0.0  141386.3 r7_t1_t2_s4_n122         
+    0:00:05 3241531.0      0.00       0.0  141304.9 r5_t0_t1_s4_n87          
+    0:00:05 3241531.0      0.00       0.0  141304.9 r5_t0_t1_s4_n87          
+    0:00:05 3241531.0      0.00       0.0  141304.9 r5_t0_t1_s4_n87          
+    0:00:05 3241561.6      0.00       0.0  141223.6 r5_t0_t2_s4_n88          
+    0:00:05 3241561.6      0.00       0.0  141223.6 r5_t0_t2_s4_n88          
+    0:00:05 3241561.6      0.00       0.0  141223.6 r5_t0_t2_s4_n88          
+    0:00:05 3241592.3      0.00       0.0  141142.3 r5_t0_t3_s4_n88          
+    0:00:05 3241592.3      0.00       0.0  141142.3 r5_t0_t3_s4_n88          
+    0:00:05 3241592.3      0.00       0.0  141142.3 r5_t0_t3_s4_n88          
+    0:00:05 3241623.0      0.00       0.0  141061.0 r5_t1_t0_s4_n87          
+    0:00:05 3241623.0      0.00       0.0  141061.0 r5_t1_t0_s4_n87          
+    0:00:05 3241623.0      0.00       0.0  141061.0 r5_t1_t0_s4_n87          
+    0:00:05 3241653.7      0.00       0.0  140979.7 r5_t1_t1_s4_n87          
+    0:00:05 3241653.7      0.00       0.0  140979.7 r5_t1_t1_s4_n87          
+    0:00:05 3241653.7      0.00       0.0  140979.7 r5_t1_t1_s4_n87          
+    0:00:05 3241684.3      0.00       0.0  140898.3 r5_t1_t3_s4_n88          
+    0:00:05 3241684.3      0.00       0.0  140898.3 r5_t1_t3_s4_n88          
+    0:00:05 3241684.3      0.00       0.0  140898.3 r5_t1_t3_s4_n88          
+    0:00:05 3241715.0      0.00       0.0  140817.0 r5_t2_t0_s4_n87          
+    0:00:05 3241715.0      0.00       0.0  140817.0 r5_t2_t0_s4_n87          
+    0:00:05 3241715.0      0.00       0.0  140817.0 r5_t2_t0_s4_n87          
+    0:00:05 3241745.7      0.00       0.0  140735.7 r5_t2_t1_s4_n87          
+    0:00:05 3241745.7      0.00       0.0  140735.7 r5_t2_t1_s4_n87          
+    0:00:05 3241745.7      0.00       0.0  140735.7 r5_t2_t1_s4_n87          
+    0:00:05 3241776.4      0.00       0.0  140654.4 r5_t2_t2_s4_n88          
+    0:00:05 3241776.4      0.00       0.0  140654.4 r5_t2_t2_s4_n88          
+    0:00:05 3241776.4      0.00       0.0  140654.4 r5_t2_t2_s4_n88          
+    0:00:05 3241807.0      0.00       0.0  140573.1 r5_t2_t3_s4_n88          
+    0:00:05 3241807.0      0.00       0.0  140573.1 r5_t2_t3_s4_n88          
+    0:00:05 3241807.0      0.00       0.0  140573.1 r5_t2_t3_s4_n88          
+    0:00:05 3241837.7      0.00       0.0  140491.8 r5_t3_t1_s4_n87          
+    0:00:05 3241837.7      0.00       0.0  140491.8 r5_t3_t1_s4_n87          
+    0:00:05 3241837.7      0.00       0.0  140491.8 r5_t3_t1_s4_n87          
+    0:00:05 3241868.4      0.00       0.0  140410.4 r5_t3_t2_s4_n88          
+    0:00:05 3241868.4      0.00       0.0  140410.4 r5_t3_t2_s4_n88          
+    0:00:05 3241868.4      0.00       0.0  140410.4 r5_t3_t2_s4_n88          
+    0:00:05 3241899.1      0.00       0.0  140329.1 r5_t3_t3_s4_n88          
+    0:00:05 3241899.1      0.00       0.0  140329.1 r5_t3_t3_s4_n88          
+    0:00:05 3241899.1      0.00       0.0  140329.1 r5_t3_t3_s4_n88          
+    0:00:05 3241929.8      0.00       0.0  140247.8 r6_t0_t0_s4_n87          
+    0:00:05 3241929.8      0.00       0.0  140247.8 r6_t0_t0_s4_n87          
+    0:00:05 3241929.8      0.00       0.0  140247.8 r6_t0_t0_s4_n87          
+    0:00:05 3241960.4      0.00       0.0  140166.5 r6_t0_t1_s4_n87          
+    0:00:05 3241960.4      0.00       0.0  140166.5 r6_t0_t1_s4_n87          
+    0:00:05 3241960.4      0.00       0.0  140166.5 r6_t0_t1_s4_n87          
+    0:00:05 3241991.1      0.00       0.0  140085.2 r6_t3_t0_s4_n87          
+    0:00:05 3241991.1      0.00       0.0  140085.2 r6_t3_t0_s4_n87          
+    0:00:05 3241991.1      0.00       0.0  140085.2 r6_t3_t0_s4_n87          
+    0:00:05 3242021.8      0.00       0.0  140003.8 r6_t3_t1_s4_n87          
+    0:00:05 3242021.8      0.00       0.0  140003.8 r6_t3_t1_s4_n87          
+    0:00:05 3242021.8      0.00       0.0  140003.8 r6_t3_t1_s4_n87          
+    0:00:05 3242052.5      0.00       0.0  139922.5 r6_t3_t3_s4_n88          
+    0:00:05 3242052.5      0.00       0.0  139922.5 r6_t3_t3_s4_n88          
+    0:00:05 3242052.5      0.00       0.0  139922.5 r6_t3_t3_s4_n88          
+    0:00:05 3242083.1      0.00       0.0  139841.2 r7_t0_t0_s4_n87          
+    0:00:05 3242083.1      0.00       0.0  139841.2 r7_t0_t0_s4_n87          
+    0:00:05 3242083.1      0.00       0.0  139841.2 r7_t0_t0_s4_n87          
+    0:00:05 3242113.8      0.00       0.0  139759.9 r7_t0_t1_s4_n87          
+    0:00:05 3242113.8      0.00       0.0  139759.9 r7_t0_t1_s4_n87          
+    0:00:05 3242113.8      0.00       0.0  139759.9 r7_t0_t1_s4_n87          
+    0:00:05 3242144.5      0.00       0.0  139678.6 r7_t0_t2_s4_n88          
+    0:00:05 3242144.5      0.00       0.0  139678.6 r7_t0_t2_s4_n88          
+    0:00:05 3242144.5      0.00       0.0  139678.6 r7_t0_t2_s4_n88          
+    0:00:05 3242175.2      0.00       0.0  139597.3 r7_t0_t3_s4_n88          
+    0:00:05 3242175.2      0.00       0.0  139597.3 r7_t0_t3_s4_n88          
+    0:00:05 3242175.2      0.00       0.0  139597.3 r7_t0_t3_s4_n88          
+    0:00:05 3242205.8      0.00       0.0  139515.9 r7_t1_t1_s4_n87          
+    0:00:05 3242205.8      0.00       0.0  139515.9 r7_t1_t1_s4_n87          
+    0:00:05 3242205.8      0.00       0.0  139515.9 r7_t1_t1_s4_n87          
+    0:00:05 3242236.5      0.00       0.0  139434.6 r7_t1_t2_s4_n88          
+    0:00:05 3242236.5      0.00       0.0  139434.6 r7_t1_t2_s4_n88          
+    0:00:05 3242236.5      0.00       0.0  139434.6 r7_t1_t2_s4_n88          
+    0:00:05 3242267.2      0.00       0.0  139353.3 r1_t0_t0_s4_n88          
+    0:00:05 3242267.2      0.00       0.0  139353.3 r1_t0_t0_s4_n88          
+    0:00:05 3242267.2      0.00       0.0  139353.3 r1_t0_t0_s4_n88          
+    0:00:05 3242297.9      0.00       0.0  139272.0 r1_t0_t1_s4_n87          
+    0:00:05 3242297.9      0.00       0.0  139272.0 r1_t0_t1_s4_n87          
+    0:00:05 3242297.9      0.00       0.0  139272.0 r1_t0_t1_s4_n87          
+    0:00:05 3242328.5      0.00       0.0  139190.7 r1_t0_t2_s4_n87          
+    0:00:05 3242328.5      0.00       0.0  139190.7 r1_t0_t2_s4_n87          
+    0:00:05 3242328.5      0.00       0.0  139190.7 r1_t0_t2_s4_n87          
+    0:00:05 3242359.2      0.00       0.0  139109.3 r1_t0_t3_s4_n88          
+    0:00:05 3242359.2      0.00       0.0  139109.3 r1_t0_t3_s4_n88          
+    0:00:05 3242359.2      0.00       0.0  139109.3 r1_t0_t3_s4_n88          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242543.3      0.00       0.0  138625.9 rf_S4_4_S_3_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242727.3      0.00       0.0  138142.5 rf_S4_3_S_1_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3242911.4      0.00       0.0  137659.0 rf_S4_1_S_3_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243095.5      0.00       0.0  137175.6 r9_t3_t1_s0_n46          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243279.5      0.00       0.0  136692.1 r9_t1_t3_s0_n47          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243463.6      0.00       0.0  136208.7 r9_t0_t1_s0_n46          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243647.6      0.00       0.0  135725.2 r8_t2_t3_s0_n47          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3243831.7      0.00       0.0  135241.8 r8_t1_t1_s0_n46          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244015.8      0.00       0.0  134758.4 r7_t3_t3_s0_n47          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244199.8      0.00       0.0  134274.9 r7_t2_t1_s0_n46          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244383.9      0.00       0.0  133791.5 r7_t0_t3_s0_n47          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244567.9      0.00       0.0  133308.0 r6_t3_t1_s0_n46          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244752.0      0.00       0.0  132824.6 r6_t1_t3_s0_n47          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3244936.1      0.00       0.0  132341.1 r6_t0_t1_s0_n46          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245120.1      0.00       0.0  131857.7 r5_t2_t3_s0_n47          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245304.2      0.00       0.0  131374.3 r5_t1_t1_s0_n46          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245488.2      0.00       0.0  130890.8 r4_t3_t3_s0_n47          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245672.3      0.00       0.0  130407.4 r4_t2_t1_s0_n46          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3245856.3      0.00       0.0  129923.9 r4_t0_t3_s0_n47          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246040.4      0.00       0.0  129440.5 r3_t3_t1_s0_n46          
+    0:00:05 3246071.1      0.00       0.0  129359.9 r3_t1_t3_s0_n47          
+    0:00:05 3246071.1      0.00       0.0  129359.9 r3_t1_t3_s0_n47          
+    0:00:05 3246071.1      0.00       0.0  129359.9 r3_t1_t3_s0_n47          
+    0:00:05 3246101.8      0.00       0.0  129279.3 r3_t1_t2_s0_n46          
+    0:00:05 3246101.8      0.00       0.0  129279.3 r3_t1_t2_s0_n46          
+    0:00:05 3246101.8      0.00       0.0  129279.3 r3_t1_t2_s0_n46          
+    0:00:05 3246132.4      0.00       0.0  129198.8 r3_t1_t1_s0_n46          
+    0:00:05 3246132.4      0.00       0.0  129198.8 r3_t1_t1_s0_n46          
+    0:00:05 3246132.4      0.00       0.0  129198.8 r3_t1_t1_s0_n46          
+    0:00:05 3246163.1      0.00       0.0  129118.2 r3_t1_t0_s0_n46          
+    0:00:05 3246163.1      0.00       0.0  129118.2 r3_t1_t0_s0_n46          
+    0:00:05 3246163.1      0.00       0.0  129118.2 r3_t1_t0_s0_n46          
+    0:00:05 3246193.8      0.00       0.0  129037.6 r3_t0_t3_s0_n47          
+    0:00:05 3246193.8      0.00       0.0  129037.6 r3_t0_t3_s0_n47          
+    0:00:05 3246193.8      0.00       0.0  129037.6 r3_t0_t3_s0_n47          
+    0:00:05 3246224.5      0.00       0.0  128957.0 r3_t0_t2_s0_n46          
+    0:00:05 3246224.5      0.00       0.0  128957.0 r3_t0_t2_s0_n46          
+    0:00:05 3246224.5      0.00       0.0  128957.0 r3_t0_t2_s0_n46          
+    0:00:05 3246255.1      0.00       0.0  128876.5 r3_t0_t1_s0_n46          
+    0:00:05 3246255.1      0.00       0.0  128876.5 r3_t0_t1_s0_n46          
+    0:00:05 3246255.1      0.00       0.0  128876.5 r3_t0_t1_s0_n46          
+    0:00:05 3246285.8      0.00       0.0  128795.9 r3_t0_t0_s0_n46          
+    0:00:05 3246285.8      0.00       0.0  128795.9 r3_t0_t0_s0_n46          
+    0:00:05 3246285.8      0.00       0.0  128795.9 r3_t0_t0_s0_n46          
+    0:00:05 3246316.5      0.00       0.0  128715.3 r2_t3_t3_s0_n47          
+    0:00:05 3246316.5      0.00       0.0  128715.3 r2_t3_t3_s0_n47          
+    0:00:05 3246316.5      0.00       0.0  128715.3 r2_t3_t3_s0_n47          
+    0:00:05 3246347.2      0.00       0.0  128634.7 r2_t3_t2_s0_n46          
+    0:00:05 3246347.2      0.00       0.0  128634.7 r2_t3_t2_s0_n46          
+    0:00:05 3246347.2      0.00       0.0  128634.7 r2_t3_t2_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246531.2      0.00       0.0  128151.3 r2_t3_t1_s0_n46          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246715.3      0.00       0.0  127667.9 r2_t1_t3_s0_n47          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3246899.4      0.00       0.0  127184.4 r2_t0_t1_s0_n46          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247083.4      0.00       0.0  126701.0 r1_t2_t3_s0_n47          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247267.5      0.00       0.0  126217.5 r1_t1_t1_s0_n46          
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247451.5      0.00       0.0  125734.1 a10_S4_0_S_3_n46         
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247635.6      0.00       0.0  125250.7 a9_S4_0_S_1_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3247819.6      0.00       0.0  124767.2 a7_S4_0_S_3_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248003.7      0.00       0.0  124283.8 a6_S4_0_S_1_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248187.8      0.00       0.0  123800.3 a4_S4_0_S_3_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248371.8      0.00       0.0  123316.9 a3_S4_0_S_1_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248555.9      0.00       0.0  122833.0 a1_S4_0_S_3_n46          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248739.9      0.00       0.0  122348.4 r9_t2_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3248924.0      0.00       0.0  121863.7 r7_t1_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249108.1      0.00       0.0  121379.0 r5_t0_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249292.1      0.00       0.0  120894.4 r2_t3_t0_s4_n68          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249476.2      0.00       0.0  120409.7 r1_t0_t0_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249660.2      0.00       0.0  119925.1 r9_t1_t3_s4_n69          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3249844.3      0.00       0.0  119440.5 r9_t0_t0_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250028.4      0.00       0.0  118955.8 r8_t2_t1_s4_n68          
+    0:00:05 3250059.0      0.00       0.0  118875.1 r8_t0_t2_s4_n69          
+    0:00:05 3250059.0      0.00       0.0  118875.1 r8_t0_t2_s4_n69          
+    0:00:05 3250059.0      0.00       0.0  118875.1 r8_t0_t2_s4_n69          
+    0:00:05 3250089.7      0.00       0.0  118794.3 r8_t0_t1_s4_n68          
+    0:00:05 3250089.7      0.00       0.0  118794.3 r8_t0_t1_s4_n68          
+    0:00:05 3250089.7      0.00       0.0  118794.3 r8_t0_t1_s4_n68          
+    0:00:05 3250120.4      0.00       0.0  118713.5 r7_t3_t3_s4_n69          
+    0:00:05 3250120.4      0.00       0.0  118713.5 r7_t3_t3_s4_n69          
+    0:00:05 3250120.4      0.00       0.0  118713.5 r7_t3_t3_s4_n69          
+    0:00:05 3250151.1      0.00       0.0  118632.8 r7_t3_t2_s4_n69          
+    0:00:05 3250151.1      0.00       0.0  118632.8 r7_t3_t2_s4_n69          
+    0:00:05 3250151.1      0.00       0.0  118632.8 r7_t3_t2_s4_n69          
+    0:00:05 3250181.7      0.00       0.0  118552.0 r7_t3_t1_s4_n68          
+    0:00:05 3250181.7      0.00       0.0  118552.0 r7_t3_t1_s4_n68          
+    0:00:05 3250181.7      0.00       0.0  118552.0 r7_t3_t1_s4_n68          
+    0:00:05 3250212.4      0.00       0.0  118471.2 r7_t3_t0_s4_n68          
+    0:00:05 3250212.4      0.00       0.0  118471.2 r7_t3_t0_s4_n68          
+    0:00:05 3250212.4      0.00       0.0  118471.2 r7_t3_t0_s4_n68          
+    0:00:05 3250243.1      0.00       0.0  118390.4 r7_t2_t3_s4_n69          
+    0:00:05 3250243.1      0.00       0.0  118390.4 r7_t2_t3_s4_n69          
+    0:00:05 3250243.1      0.00       0.0  118390.4 r7_t2_t3_s4_n69          
+    0:00:05 3250273.8      0.00       0.0  118309.7 r7_t2_t1_s4_n68          
+    0:00:05 3250273.8      0.00       0.0  118309.7 r7_t2_t1_s4_n68          
+    0:00:05 3250273.8      0.00       0.0  118309.7 r7_t2_t1_s4_n68          
+    0:00:05 3250304.4      0.00       0.0  118228.9 r7_t2_t0_s4_n68          
+    0:00:05 3250304.4      0.00       0.0  118228.9 r7_t2_t0_s4_n68          
+    0:00:05 3250304.4      0.00       0.0  118228.9 r7_t2_t0_s4_n68          
+    0:00:05 3250335.1      0.00       0.0  118148.1 r7_t1_t3_s4_n69          
+    0:00:05 3250335.1      0.00       0.0  118148.1 r7_t1_t3_s4_n69          
+    0:00:05 3250335.1      0.00       0.0  118148.1 r7_t1_t3_s4_n69          
+    0:00:05 3250347.1      0.00       0.0  118066.8 r1_t1_t0_s4_n87          
+    0:00:05 3250359.1      0.00       0.0  117985.5 r1_t1_t1_s4_n87          
+    0:00:05 3250371.1      0.00       0.0  117904.2 r1_t1_t2_s4_n88          
+    0:00:05 3250383.0      0.00       0.0  117822.8 r1_t1_t3_s4_n88          
+    0:00:05 3250395.0      0.00       0.0  117741.5 r1_t2_t0_s4_n87          
+    0:00:05 3250407.0      0.00       0.0  117660.2 r1_t2_t1_s4_n87          
+    0:00:05 3250419.0      0.00       0.0  117578.9 r1_t2_t2_s4_n88          
+    0:00:05 3250431.0      0.00       0.0  117497.6 r1_t2_t3_s4_n88          
+    0:00:05 3250443.0      0.00       0.0  117416.2 r1_t3_t0_s4_n87          
+    0:00:05 3250454.9      0.00       0.0  117334.9 r1_t3_t1_s4_n87          
+    0:00:05 3250466.9      0.00       0.0  117253.6 r1_t3_t2_s4_n88          
+    0:00:05 3250478.9      0.00       0.0  117172.3 r1_t3_t3_s4_n88          
+    0:00:05 3250490.9      0.00       0.0  117091.0 r2_t0_t0_s4_n87          
+    0:00:05 3250502.9      0.00       0.0  117009.6 r2_t0_t1_s4_n87          
+    0:00:05 3250514.8      0.00       0.0  116928.3 r2_t0_t2_s4_n88          
+    0:00:05 3250526.8      0.00       0.0  116847.0 r2_t0_t3_s4_n88          
+    0:00:05 3250538.8      0.00       0.0  116765.7 r2_t1_t0_s4_n87          
+    0:00:05 3250550.8      0.00       0.0  116684.3 r2_t1_t1_s4_n87          
+    0:00:05 3250562.8      0.00       0.0  116603.0 r2_t1_t2_s4_n88          
+    0:00:05 3250574.8      0.00       0.0  116521.7 r2_t1_t3_s4_n88          
+    0:00:05 3250586.7      0.00       0.0  116440.4 r2_t2_t0_s4_n87          
+    0:00:05 3250598.7      0.00       0.0  116359.1 r2_t2_t1_s4_n87          
+    0:00:05 3250610.7      0.00       0.0  116277.7 r2_t2_t2_s4_n88          
+    0:00:05 3250622.7      0.00       0.0  116196.4 r2_t2_t3_s4_n88          
+    0:00:05 3250634.7      0.00       0.0  116115.1 r2_t3_t0_s4_n87          
+    0:00:05 3250646.6      0.00       0.0  116033.8 r2_t3_t1_s4_n87          
+    0:00:05 3250658.6      0.00       0.0  115952.5 r2_t3_t2_s4_n88          
+    0:00:05 3250670.6      0.00       0.0  115871.1 r2_t3_t3_s4_n88          
+    0:00:05 3250682.6      0.00       0.0  115789.8 r3_t0_t0_s4_n87          
+    0:00:06 3250694.6      0.00       0.0  115708.5 r3_t0_t1_s4_n87          
+    0:00:06 3250706.5      0.00       0.0  115627.7 r7_t1_t2_s4_n69          
+    0:00:06 3250718.5      0.00       0.0  115546.9 r7_t1_t1_s4_n68          
+    0:00:06 3250730.5      0.00       0.0  115466.2 r7_t0_t3_s4_n69          
+    0:00:06 3250742.5      0.00       0.0  115385.4 r7_t0_t2_s4_n69          
+    0:00:06 3250754.5      0.00       0.0  115304.6 r7_t0_t1_s4_n68          
+    0:00:06 3250766.5      0.00       0.0  115223.9 r7_t0_t0_s4_n68          
+    0:00:06 3250778.4      0.00       0.0  115143.1 r6_t3_t3_s4_n69          
+    0:00:06 3250790.4      0.00       0.0  115062.3 r6_t3_t1_s4_n68          
+    0:00:06 3250802.4      0.00       0.0  114981.5 r6_t3_t0_s4_n68          
+    0:00:06 3250814.4      0.00       0.0  114900.8 r6_t2_t3_s4_n69          
+    0:00:06 3250826.4      0.00       0.0  114820.0 r6_t2_t2_s4_n69          
+    0:00:06 3250838.3      0.00       0.0  114739.2 r6_t2_t1_s4_n68          
+    0:00:06 3250850.3      0.00       0.0  114658.5 r6_t1_t3_s4_n69          
+    0:00:06 3250862.3      0.00       0.0  114577.7 r6_t1_t2_s4_n69          
+    0:00:06 3250874.3      0.00       0.0  114496.9 r6_t1_t1_s4_n68          
+    0:00:06 3250886.3      0.00       0.0  114416.2 r6_t1_t0_s4_n68          
+    0:00:06 3250898.2      0.00       0.0  114335.4 r6_t0_t3_s4_n69          
+    0:00:06 3250910.2      0.00       0.0  114254.6 r6_t0_t1_s4_n68          
+    0:00:06 3250922.2      0.00       0.0  114173.8 r6_t0_t0_s4_n68          
+    0:00:06 3250934.2      0.00       0.0  114093.1 r5_t3_t3_s4_n69          
+    0:00:06 3250946.2      0.00       0.0  114012.3 r5_t3_t2_s4_n69          
+    0:00:06 3250958.2      0.00       0.0  113931.5 r5_t3_t1_s4_n68          
+    0:00:06 3250970.1      0.00       0.0  113850.8 r5_t2_t3_s4_n69          
+    0:00:06 3250982.1      0.00       0.0  113770.0 r5_t2_t2_s4_n69          
+    0:00:06 3250994.1      0.00       0.0  113689.2 r5_t2_t1_s4_n68          
+    0:00:06 3251006.1      0.00       0.0  113608.4 r5_t2_t0_s4_n68          
+    0:00:06 3251018.1      0.00       0.0  113527.7 r5_t1_t3_s4_n69          
+    0:00:06 3251030.0      0.00       0.0  113446.9 r5_t1_t1_s4_n68          
+    0:00:06 3251042.0      0.00       0.0  113366.1 r5_t1_t0_s4_n68          
+    0:00:06 3251054.0      0.00       0.0  113285.4 r5_t0_t3_s4_n69          
+
+
+  Beginning Phase 2 Design Rule Fixing  (max_transition)  (max_capacitance)
+  ------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06 3251066.0      0.00       0.0  113204.0 r3_t0_t2_s4_n88          
+    0:00:06 3251078.0      0.00       0.0  113122.7 r3_t0_t3_s4_n88          
+    0:00:06 3251089.9      0.00       0.0  113041.4 r3_t1_t0_s4_n87          
+    0:00:06 3251101.9      0.00       0.0  112960.1 r3_t1_t1_s4_n87          
+    0:00:06 3251113.9      0.00       0.0  112878.8 r3_t1_t2_s4_n88          
+    0:00:06 3251125.9      0.00       0.0  112797.4 r3_t1_t3_s4_n88          
+    0:00:06 3251137.9      0.00       0.0  112716.1 r3_t2_t0_s4_n87          
+    0:00:06 3251149.9      0.00       0.0  112634.8 r3_t2_t1_s4_n87          
+    0:00:06 3251161.8      0.00       0.0  112553.5 r3_t2_t2_s4_n88          
+    0:00:06 3251173.8      0.00       0.0  112472.1 r3_t2_t3_s4_n88          
+    0:00:06 3251185.8      0.00       0.0  112390.8 r3_t3_t0_s4_n87          
+    0:00:06 3251197.8      0.00       0.0  112309.5 r3_t3_t1_s4_n87          
+    0:00:06 3251209.8      0.00       0.0  112228.2 r3_t3_t2_s4_n88          
+    0:00:06 3251221.7      0.00       0.0  112146.9 r3_t3_t3_s4_n88          
+    0:00:06 3251233.7      0.00       0.0  112065.5 r4_t0_t0_s4_n87          
+    0:00:06 3251245.7      0.00       0.0  111984.2 r4_t0_t1_s4_n87          
+    0:00:06 3251257.7      0.00       0.0  111902.9 r4_t0_t2_s4_n88          
+    0:00:06 3251269.7      0.00       0.0  111821.6 r4_t0_t3_s4_n88          
+    0:00:06 3251281.6      0.00       0.0  111740.2 r4_t1_t0_s4_n87          
+    0:00:06 3251293.6      0.00       0.0  111658.9 r4_t1_t1_s4_n87          
+    0:00:06 3251305.6      0.00       0.0  111577.6 r4_t1_t2_s4_n88          
+    0:00:06 3251317.6      0.00       0.0  111496.3 r4_t1_t3_s4_n88          
+    0:00:06 3251329.6      0.00       0.0  111415.0 r4_t2_t0_s4_n87          
+    0:00:06 3251341.6      0.00       0.0  111333.6 r4_t2_t1_s4_n87          
+    0:00:06 3251353.5      0.00       0.0  111252.3 r4_t2_t2_s4_n88          
+    0:00:06 3251365.5      0.00       0.0  111171.0 r4_t2_t3_s4_n88          
+    0:00:06 3251377.5      0.00       0.0  111089.7 r4_t3_t0_s4_n87          
+    0:00:06 3251389.5      0.00       0.0  111008.4 r4_t3_t1_s4_n87          
+    0:00:06 3251401.5      0.00       0.0  110927.0 r4_t3_t2_s4_n88          
+    0:00:06 3251413.4      0.00       0.0  110845.7 r4_t3_t3_s4_n88          
+    0:00:06 3251425.4      0.00       0.0  110764.9 r5_t0_t2_s4_n69          
+    0:00:06 3251437.4      0.00       0.0  110684.2 r5_t0_t1_s4_n68          
+    0:00:06 3251449.4      0.00       0.0  110603.4 r4_t3_t3_s4_n69          
+    0:00:06 3251461.4      0.00       0.0  110522.6 r4_t3_t2_s4_n69          
+    0:00:06 3251473.3      0.00       0.0  110441.9 r4_t3_t1_s4_n68          
+    0:00:06 3251485.3      0.00       0.0  110361.1 r4_t3_t0_s4_n68          
+    0:00:06 3251497.3      0.00       0.0  110280.3 r4_t2_t3_s4_n69          
+    0:00:06 3251509.3      0.00       0.0  110199.5 r4_t2_t1_s4_n68          
+    0:00:06 3251521.3      0.00       0.0  110118.8 r4_t2_t0_s4_n68          
+    0:00:06 3251533.3      0.00       0.0  110038.0 r4_t1_t3_s4_n69          
+    0:00:06 3251545.2      0.00       0.0  109957.2 r4_t1_t2_s4_n69          
+    0:00:06 3251557.2      0.00       0.0  109876.5 r4_t1_t1_s4_n68          
+    0:00:06 3251569.2      0.00       0.0  109795.7 r4_t0_t3_s4_n69          
+    0:00:06 3251581.2      0.00       0.0  109714.9 r4_t0_t2_s4_n69          
+    0:00:06 3251593.2      0.00       0.0  109634.1 r4_t0_t1_s4_n68          
+    0:00:06 3251605.1      0.00       0.0  109553.4 r4_t0_t0_s4_n68          
+    0:00:06 3251617.1      0.00       0.0  109472.6 r3_t3_t3_s4_n69          
+    0:00:06 3251629.1      0.00       0.0  109391.8 r3_t3_t1_s4_n68          
+    0:00:06 3251641.1      0.00       0.0  109311.1 r3_t3_t0_s4_n68          
+    0:00:06 3251653.1      0.00       0.0  109230.3 r3_t2_t3_s4_n69          
+    0:00:06 3251665.0      0.00       0.0  109149.5 r3_t2_t2_s4_n69          
+    0:00:06 3251677.0      0.00       0.0  109068.7 r3_t2_t1_s4_n68          
+    0:00:06 3251689.0      0.00       0.0  108988.0 r3_t1_t3_s4_n69          
+    0:00:06 3251701.0      0.00       0.0  108907.2 r3_t1_t2_s4_n69          
+    0:00:06 3251713.0      0.00       0.0  108826.4 r3_t1_t1_s4_n68          
+    0:00:06 3251725.0      0.00       0.0  108745.7 r3_t1_t0_s4_n68          
+    0:00:06 3251736.9      0.00       0.0  108664.9 r3_t0_t3_s4_n69          
+    0:00:06 3251748.9      0.00       0.0  108584.1 r3_t0_t1_s4_n68          
+    0:00:06 3251760.9      0.00       0.0  108503.4 r3_t0_t0_s4_n68          
+    0:00:06 3251772.9      0.00       0.0  108422.6 r2_t3_t3_s4_n69          
+    0:00:06 3251784.9      0.00       0.0  108341.3 r5_t0_t0_s4_n87          
+    0:00:06 3251796.8      0.00       0.0  108259.9 r5_t1_t2_s4_n88          
+    0:00:06 3251808.8      0.00       0.0  108178.6 r5_t3_t0_s4_n87          
+    0:00:06 3251820.8      0.00       0.0  108097.3 r6_t0_t3_s4_n88          
+    0:00:06 3251832.8      0.00       0.0  108016.0 r6_t1_t0_s4_n87          
+    0:00:06 3251844.8      0.00       0.0  107934.7 r6_t1_t1_s4_n87          
+    0:00:06 3251856.7      0.00       0.0  107853.3 r6_t1_t2_s4_n88          
+    0:00:06 3251868.7      0.00       0.0  107772.0 r6_t1_t3_s4_n88          
+    0:00:06 3251880.7      0.00       0.0  107690.7 r6_t2_t1_s4_n87          
+    0:00:06 3251892.7      0.00       0.0  107609.4 r6_t2_t2_s4_n88          
+    0:00:06 3251904.7      0.00       0.0  107528.0 r6_t2_t3_s4_n88          
+    0:00:06 3251916.7      0.00       0.0  107446.7 r6_t3_t2_s4_n88          
+    0:00:06 3251928.6      0.00       0.0  107365.4 r7_t1_t0_s4_n87          
+    0:00:06 3251940.6      0.00       0.0  107284.1 r7_t1_t3_s4_n88          
+    0:00:06 3251952.6      0.00       0.0  107202.8 r7_t2_t0_s4_n87          
+    0:00:06 3251964.6      0.00       0.0  107121.4 r7_t2_t1_s4_n87          
+    0:00:06 3251976.6      0.00       0.0  107040.1 r7_t2_t2_s4_n88          
+    0:00:06 3251988.5      0.00       0.0  106958.8 r7_t2_t3_s4_n88          
+    0:00:06 3252000.5      0.00       0.0  106877.5 r7_t3_t0_s4_n87          
+    0:00:06 3252012.5      0.00       0.0  106796.1 r7_t3_t1_s4_n87          
+    0:00:06 3252024.5      0.00       0.0  106714.8 r7_t3_t2_s4_n88          
+    0:00:06 3252036.5      0.00       0.0  106633.5 r7_t3_t3_s4_n88          
+    0:00:06 3252048.5      0.00       0.0  106552.2 r8_t0_t0_s4_n87          
+    0:00:06 3252060.4      0.00       0.0  106470.9 r8_t0_t1_s4_n87          
+    0:00:06 3252072.4      0.00       0.0  106389.5 r8_t0_t2_s4_n88          
+    0:00:06 3252084.4      0.00       0.0  106308.2 r8_t0_t3_s4_n88          
+    0:00:06 3252096.4      0.00       0.0  106226.9 r8_t1_t0_s4_n87          
+    0:00:06 3252108.4      0.00       0.0  106145.6 r8_t1_t1_s4_n87          
+    0:00:06 3252120.3      0.00       0.0  106064.3 r8_t1_t2_s4_n88          
+    0:00:06 3252132.3      0.00       0.0  105982.9 r8_t1_t3_s4_n88          
+    0:00:06 3252144.3      0.00       0.0  105902.2 r2_t3_t2_s4_n69          
+    0:00:06 3252156.3      0.00       0.0  105821.4 r2_t3_t1_s4_n68          
+    0:00:06 3252168.3      0.00       0.0  105740.6 r2_t2_t3_s4_n69          
+    0:00:06 3252180.2      0.00       0.0  105659.8 r2_t2_t2_s4_n69          
+    0:00:06 3252192.2      0.00       0.0  105579.1 r2_t2_t1_s4_n68          
+    0:00:06 3252204.2      0.00       0.0  105498.3 r2_t2_t0_s4_n68          
+    0:00:06 3252216.2      0.00       0.0  105417.5 r2_t1_t3_s4_n69          
+    0:00:06 3252228.2      0.00       0.0  105336.8 r2_t1_t1_s4_n68          
+    0:00:06 3252240.2      0.00       0.0  105256.0 r2_t1_t0_s4_n68          
+    0:00:06 3252252.1      0.00       0.0  105175.2 r2_t0_t3_s4_n69          
+    0:00:06 3252264.1      0.00       0.0  105094.5 r2_t0_t2_s4_n69          
+    0:00:06 3252276.1      0.00       0.0  105013.7 r2_t0_t1_s4_n68          
+    0:00:06 3252288.1      0.00       0.0  104932.9 r1_t3_t3_s4_n69          
+    0:00:06 3252300.1      0.00       0.0  104852.1 r1_t3_t2_s4_n69          
+    0:00:06 3252312.0      0.00       0.0  104771.4 r1_t3_t1_s4_n68          
+    0:00:06 3252324.0      0.00       0.0  104690.6 r1_t3_t0_s4_n68          
+    0:00:06 3252336.0      0.00       0.0  104609.8 r1_t2_t3_s4_n69          
+    0:00:06 3252348.0      0.00       0.0  104529.1 r1_t2_t1_s4_n68          
+    0:00:06 3252360.0      0.00       0.0  104448.3 r1_t2_t0_s4_n68          
+    0:00:06 3252371.9      0.00       0.0  104367.5 r1_t1_t3_s4_n69          
+    0:00:06 3252383.9      0.00       0.0  104286.7 r1_t1_t2_s4_n69          
+    0:00:06 3252395.9      0.00       0.0  104206.0 r1_t1_t1_s4_n68          
+    0:00:06 3252407.9      0.00       0.0  104125.2 r1_t0_t3_s4_n69          
+    0:00:06 3252419.9      0.00       0.0  104044.4 r1_t0_t2_s4_n68          
+    0:00:06 3252431.9      0.00       0.0  103963.1 r6_t2_t0_s4_n87          
+    0:00:06 3252443.8      0.00       0.0  103881.8 r6_t0_t2_s4_n88          
+    0:00:06 3252455.8      0.00       0.0  103800.5 r9_t3_t3_s4_n88          
+    0:00:06 3252467.8      0.00       0.0  103719.1 r9_t3_t2_s4_n88          
+    0:00:06 3252479.8      0.00       0.0  103637.8 r9_t3_t1_s4_n87          
+    0:00:06 3252491.8      0.00       0.0  103556.5 r9_t3_t0_s4_n87          
+
+1
+dft_drc
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 6720 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *6720 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1
+ungroup -all -flatten
+Warning: Design has no hierarchy.  No cells can be ungrouped. (UID-228)
+0
+change_names -rules verilog -hierarchy
+Warning: In the design aes_128, net 'out[127]' is connecting multiple ports. (UCN-1)
+1
+write -format verilog -hierarchy -output synthesised_scan.v
+Writing verilog file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/aes_128/synthesised_scan.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+write_test_protocol -output aes_128_scan.spf
+Writing test protocol file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/aes_128/aes_128_scan.spf' for mode 'Internal_scan'...
+[SCL] 11/12/2026 00:17:15 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Test-CTL-Model 2022.03
+Checkout succeeded: Test-CTL-Model/AF8A34978E7542098CB4
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:17:15 Checking status for feature Test-CTL-Model
+[SCL] 11/12/2026 00:17:15 PID:14158 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Test-CTL-Model 2022.03
+1
+report_scan_path -view spec
+ 
+****************************************
+Report : Scan path
+Design : aes_128
+Version: T-2022.03-SP5
+Date   : Thu Nov 12 00:17:15 2026
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Specification
+========================================
+No scan path defined in this mode.
+
+0
+exit
+
+Memory usage for this session 734 Mbytes.
+Memory usage for this session including child processes 734 Mbytes.
+CPU usage for this session 191 seconds ( 0.05 hours ).
+Elapsed time for this session 203 seconds ( 0.06 hours ).
+
+Thank you...

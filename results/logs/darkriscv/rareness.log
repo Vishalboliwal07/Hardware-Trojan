@@ -1,0 +1,21 @@
+===========================================================================
+ HARDWARE TROJAN DETECTION: VENDOR-TOOL RARENESS ANALYSIS (SYNOPSYS VCS)
+ Circuit Netlist:    darkriscv.v
+ Simulation Cycles:  100000 (High Accuracy)
+ Rareness Threshold: 0.2 (<= 20.0%)
+===========================================================================
+[*] Parsed Top Module: darkriscv
+[*] Primary Inputs:   71
+[*] Internal Nodes:   1661
+[*] Compiling with Synopsys VCS: source /home/nanodcmaster/toolRC_synopsys.bash >/dev/null 2>&1 && vcs -full64 -q -sverilog -timescale=1ns/1ps +v2k darkriscv.v tb_rareness_vcs.v -o sim_rareness
+[*] Running VCS simulation executable (./sim_rareness)...
+[SCL] 11/09/2026 12:32:12 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 11/09/2026 12:32:12 PID:23066 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded VCS-BASE-RUNTIME 2023.03 from VCS-Base-Runtime-Pkg
+[+] Synopsys VCS Simulation Finished: 100000 cycles recorded.
+$finish called from file "tb_rareness_vcs.v", line 3407.
+$finish at simulation time           1000016000
+[SCL] 11/09/2026 12:32:15 PID:23066 Client:nanodc.iitgn.ac.in checkin (null)
+[+] Total Analyzed Nodes: 1661
+[+] Identified Rare Nodes (P <= 0.2): 1329
+[+] Saved rare nodes to: rare_nodes.txt
+[SUCCESS] Authentic Synopsys VCS rareness analysis completed!

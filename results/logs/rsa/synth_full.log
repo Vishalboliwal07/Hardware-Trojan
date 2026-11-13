@@ -1,0 +1,983 @@
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Synopsys-Release
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:53 PID:22918 Client:nanodc.iitgn.ac.in Authorization failed Synopsys-Release 2022.03
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Design-Compiler 2022.03
+Checkout succeeded: Design-Compiler/6FDAB497AF27996224DB
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:54 Checking status for feature Design-Compiler
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Design-Compiler 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       Synopsys
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Authorization failed Synopsys 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       DC-Debug
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Authorization failed DC-Debug 2022.03
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       DC-NXT-DPX-Beta
+License path:  27020@c2s.cdacb.in:
+FlexNet Licensing error:-5,147
+license file(s):  27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Authorization failed DC-NXT-DPX-Beta 2022.03
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version T-2022.03-SP5 for linux64 - Oct 11, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+[SCL] 11/12/2026 00:30:54 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Expert 2022.03
+set target_library "/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db"
+/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+set link_library "* /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db"
+* /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+remove_design -designs
+1
+analyze -format sverilog [list /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/keygen.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/modular_multiplication.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider32.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/dnew.v /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/rsa.v]
+Running PRESTO HDLC
+Checkout succeeded: HDL-Compiler/5F9A44B79739DDFECE11
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:30:55 Checking status for feature HDL-Compiler
+[SCL] 11/12/2026 00:30:55 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded HDL-Compiler 2022.03
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/keygen.v
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/modular_multiplication.v
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider.v
+Warning:  /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider.v:31: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider32.v
+Warning:  /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/divider32.v:31: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/dnew.v
+Compiling source file /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/rsa.v
+Presto compilation completed successfully.
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+1
+elaborate rsa
+Loading db file '/home/nanodcmaster/Synopsys/tools/syn/T-2022.03-SP5/libraries/syn/gtech.db'
+Loading db file '/home/nanodcmaster/Synopsys/tools/syn/T-2022.03-SP5/libraries/syn/standard.sldb'
+  Loading link library 'tsl18fs120_scl_ss'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully. (rsa)
+Elaborated 1 design.
+Current design is now 'rsa'.
+Information: Building the design 'keygen'. (HDL-193)
+
+Inferred memory devices in process
+	in routine keygen line 43 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/keygen.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        e_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|        x_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|     random_reg      | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|        y_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       gcd_reg       | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       fin_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     finish_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (keygen)
+Information: Building the design 'dnew'. (HDL-193)
+
+Inferred memory devices in process
+	in routine dnew line 37 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/dnew.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        A_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|        n_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|        B_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (dnew)
+Information: Building the design 'modularmult'. (HDL-193)
+Warning:  /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/modular_multiplication.v:67: signed to unsigned assignment occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine modularmult line 48 in file
+		'/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/circuits/modular_multiplication.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       n1_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|     ncount_reg      | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|     Mpower_reg      | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|        x_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (modularmult)
+Information: Building the design 'Divider'. (HDL-193)
+Presto compilation completed successfully. (Divider)
+Information: Building the design 'Divider32'. (HDL-193)
+Presto compilation completed successfully. (Divider32)
+1
+current_design rsa
+Current design is 'rsa'.
+{rsa}
+link
+
+  Linking design 'rsa'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/rsa/rsa.db, etc
+  tsl18fs120_scl_ss (library) /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db
+
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP5
+Date:        Thu Nov 12 00:30:56 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Unconnected ports (LINT-28)                                     1
+
+Cells                                                              53
+    Cells do not drive (LINT-1)                                    53
+
+Nets                                                              113
+    Unloaded nets (LINT-2)                                        113
+--------------------------------------------------------------------------------
+
+Warning: In design 'keygen', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'dnew', cell 'B_1' does not drive any nets. (LINT-1)
+Warning: In design 'dnew', cell 'C387' does not drive any nets. (LINT-1)
+Warning: In design 'modularmult', cell 'B_1' does not drive any nets. (LINT-1)
+Warning: In design 'modularmult', cell 'C439' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C488' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C489' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C490' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C491' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C492' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C493' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C494' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C495' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C496' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C497' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C498' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C499' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C500' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C501' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C502' does not drive any nets. (LINT-1)
+Warning: In design 'Divider', cell 'C503' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1480' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1481' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1482' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1483' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1484' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1485' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1486' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1487' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1488' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1489' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1490' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1491' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1492' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1493' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1494' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1495' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1496' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1497' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1498' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1499' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1500' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1501' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1502' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1503' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1504' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1505' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1506' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1507' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1508' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1509' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1510' does not drive any nets. (LINT-1)
+Warning: In design 'Divider32', cell 'C1511' does not drive any nets. (LINT-1)
+Warning: In design 'rsa', net 'Mpower[0]' driven by pin 'm1/Mpower[0]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[1]' driven by pin 'm1/Mpower[1]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[2]' driven by pin 'm1/Mpower[2]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[3]' driven by pin 'm1/Mpower[3]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[4]' driven by pin 'm1/Mpower[4]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[5]' driven by pin 'm1/Mpower[5]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[6]' driven by pin 'm1/Mpower[6]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[7]' driven by pin 'm1/Mpower[7]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[8]' driven by pin 'm1/Mpower[8]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[9]' driven by pin 'm1/Mpower[9]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[10]' driven by pin 'm1/Mpower[10]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[11]' driven by pin 'm1/Mpower[11]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[12]' driven by pin 'm1/Mpower[12]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[13]' driven by pin 'm1/Mpower[13]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[14]' driven by pin 'm1/Mpower[14]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[15]' driven by pin 'm1/Mpower[15]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[16]' driven by pin 'm1/Mpower[16]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[17]' driven by pin 'm1/Mpower[17]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[18]' driven by pin 'm1/Mpower[18]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[19]' driven by pin 'm1/Mpower[19]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[20]' driven by pin 'm1/Mpower[20]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[21]' driven by pin 'm1/Mpower[21]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[22]' driven by pin 'm1/Mpower[22]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[23]' driven by pin 'm1/Mpower[23]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[24]' driven by pin 'm1/Mpower[24]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[25]' driven by pin 'm1/Mpower[25]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[26]' driven by pin 'm1/Mpower[26]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[27]' driven by pin 'm1/Mpower[27]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[28]' driven by pin 'm1/Mpower[28]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[29]' driven by pin 'm1/Mpower[29]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[30]' driven by pin 'm1/Mpower[30]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'Mpower[31]' driven by pin 'm1/Mpower[31]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'finished' driven by pin 'm1/finished' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[0]' driven by pin 'k1/d2/Res[0]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[1]' driven by pin 'k1/d2/Res[1]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[2]' driven by pin 'k1/d2/Res[2]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[3]' driven by pin 'k1/d2/Res[3]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[4]' driven by pin 'k1/d2/Res[4]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[5]' driven by pin 'k1/d2/Res[5]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[6]' driven by pin 'k1/d2/Res[6]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[7]' driven by pin 'k1/d2/Res[7]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[8]' driven by pin 'k1/d2/Res[8]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[9]' driven by pin 'k1/d2/Res[9]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[10]' driven by pin 'k1/d2/Res[10]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[11]' driven by pin 'k1/d2/Res[11]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[12]' driven by pin 'k1/d2/Res[12]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[13]' driven by pin 'k1/d2/Res[13]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[14]' driven by pin 'k1/d2/Res[14]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'k1/outResult[15]' driven by pin 'k1/d2/Res[15]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[0]' driven by pin 'kd1/d2/remainder[0]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[1]' driven by pin 'kd1/d2/remainder[1]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[2]' driven by pin 'kd1/d2/remainder[2]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[3]' driven by pin 'kd1/d2/remainder[3]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[4]' driven by pin 'kd1/d2/remainder[4]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[5]' driven by pin 'kd1/d2/remainder[5]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[6]' driven by pin 'kd1/d2/remainder[6]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[7]' driven by pin 'kd1/d2/remainder[7]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[8]' driven by pin 'kd1/d2/remainder[8]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[9]' driven by pin 'kd1/d2/remainder[9]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[10]' driven by pin 'kd1/d2/remainder[10]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[11]' driven by pin 'kd1/d2/remainder[11]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[12]' driven by pin 'kd1/d2/remainder[12]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[13]' driven by pin 'kd1/d2/remainder[13]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[14]' driven by pin 'kd1/d2/remainder[14]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'kd1/remainder[15]' driven by pin 'kd1/d2/remainder[15]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[16]' driven by pin 'm1/d1/remainder[16]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[17]' driven by pin 'm1/d1/remainder[17]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[18]' driven by pin 'm1/d1/remainder[18]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[19]' driven by pin 'm1/d1/remainder[19]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[20]' driven by pin 'm1/d1/remainder[20]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[21]' driven by pin 'm1/d1/remainder[21]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[22]' driven by pin 'm1/d1/remainder[22]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[23]' driven by pin 'm1/d1/remainder[23]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[24]' driven by pin 'm1/d1/remainder[24]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[25]' driven by pin 'm1/d1/remainder[25]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[26]' driven by pin 'm1/d1/remainder[26]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[27]' driven by pin 'm1/d1/remainder[27]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[28]' driven by pin 'm1/d1/remainder[28]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[29]' driven by pin 'm1/d1/remainder[29]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[30]' driven by pin 'm1/d1/remainder[30]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/rem32[31]' driven by pin 'm1/d1/remainder[31]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[0]' driven by pin 'm1/d1/Res[0]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[1]' driven by pin 'm1/d1/Res[1]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[2]' driven by pin 'm1/d1/Res[2]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[3]' driven by pin 'm1/d1/Res[3]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[4]' driven by pin 'm1/d1/Res[4]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[5]' driven by pin 'm1/d1/Res[5]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[6]' driven by pin 'm1/d1/Res[6]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[7]' driven by pin 'm1/d1/Res[7]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[8]' driven by pin 'm1/d1/Res[8]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[9]' driven by pin 'm1/d1/Res[9]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[10]' driven by pin 'm1/d1/Res[10]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[11]' driven by pin 'm1/d1/Res[11]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[12]' driven by pin 'm1/d1/Res[12]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[13]' driven by pin 'm1/d1/Res[13]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[14]' driven by pin 'm1/d1/Res[14]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[15]' driven by pin 'm1/d1/Res[15]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[16]' driven by pin 'm1/d1/Res[16]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[17]' driven by pin 'm1/d1/Res[17]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[18]' driven by pin 'm1/d1/Res[18]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[19]' driven by pin 'm1/d1/Res[19]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[20]' driven by pin 'm1/d1/Res[20]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[21]' driven by pin 'm1/d1/Res[21]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[22]' driven by pin 'm1/d1/Res[22]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[23]' driven by pin 'm1/d1/Res[23]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[24]' driven by pin 'm1/d1/Res[24]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[25]' driven by pin 'm1/d1/Res[25]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[26]' driven by pin 'm1/d1/Res[26]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[27]' driven by pin 'm1/d1/Res[27]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[28]' driven by pin 'm1/d1/Res[28]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[29]' driven by pin 'm1/d1/Res[29]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[30]' driven by pin 'm1/d1/Res[30]' has no loads. (LINT-2)
+Warning: In design 'rsa', net 'm1/outResult[31]' driven by pin 'm1/d1/Res[31]' has no loads. (LINT-2)
+Warning: In design 'rsa', port 'rst' is not connected to any nets. (LINT-28)
+1
+compile -map_effort medium
+[SCL] 11/12/2026 00:30:56 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Ultra-Opt 2022.03
+[SCL] 11/12/2026 00:30:56 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DC-Ultra-Features 2022.03
+[SCL] 11/12/2026 00:30:56 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded DesignWare 2022.03
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | T-2022.03-DWBB_202203.4 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 977                                    |
+| Number of User Hierarchies                              | 6                                      |
+| Sequential Cell Count                                   | 266                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 1                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 0                                      |
+| Number of Dont Touch Cells                              | 281                                    |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 167 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'Divider32'
+  Processing 'modularmult'
+Information: The register 'n1_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'n1_reg[16]' is a constant and will be removed. (OPT-1206)
+  Processing 'Divider_0'
+  Processing 'dnew'
+  Processing 'keygen'
+  Processing 'rsa'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'rsa' has no optimization constraints set. (OPT-108)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'modularmult_DW01_dec_0'
+  Processing 'modularmult_DW02_mult_0'
+  Processing 'modularmult_DW01_add_0'
+  Processing 'Divider32_DW01_add_0_DW01_add_1'
+  Processing 'Divider32_DW02_mult_0_DW02_mult_1'
+  Processing 'Divider32_DW01_sub_0'
+  Processing 'Divider32_DW01_add_1_DW01_add_2'
+  Processing 'Divider32_DW02_mult_1_DW02_mult_2'
+  Processing 'Divider32_DW01_sub_1'
+  Processing 'Divider32_DW01_add_2_DW01_add_3'
+  Processing 'Divider32_DW02_mult_2_DW02_mult_3'
+  Processing 'Divider32_DW01_sub_2'
+  Processing 'Divider32_DW01_add_3_DW01_add_4'
+  Processing 'Divider32_DW02_mult_3_DW02_mult_4'
+  Processing 'Divider32_DW01_sub_3'
+  Processing 'Divider32_DW01_add_4_DW01_add_5'
+  Processing 'Divider32_DW02_mult_4_DW02_mult_5'
+  Processing 'Divider32_DW01_sub_4'
+  Processing 'Divider32_DW01_add_5_DW01_add_6'
+  Processing 'Divider32_DW02_mult_5_DW02_mult_6'
+  Processing 'Divider32_DW01_sub_5'
+  Processing 'Divider32_DW01_add_6_DW01_add_7'
+  Processing 'Divider32_DW02_mult_6_DW02_mult_7'
+  Processing 'Divider32_DW01_sub_6'
+  Processing 'Divider32_DW01_add_7_DW01_add_8'
+  Processing 'Divider32_DW02_mult_7_DW02_mult_8'
+  Processing 'Divider32_DW01_sub_7'
+  Processing 'Divider32_DW01_add_8_DW01_add_9'
+  Processing 'Divider32_DW02_mult_8_DW02_mult_9'
+  Processing 'Divider32_DW01_sub_8'
+  Processing 'Divider32_DW01_add_9_DW01_add_10'
+  Processing 'Divider32_DW02_mult_9_DW02_mult_10'
+  Processing 'Divider32_DW01_sub_9'
+  Processing 'Divider32_DW01_add_10_DW01_add_11'
+  Processing 'Divider32_DW02_mult_10_DW02_mult_11'
+  Processing 'Divider32_DW01_sub_10'
+  Processing 'Divider32_DW01_add_11_DW01_add_12'
+  Processing 'Divider32_DW02_mult_11_DW02_mult_12'
+  Processing 'Divider32_DW01_sub_11'
+  Processing 'Divider32_DW01_add_12_DW01_add_13'
+  Processing 'Divider32_DW02_mult_12_DW02_mult_13'
+  Processing 'Divider32_DW01_sub_12'
+  Processing 'Divider32_DW01_add_13_DW01_add_14'
+  Processing 'Divider32_DW02_mult_13_DW02_mult_14'
+  Processing 'Divider32_DW01_sub_13'
+  Processing 'Divider32_DW01_add_14_DW01_add_15'
+  Processing 'Divider32_DW02_mult_14_DW02_mult_15'
+  Processing 'Divider32_DW01_sub_14'
+  Processing 'Divider32_DW01_add_15_DW01_add_16'
+  Processing 'Divider32_DW02_mult_15_DW02_mult_16'
+  Processing 'Divider32_DW01_sub_15'
+  Processing 'Divider32_DW01_add_16_DW01_add_17'
+  Processing 'Divider32_DW02_mult_16_DW02_mult_17'
+  Processing 'Divider32_DW01_sub_16'
+  Processing 'Divider32_DW01_add_17_DW01_add_18'
+  Processing 'Divider32_DW02_mult_17_DW02_mult_18'
+  Processing 'Divider32_DW01_sub_17'
+  Processing 'Divider32_DW01_add_18_DW01_add_19'
+  Processing 'Divider32_DW02_mult_18_DW02_mult_19'
+  Processing 'Divider32_DW01_sub_18'
+  Processing 'Divider32_DW01_add_19_DW01_add_20'
+  Processing 'Divider32_DW02_mult_19_DW02_mult_20'
+  Processing 'Divider32_DW01_sub_19'
+  Processing 'Divider32_DW01_add_20_DW01_add_21'
+  Processing 'Divider32_DW02_mult_20_DW02_mult_21'
+  Processing 'Divider32_DW01_sub_20'
+  Processing 'Divider32_DW01_add_21_DW01_add_22'
+  Processing 'Divider32_DW02_mult_21_DW02_mult_22'
+  Processing 'Divider32_DW01_sub_21'
+  Processing 'Divider32_DW01_add_22_DW01_add_23'
+  Processing 'Divider32_DW02_mult_22_DW02_mult_23'
+  Processing 'Divider32_DW01_sub_22'
+  Processing 'Divider32_DW01_add_23_DW01_add_24'
+  Processing 'Divider32_DW02_mult_23_DW02_mult_24'
+  Processing 'Divider32_DW01_sub_23'
+  Processing 'Divider32_DW01_add_24_DW01_add_25'
+  Processing 'Divider32_DW02_mult_24_DW02_mult_25'
+  Processing 'Divider32_DW01_sub_24'
+  Processing 'Divider32_DW01_add_25_DW01_add_26'
+  Processing 'Divider32_DW02_mult_25_DW02_mult_26'
+  Processing 'Divider32_DW01_sub_25'
+  Processing 'Divider32_DW01_add_26_DW01_add_27'
+  Processing 'Divider32_DW02_mult_26_DW02_mult_27'
+  Processing 'Divider32_DW01_sub_26'
+  Processing 'Divider32_DW01_add_27_DW01_add_28'
+  Processing 'Divider32_DW02_mult_27_DW02_mult_28'
+  Processing 'Divider32_DW01_sub_27'
+  Processing 'Divider32_DW01_add_28_DW01_add_29'
+  Processing 'Divider32_DW02_mult_28_DW02_mult_29'
+  Processing 'Divider32_DW01_sub_28'
+  Processing 'Divider32_DW01_add_29_DW01_add_30'
+  Processing 'Divider32_DW02_mult_29_DW02_mult_30'
+  Processing 'Divider32_DW01_sub_29'
+  Processing 'Divider32_DW01_add_30_DW01_add_31'
+  Processing 'Divider32_DW02_mult_30_DW02_mult_31'
+  Processing 'Divider32_DW01_sub_30'
+  Processing 'Divider32_DW01_add_31_DW01_add_32'
+  Processing 'Divider32_DW02_mult_31_DW02_mult_32'
+  Processing 'Divider32_DW01_sub_31'
+  Processing 'dnew_DW01_sub_0_DW01_sub_32'
+  Processing 'dnew_DW02_mult_0_DW02_mult_33'
+  Processing 'dnew_DW01_add_0_DW01_add_33'
+  Processing 'dnew_DW01_sub_1_DW01_sub_33'
+  Processing 'dnew_DW02_mult_1_DW02_mult_34'
+  Processing 'dnew_DW01_add_1_DW01_add_34'
+  Processing 'dnew_DW01_dec_0_DW01_dec_1'
+  Processing 'dnew_DW01_dec_1_DW01_dec_2'
+  Processing 'Divider_1_DW02_mult_0_DW02_mult_35'
+  Processing 'Divider_1_DW01_sub_0_DW01_sub_34'
+  Processing 'Divider_1_DW01_add_1_DW01_add_36'
+  Processing 'Divider_1_DW02_mult_1_DW02_mult_36'
+  Processing 'Divider_1_DW01_sub_1_DW01_sub_35'
+  Processing 'Divider_1_DW01_add_2_DW01_add_37'
+  Processing 'Divider_1_DW02_mult_2_DW02_mult_37'
+  Processing 'Divider_1_DW01_sub_2_DW01_sub_36'
+  Processing 'Divider_1_DW01_add_3_DW01_add_38'
+  Processing 'Divider_1_DW02_mult_3_DW02_mult_38'
+  Processing 'Divider_1_DW01_sub_3_DW01_sub_37'
+  Processing 'Divider_1_DW01_add_4_DW01_add_39'
+  Processing 'Divider_1_DW02_mult_4_DW02_mult_39'
+  Processing 'Divider_1_DW01_sub_4_DW01_sub_38'
+  Processing 'Divider_1_DW01_add_5_DW01_add_40'
+  Processing 'Divider_1_DW02_mult_5_DW02_mult_40'
+  Processing 'Divider_1_DW01_sub_5_DW01_sub_39'
+  Processing 'Divider_1_DW01_add_6_DW01_add_41'
+  Processing 'Divider_1_DW02_mult_6_DW02_mult_41'
+  Processing 'Divider_1_DW01_sub_6_DW01_sub_40'
+  Processing 'Divider_1_DW01_add_7_DW01_add_42'
+  Processing 'Divider_1_DW02_mult_7_DW02_mult_42'
+  Processing 'Divider_1_DW01_sub_7_DW01_sub_41'
+  Processing 'Divider_1_DW01_add_8_DW01_add_43'
+  Processing 'Divider_1_DW02_mult_8_DW02_mult_43'
+  Processing 'Divider_1_DW01_sub_8_DW01_sub_42'
+  Processing 'Divider_1_DW01_add_9_DW01_add_44'
+  Processing 'Divider_1_DW02_mult_9_DW02_mult_44'
+  Processing 'Divider_1_DW01_sub_9_DW01_sub_43'
+  Processing 'Divider_1_DW01_add_10_DW01_add_45'
+  Processing 'Divider_1_DW02_mult_10_DW02_mult_45'
+  Processing 'Divider_1_DW01_sub_10_DW01_sub_44'
+  Processing 'Divider_1_DW01_add_11_DW01_add_46'
+  Processing 'Divider_1_DW02_mult_11_DW02_mult_46'
+  Processing 'Divider_1_DW01_sub_11_DW01_sub_45'
+  Processing 'Divider_1_DW01_add_12_DW01_add_47'
+  Processing 'Divider_1_DW02_mult_12_DW02_mult_47'
+  Processing 'Divider_1_DW01_sub_12_DW01_sub_46'
+  Processing 'Divider_1_DW01_add_13_DW01_add_48'
+  Processing 'Divider_1_DW02_mult_13_DW02_mult_48'
+  Processing 'Divider_1_DW01_sub_13_DW01_sub_47'
+  Processing 'Divider_1_DW01_add_14_DW01_add_49'
+  Processing 'Divider_1_DW02_mult_14_DW02_mult_49'
+  Processing 'Divider_1_DW01_sub_14_DW01_sub_48'
+  Processing 'Divider_1_DW01_add_15_DW01_add_50'
+  Processing 'Divider_1_DW02_mult_15_DW02_mult_50'
+  Processing 'Divider_1_DW01_sub_15_DW01_sub_49'
+  Processing 'keygen_DW02_mult_0_DW02_mult_51'
+  Processing 'keygen_DW01_add_0_DW01_add_51'
+  Processing 'keygen_DW01_dec_0_DW01_dec_3'
+  Processing 'keygen_DW01_dec_1_DW01_dec_4'
+  Processing 'keygen_DW01_add_1_DW01_add_52'
+  Processing 'Divider_0_DW01_add_0_DW01_add_53'
+  Processing 'Divider_0_DW02_mult_0_DW02_mult_52'
+  Processing 'Divider_0_DW01_sub_0_DW01_sub_50'
+  Processing 'Divider_0_DW01_add_1_DW01_add_54'
+  Processing 'Divider_0_DW02_mult_1_DW02_mult_53'
+  Processing 'Divider_0_DW01_sub_1_DW01_sub_51'
+  Processing 'Divider_0_DW01_add_2_DW01_add_55'
+  Processing 'Divider_0_DW02_mult_2_DW02_mult_54'
+  Processing 'Divider_0_DW01_sub_2_DW01_sub_52'
+  Processing 'Divider_0_DW01_add_3_DW01_add_56'
+  Processing 'Divider_0_DW02_mult_3_DW02_mult_55'
+  Processing 'Divider_0_DW01_sub_3_DW01_sub_53'
+  Processing 'Divider_0_DW01_add_4_DW01_add_57'
+  Processing 'Divider_0_DW02_mult_4_DW02_mult_56'
+  Processing 'Divider_0_DW01_sub_4_DW01_sub_54'
+  Processing 'Divider_0_DW01_add_5_DW01_add_58'
+  Processing 'Divider_0_DW02_mult_5_DW02_mult_57'
+  Processing 'Divider_0_DW01_sub_5_DW01_sub_55'
+  Processing 'Divider_0_DW01_add_6_DW01_add_59'
+  Processing 'Divider_0_DW02_mult_6_DW02_mult_58'
+  Processing 'Divider_0_DW01_sub_6_DW01_sub_56'
+  Processing 'Divider_0_DW01_add_7_DW01_add_60'
+  Processing 'Divider_0_DW02_mult_7_DW02_mult_59'
+  Processing 'Divider_0_DW01_sub_7_DW01_sub_57'
+  Processing 'Divider_0_DW01_add_8_DW01_add_61'
+  Processing 'Divider_0_DW02_mult_8_DW02_mult_60'
+  Processing 'Divider_0_DW01_sub_8_DW01_sub_58'
+  Processing 'Divider_0_DW01_add_9_DW01_add_62'
+  Processing 'Divider_0_DW02_mult_9_DW02_mult_61'
+  Processing 'Divider_0_DW01_sub_9_DW01_sub_59'
+  Processing 'Divider_0_DW01_add_10_DW01_add_63'
+  Processing 'Divider_0_DW02_mult_10_DW02_mult_62'
+  Processing 'Divider_0_DW01_sub_10_DW01_sub_60'
+  Processing 'Divider_0_DW01_add_11_DW01_add_64'
+  Processing 'Divider_0_DW02_mult_11_DW02_mult_63'
+  Processing 'Divider_0_DW01_sub_11_DW01_sub_61'
+  Processing 'Divider_0_DW01_add_12_DW01_add_65'
+  Processing 'Divider_0_DW02_mult_12_DW02_mult_64'
+  Processing 'Divider_0_DW01_sub_12_DW01_sub_62'
+  Processing 'Divider_0_DW01_add_13_DW01_add_66'
+  Processing 'Divider_0_DW02_mult_13_DW02_mult_65'
+  Processing 'Divider_0_DW01_sub_13_DW01_sub_63'
+  Processing 'Divider_0_DW01_add_14_DW01_add_67'
+  Processing 'Divider_0_DW02_mult_14_DW02_mult_66'
+  Processing 'Divider_0_DW01_sub_14_DW01_sub_64'
+  Processing 'Divider_0_DW01_add_15_DW01_add_68'
+  Processing 'Divider_0_DW02_mult_15_DW02_mult_67'
+  Processing 'Divider_0_DW01_sub_15_DW01_sub_65'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+  Structuring 'Divider_1'
+  Mapping 'Divider_1'
+  Structuring 'Divider32'
+  Mapping 'Divider32'
+  Structuring 'Divider_0'
+  Mapping 'Divider_0'
+  Structuring 'modularmult'
+  Mapping 'modularmult'
+  Structuring 'dnew'
+  Mapping 'dnew'
+  Structuring 'keygen'
+  Mapping 'keygen'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:11  315965.4      0.00       0.0   49588.3                          
+    0:00:11  315965.4      0.00       0.0   49588.3                          
+    0:00:11  315965.4      0.00       0.0   49588.3                          
+    0:00:11  315965.4      0.00       0.0   49588.3                          
+    0:00:11  315965.4      0.00       0.0   49588.3                          
+    0:00:12  281870.5      0.00       0.0   44024.7                          
+    0:00:12  281861.1      0.00       0.0   44024.7                          
+    0:00:12  281635.4      0.00       0.0   41142.6                          
+    0:00:12  281622.9      0.00       0.0   41142.6                          
+    0:00:12  281622.9      0.00       0.0   41142.6                          
+    0:00:12  281622.9      0.00       0.0   41142.6                          
+    0:00:12  281622.9      0.00       0.0   41142.6                          
+    0:00:12  281622.9      0.00       0.0   41142.6                          
+    0:00:12  282635.7      0.00       0.0   18798.2                          
+    0:00:12  282861.5      0.00       0.0   10903.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_fanout)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:13  282886.6      0.00       0.0   10902.2                          
+    0:00:13  283172.0      0.00       0.0    1653.0 kd1/d2/net24969          
+    0:00:13  283786.8      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:13  283786.8      0.00       0.0       0.0                          
+    0:00:13  283786.8      0.00       0.0       0.0                          
+    0:00:13  280531.6      0.00       0.0       0.0                          
+    0:00:13  280431.4      0.00       0.0       0.0                          
+    0:00:13  280431.4      0.00       0.0       0.0                          
+    0:00:13  280431.4      0.00       0.0       0.0                          
+    0:00:13  280431.4      0.00       0.0       0.0                          
+    0:00:13  280381.3      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+    0:00:14  280209.1      0.00       0.0       0.0                          
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+[SCL] 11/12/2026 00:31:10 PID:22918 Client:nanodc.iitgn.ac.in checkin electromigration_drc 
+1
+ungroup -all -flatten
+Information: Updating graph... (UID-83)
+1
+change_names -rules verilog -hierarchy
+1
+write -format verilog -hierarchy -output synthesised_scl.v
+Writing verilog file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/rsa/synthesised_scl.v'.
+1
+create_port -direction in scan_in
+Creating port 'scan_in' in design 'rsa'.
+1
+create_port -direction out scan_out
+Creating port 'scan_out' in design 'rsa'.
+1
+create_port -direction in scan_enable
+Creating port 'scan_enable' in design 'rsa'.
+1
+set latches [all_registers -level_sensitive]
+if {[sizeof_collection $latches] > 0} {
+    set_scan_element false $latches
+}
+set_scan_configuration -chain_count 1 -style multiplexed_flip_flop -clock_mixing mix_clocks
+Accepted scan configuration for modes: all_dft
+1
+compile -scan -incremental
+[SCL] 11/12/2026 00:31:11 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Test-Compiler 2022.03
+Checkout succeeded: Test-Compiler/BFEA94871D02468F8ACD
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:31:11 Checking status for feature Test-Compiler
+[SCL] 11/12/2026 00:31:11 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Test-Compiler 2022.03
+Information: Choosing a test methodology will restrict the optimization of sequential cells. (UIO-12)
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler                                                                   |
+| Comand Line  | -scan                                                                             |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 8723                                   |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 250                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 1                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 0                                      |
+| Number of Dont Touch Cells                              | 0                                      |
+| Number of Dont Touch Nets                               | 0                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 280 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Design 'rsa' has no optimization constraints set. (OPT-108)
+
+  Beginning Mapping Optimizations  (Medium effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03  293370.7      0.00       0.0      49.8                          
+    0:00:03  293370.7      0.00       0.0      49.8                          
+    0:00:03  293370.7      0.00       0.0      49.8                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:03  293370.7      0.00       0.0      49.8                          
+    0:00:03  293223.3      0.00       0.0       0.0                          
+Loading db file '/home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/4M1IL/liberty/lib_flow_ss/tsl18fs120_scl_ss.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+[SCL] 11/12/2026 00:31:15 PID:22918 Client:nanodc.iitgn.ac.in checkin electromigration_drc 
+1
+set_dft_signal -view exist -type ScanClock -port clk -timing {45 55}
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view exist -type Reset -port rst -active_state 1
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataIn -port scan_in
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataOut -port scan_out
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanEnable -port scan_enable -active_state 1
+Accepted dft signal specification for modes: all_dft
+1
+create_test_protocol
+In mode: all_dft...
+
+Information: Starting test protocol creation. (TEST-219)
+  ...reading user specified clock signals...
+Information: Identified system/test clock port clk (45.0,55.0). (TEST-265)
+  ...reading user specified asynchronous signals...
+Information: Identified active high asynchronous control port rst. (TEST-266)
+1
+dft_drc
+In mode: all_dft...
+  Pre-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  	...checking for scan equivalents...
+  ...checking vector rules...
+  ...checking pre-dft rules...
+
+-----------------------------------------------------------------
+Begin Pre-DFT violations...
+
+ Warning: Clock rst cannot capture data with other clocks off. (D8-1)
+
+Pre-DFT violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 1
+
+-----------------------------------------------------------------
+
+1 PRE-DFT VIOLATION
+     1 Clock not able to capture violation (D8)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 250 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 250 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1
+insert_dft
+  Information: Using test design rule information from previous dft_drc run.
+  Architecting Scan Chains
+  Routing Scan Chains
+  Routing Global Signals
+  Mapping New Logic
+Resetting current test mode
+
+1
+dft_drc
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 250 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 250 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1
+ungroup -all -flatten
+Warning: Design has no hierarchy.  No cells can be ungrouped. (UID-228)
+0
+change_names -rules verilog -hierarchy
+Warning: In the design rsa, net 'n[15]' is connecting multiple ports. (UCN-1)
+1
+write -format verilog -hierarchy -output synthesised_scan.v
+Writing verilog file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/rsa/synthesised_scan.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+write_test_protocol -output rsa_scan.spf
+Writing test protocol file '/home/nanodcmaster/VLSI_pranay_vishal/universal_benchmark_framework/runs/rsa/rsa_scan.spf' for mode 'Internal_scan'...
+[SCL] 11/12/2026 00:31:22 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Authorization succeeded Test-CTL-Model 2022.03
+Checkout succeeded: Test-CTL-Model/AF8A34978E7542098CB4
+	License file: 27020@c2s.cdacb.in
+	License Server: 27020@c2s.cdacb.in
+[SCL] 11/12/2026 00:31:23 Checking status for feature Test-CTL-Model
+[SCL] 11/12/2026 00:31:23 PID:22918 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded Test-CTL-Model 2022.03
+1
+report_scan_path -view spec
+ 
+****************************************
+Report : Scan path
+Design : rsa
+Version: T-2022.03-SP5
+Date   : Thu Nov 12 00:31:23 2026
+****************************************
+
+========================================
+TEST MODE: Internal_scan
+VIEW     : Specification
+========================================
+No scan path defined in this mode.
+
+0
+exit
+
+Memory usage for this session 245 Mbytes.
+Memory usage for this session including child processes 245 Mbytes.
+CPU usage for this session 20 seconds ( 0.01 hours ).
+Elapsed time for this session 32 seconds ( 0.01 hours ).
+
+Thank you...

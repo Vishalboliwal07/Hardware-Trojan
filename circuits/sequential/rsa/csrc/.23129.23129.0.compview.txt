@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1794571943.579336005, "rt":7.21, "ut":2.25, "st":0.38}}
+{"vcselab":{"timestamp_begin":1794571950.818743952, "rt":1.40, "ut":0.17, "st":0.04}}
+{"link":{"timestamp_begin":1794571952.245557312, "rt":0.17, "ut":0.11, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1794571943.405867224}
+{"VCS_COMP_START_TIME": 1794571943.405867224}
+{"VCS_COMP_END_TIME": 1794571952.449363960}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k +notimingcheck +nospecify tb_scan.v synthesised_scan.v /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v -o simv_scan"}
+{"vcs1": {"peak_mem": 401776}}
+{"vcselab": {"peak_mem": 237376}}

@@ -1,0 +1,21 @@
+===========================================================================
+ HARDWARE TROJAN DETECTION: VENDOR-TOOL RARENESS ANALYSIS (SYNOPSYS VCS)
+ Circuit Netlist:    synthesised_scan.v
+ Simulation Cycles:  10000 (High Accuracy)
+ Rareness Threshold: 0.2 (<= 20.0%)
+===========================================================================
+[*] Parsed Top Module: FemtoRV32
+[*] Primary Inputs:   38
+[*] Internal Nodes:   10294
+[*] Compiling with Synopsys VCS: source /home/nanodcmaster/toolRC_synopsys.bash >/dev/null 2>&1 && vcs -full64 -q -sverilog -timescale=1ns/1ps +v2k synthesised_scan.v /home/nanodcmaster/Synopsys/pdk/SCL_PDK_3/SCLPDK_V3.0_KIT/scl180/stdcell/fs120/6M1L/verilog/vcs_sim_model/tsl18fs120_scl.v tb_rareness_vcs.v -o sim_rareness
+[*] Running VCS simulation executable (./sim_rareness)...
+[SCL] 11/12/2026 00:18:42 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 11/12/2026 00:18:42 PID:15710 Client:nanodc.iitgn.ac.in Server:27020@c2s.cdacb.in Checkout succeeded VCS-BASE-RUNTIME 2023.03 from VCS-Base-Runtime-Pkg
+[+] Synopsys VCS Simulation Finished: 10000 cycles recorded.
+$finish called from file "tb_rareness_vcs.v", line 20653.
+$finish at simulation time            100016000
+[SCL] 11/12/2026 00:18:44 PID:15710 Client:nanodc.iitgn.ac.in checkin (null)
+[+] Total Analyzed Nodes: 10294
+[+] Identified Rare Nodes (P <= 0.2): 8965
+[+] Saved rare nodes to: rare_nodes.txt
+[SUCCESS] Authentic Synopsys VCS rareness analysis completed!

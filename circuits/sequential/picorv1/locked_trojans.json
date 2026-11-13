@@ -1,0 +1,8056 @@
+{
+  "circuit": "picorv1",
+  "gates": 5659,
+  "pis": [
+    "mem_rdata[31]",
+    "mem_rdata[30]",
+    "mem_rdata[29]",
+    "mem_rdata[28]",
+    "mem_rdata[27]",
+    "mem_rdata[26]",
+    "mem_rdata[25]",
+    "mem_rdata[24]",
+    "mem_rdata[23]",
+    "mem_rdata[22]",
+    "mem_rdata[21]",
+    "mem_rdata[20]",
+    "mem_rdata[19]",
+    "mem_rdata[18]",
+    "mem_rdata[17]",
+    "mem_rdata[16]",
+    "mem_rdata[15]",
+    "mem_rdata[14]",
+    "mem_rdata[13]",
+    "mem_rdata[12]",
+    "mem_rdata[11]",
+    "mem_rdata[10]",
+    "mem_rdata[9]",
+    "mem_rdata[8]",
+    "mem_rdata[7]",
+    "mem_rdata[6]",
+    "mem_rdata[5]",
+    "mem_rdata[4]",
+    "mem_rdata[3]",
+    "mem_rdata[2]",
+    "mem_rdata[1]",
+    "mem_rdata[0]",
+    "clk",
+    "resetn",
+    "mem_ready",
+    "scan_in",
+    "scan_enable",
+    "test_si2"
+  ],
+  "num_pis": 38,
+  "theta": 0.2,
+  "total_rare_nodes": 4034,
+  "total_feasible_trojans": 500,
+  "quotas": {
+    "q1": 125,
+    "q2": 125,
+    "q3": 125,
+    "q4": 125
+  },
+  "trojans": [
+    {
+      "id": 0,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3598",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1641",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n196",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "q": 1,
+      "triggers": [
+        [
+          "mem_wdata[19]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1930",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2146",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1982",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[416]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1347",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[328]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[774]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_la_wdata_1_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[940]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[625]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[212]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[681]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3031",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n224",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n216",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1331",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1551",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[306]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1356",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3431",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n202",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[661]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2235",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1596",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[794]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2974",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_la_wdata_15_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n81",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n429",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N790",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[675]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[63]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1193",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2348",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n120",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1843",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "q": 1,
+      "triggers": [
+        [
+          "core_r315_carry_26_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[414]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_rdata_word[11]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n63",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n386",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[50]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[276]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2110",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[975]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2797",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "q": 1,
+      "triggers": [
+        [
+          "n3183",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[310]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[475]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2752",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1798",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N1557",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "q": 1,
+      "triggers": [
+        [
+          "core_add_1569_carry[17]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpu_state[5]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_la_wdata_18_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[109]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1842",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n271",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[840]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[495]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_la_wdata_27_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 65,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1328",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "q": 1,
+      "triggers": [
+        [
+          "core_alu_out[4]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 67,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3268",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N1315",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 69,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[398]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 70,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[669]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 71,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1835",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 72,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1197",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 73,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[755]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[707]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 75,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3158",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 76,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1562",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 77,
+      "q": 1,
+      "triggers": [
+        [
+          "n3192",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 78,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[701]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 79,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1335",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 80,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3018",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 81,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3224",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 82,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n281",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 83,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_rdata_word[31]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 84,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[205]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 85,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N193",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 86,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2085",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 87,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[445]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 88,
+      "q": 1,
+      "triggers": [
+        [
+          "core_r293_n42",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 89,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[314]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 90,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3305",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 91,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[216]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 92,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2862",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 93,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3499",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 94,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1186",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 95,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2843",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 96,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1515",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 97,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N1309",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 98,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N1544",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 99,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2264",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 100,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_rdata_word[29]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 101,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1649",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 102,
+      "q": 1,
+      "triggers": [
+        [
+          "core_instr_xori",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 103,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3643",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 104,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[828]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 105,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2856",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 106,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n3206",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 107,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[710]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2095",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 109,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[241]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 110,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[632]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 111,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2092",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 112,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2053",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 113,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1607",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 114,
+      "q": 1,
+      "triggers": [
+        [
+          "core_N812",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 115,
+      "q": 1,
+      "triggers": [
+        [
+          "core_U4_U25_Z_19",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 116,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[80]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 117,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1437",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 118,
+      "q": 1,
+      "triggers": [
+        [
+          "core_r293_n91",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 119,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1628",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 120,
+      "q": 1,
+      "triggers": [
+        [
+          "core_mem_la_wdata_17_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 121,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2112",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 122,
+      "q": 1,
+      "triggers": [
+        [
+          "core_cpuregs[824]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 123,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n1343",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 124,
+      "q": 1,
+      "triggers": [
+        [
+          "core_n2334",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 125,
+      "q": 2,
+      "triggers": [
+        [
+          "core_r300_carry[22]",
+          1
+        ],
+        [
+          "core_n314",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 126,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n759",
+          1
+        ],
+        [
+          "core_n3033",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 127,
+      "q": 2,
+      "triggers": [
+        [
+          "core_U4_U24_Z_21",
+          1
+        ],
+        [
+          "core_n1545",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 128,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[801]",
+          1
+        ],
+        [
+          "core_cpuregs[726]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 129,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3164",
+          1
+        ],
+        [
+          "core_n1383",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 130,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1878",
+          1
+        ],
+        [
+          "core_n2415",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 131,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1752",
+          1
+        ],
+        [
+          "core_n2093",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 132,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n25",
+          1
+        ],
+        [
+          "core_n1444",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 133,
+      "q": 2,
+      "triggers": [
+        [
+          "n3219",
+          1
+        ],
+        [
+          "core_cpuregs[117]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 134,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3157",
+          1
+        ],
+        [
+          "core_n3184",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 135,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2143",
+          1
+        ],
+        [
+          "core_n1472",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 136,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n33",
+          0
+        ],
+        [
+          "core_n3412",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 137,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3617",
+          0
+        ],
+        [
+          "core_n2193",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 138,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[372]",
+          1
+        ],
+        [
+          "core_r315_carry_5_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 139,
+      "q": 2,
+      "triggers": [
+        [
+          "core_r315_B_AS[15]",
+          1
+        ],
+        [
+          "core_cpuregs[881]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 140,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1967",
+          1
+        ],
+        [
+          "core_N813",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 141,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2253",
+          1
+        ],
+        [
+          "core_n2138",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 142,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[476]",
+          1
+        ],
+        [
+          "core_n3630",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 143,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2761",
+          0
+        ],
+        [
+          "core_r315_carry_8_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 144,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2000",
+          1
+        ],
+        [
+          "core_n1327",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 145,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1859",
+          1
+        ],
+        [
+          "core_n1886",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 146,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1650",
+          1
+        ],
+        [
+          "core_n1380",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 147,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n21",
+          1
+        ],
+        [
+          "core_cpuregs[860]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 148,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2328",
+          1
+        ],
+        [
+          "core_n2861",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 149,
+      "q": 2,
+      "triggers": [
+        [
+          "core_N805",
+          1
+        ],
+        [
+          "core_cpuregs[168]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 150,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[979]",
+          1
+        ],
+        [
+          "core_n2011",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 151,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1486",
+          1
+        ],
+        [
+          "core_n1034",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 152,
+      "q": 2,
+      "triggers": [
+        [
+          "core_r315_B_AS[25]",
+          1
+        ],
+        [
+          "core_n3471",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 153,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[73]",
+          1
+        ],
+        [
+          "core_n3319",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 154,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2863",
+          1
+        ],
+        [
+          "core_U4_U24_Z_21",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 155,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2107",
+          1
+        ],
+        [
+          "core_n2062",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 156,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3277",
+          0
+        ],
+        [
+          "core_cpuregs[779]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 157,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2739",
+          1
+        ],
+        [
+          "core_n1315",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 158,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1194",
+          1
+        ],
+        [
+          "core_alu_out[24]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 159,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1807",
+          1
+        ],
+        [
+          "core_n3465",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 160,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1916",
+          1
+        ],
+        [
+          "core_n217",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 161,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n352",
+          0
+        ],
+        [
+          "core_cpuregs[533]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 162,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1739",
+          1
+        ],
+        [
+          "core_N1558",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 163,
+      "q": 2,
+      "triggers": [
+        [
+          "core_N809",
+          1
+        ],
+        [
+          "core_alu_wait",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 164,
+      "q": 2,
+      "triggers": [
+        [
+          "core_lt_1233_B_27_",
+          1
+        ],
+        [
+          "core_cpuregs[227]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 165,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[64]",
+          1
+        ],
+        [
+          "core_N196",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 166,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2940",
+          1
+        ],
+        [
+          "core_cpuregs[711]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 167,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2468",
+          1
+        ],
+        [
+          "core_n1577",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 168,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[546]",
+          1
+        ],
+        [
+          "core_cpuregs[346]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 169,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2777",
+          0
+        ],
+        [
+          "core_n3184",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 170,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[857]",
+          1
+        ],
+        [
+          "core_cpuregs[919]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 171,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[470]",
+          1
+        ],
+        [
+          "core_n1715",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 172,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[609]",
+          1
+        ],
+        [
+          "core_N1028",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 173,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1096",
+          1
+        ],
+        [
+          "core_N467",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 174,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[1]",
+          1
+        ],
+        [
+          "core_n1541",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 175,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[490]",
+          1
+        ],
+        [
+          "core_U4_U24_Z_10",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 176,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[681]",
+          1
+        ],
+        [
+          "core_n595",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 177,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3004",
+          1
+        ],
+        [
+          "core_mem_la_wdata_8_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 178,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1710",
+          1
+        ],
+        [
+          "core_cpuregs[628]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 179,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[401]",
+          1
+        ],
+        [
+          "core_N1043",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 180,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2102",
+          1
+        ],
+        [
+          "core_r300_carry[18]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 181,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n355",
+          0
+        ],
+        [
+          "core_n672",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 182,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2081",
+          1
+        ],
+        [
+          "core_n3622",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 183,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1690",
+          1
+        ],
+        [
+          "core_cpuregs[677]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 184,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3071",
+          0
+        ],
+        [
+          "core_cpuregs[865]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 185,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1181",
+          1
+        ],
+        [
+          "core_n3378",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 186,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2160",
+          1
+        ],
+        [
+          "core_n1377",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 187,
+      "q": 2,
+      "triggers": [
+        [
+          "n3185",
+          1
+        ],
+        [
+          "core_cpuregs[622]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 188,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[816]",
+          1
+        ],
+        [
+          "core_n495",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 189,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[285]",
+          1
+        ],
+        [
+          "core_mem_rdata_word[30]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 190,
+      "q": 2,
+      "triggers": [
+        [
+          "core_mem_rdata_word[27]",
+          1
+        ],
+        [
+          "core_cpuregs[368]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 191,
+      "q": 2,
+      "triggers": [
+        [
+          "mem_wdata[20]",
+          1
+        ],
+        [
+          "core_n3263",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 192,
+      "q": 2,
+      "triggers": [
+        [
+          "core_mem_la_wdata_2_",
+          1
+        ],
+        [
+          "core_cpuregs[703]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 193,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2368",
+          1
+        ],
+        [
+          "core_n1357",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 194,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2169",
+          1
+        ],
+        [
+          "core_mem_la_wdata_30_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 195,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[726]",
+          1
+        ],
+        [
+          "core_N799",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 196,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[46]",
+          1
+        ],
+        [
+          "core_n2254",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 197,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2012",
+          1
+        ],
+        [
+          "core_n1078",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 198,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2876",
+          1
+        ],
+        [
+          "core_cpuregs[373]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 199,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[35]",
+          1
+        ],
+        [
+          "core_n3060",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 200,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2655",
+          1
+        ],
+        [
+          "core_n3226",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 201,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1569",
+          1
+        ],
+        [
+          "core_n1332",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 202,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2481",
+          1
+        ],
+        [
+          "core_n1873",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 203,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[730]",
+          1
+        ],
+        [
+          "core_N191",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 204,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3182",
+          1
+        ],
+        [
+          "core_N1332",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 205,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1590",
+          1
+        ],
+        [
+          "core_n1667",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 206,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1443",
+          1
+        ],
+        [
+          "core_n1753",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 207,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n336",
+          0
+        ],
+        [
+          "core_cpuregs[422]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 208,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[316]",
+          1
+        ],
+        [
+          "core_n2028",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 209,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[396]",
+          1
+        ],
+        [
+          "core_n1903",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 210,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1756",
+          1
+        ],
+        [
+          "core_n3549",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 211,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3285",
+          1
+        ],
+        [
+          "core_cpuregs[744]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 212,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3623",
+          0
+        ],
+        [
+          "core_N474",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 213,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1812",
+          1
+        ],
+        [
+          "core_n1678",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 214,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[790]",
+          1
+        ],
+        [
+          "core_n2077",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 215,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1948",
+          1
+        ],
+        [
+          "core_n1355",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 216,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[7]",
+          1
+        ],
+        [
+          "core_U4_U24_Z_11",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 217,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3453",
+          1
+        ],
+        [
+          "core_cpuregs[696]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 218,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n88",
+          1
+        ],
+        [
+          "core_n1769",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 219,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1430",
+          1
+        ],
+        [
+          "core_cpuregs[770]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 220,
+      "q": 2,
+      "triggers": [
+        [
+          "core_lt_1233_B_11_",
+          1
+        ],
+        [
+          "core_n2304",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 221,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2021",
+          1
+        ],
+        [
+          "core_cpuregs[643]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 222,
+      "q": 2,
+      "triggers": [
+        [
+          "mem_wdata[6]",
+          1
+        ],
+        [
+          "core_n3322",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 223,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1442",
+          1
+        ],
+        [
+          "core_n1465",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 224,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3678",
+          1
+        ],
+        [
+          "core_n1685",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 225,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3643",
+          0
+        ],
+        [
+          "core_n3371",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 226,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1720",
+          1
+        ],
+        [
+          "core_cpuregs[964]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 227,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3316",
+          0
+        ],
+        [
+          "core_n42",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 228,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[400]",
+          1
+        ],
+        [
+          "core_n1252",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 229,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n127",
+          0
+        ],
+        [
+          "core_n2932",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 230,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[544]",
+          1
+        ],
+        [
+          "core_n3016",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 231,
+      "q": 2,
+      "triggers": [
+        [
+          "core_add_1569_carry[17]",
+          1
+        ],
+        [
+          "core_n1578",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 232,
+      "q": 2,
+      "triggers": [
+        [
+          "core_N453",
+          1
+        ],
+        [
+          "core_n2737",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 233,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n340",
+          0
+        ],
+        [
+          "core_U4_U25_Z_6",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 234,
+      "q": 2,
+      "triggers": [
+        [
+          "core_r315_B_AS[23]",
+          1
+        ],
+        [
+          "core_n2130",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 235,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2057",
+          1
+        ],
+        [
+          "core_n311",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 236,
+      "q": 2,
+      "triggers": [
+        [
+          "core_decoded_imm_j[12]",
+          1
+        ],
+        [
+          "core_cpuregs[814]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 237,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1633",
+          1
+        ],
+        [
+          "core_cpuregs[904]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 238,
+      "q": 2,
+      "triggers": [
+        [
+          "core_r315_B_AS[0]",
+          1
+        ],
+        [
+          "core_N1545",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 239,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n1487",
+          1
+        ],
+        [
+          "core_n1034",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 240,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[51]",
+          1
+        ],
+        [
+          "core_n3684",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 241,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n221",
+          0
+        ],
+        [
+          "core_n2082",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 242,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3079",
+          0
+        ],
+        [
+          "core_n1082",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 243,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n2128",
+          1
+        ],
+        [
+          "core_r300_carry[25]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 244,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3410",
+          1
+        ],
+        [
+          "core_n2211",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 245,
+      "q": 2,
+      "triggers": [
+        [
+          "core_mem_la_wdata_2_",
+          1
+        ],
+        [
+          "core_N1317",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 246,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3156",
+          0
+        ],
+        [
+          "core_U4_U25_Z_20",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 247,
+      "q": 2,
+      "triggers": [
+        [
+          "core_n3369",
+          0
+        ],
+        [
+          "core_mem_la_wdata_15_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 248,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[231]",
+          1
+        ],
+        [
+          "core_n2988",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 249,
+      "q": 2,
+      "triggers": [
+        [
+          "core_cpuregs[294]",
+          1
+        ],
+        [
+          "core_n1885",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 250,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1153",
+          1
+        ],
+        [
+          "core_n3266",
+          1
+        ],
+        [
+          "mem_addr[6]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 251,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2860",
+          0
+        ],
+        [
+          "core_cpuregs[97]",
+          1
+        ],
+        [
+          "mem_addr[0]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 252,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3155",
+          0
+        ],
+        [
+          "core_r300_carry[17]",
+          1
+        ],
+        [
+          "core_cpuregs[869]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 253,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1522",
+          1
+        ],
+        [
+          "core_add_1569_carry[14]",
+          1
+        ],
+        [
+          "core_cpuregs[873]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 254,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[131]",
+          1
+        ],
+        [
+          "core_mem_la_wdata_2_",
+          1
+        ],
+        [
+          "core_n1429",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 255,
+      "q": 3,
+      "triggers": [
+        [
+          "n3193",
+          1
+        ],
+        [
+          "core_n1058",
+          1
+        ],
+        [
+          "core_n3102",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 256,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n327",
+          0
+        ],
+        [
+          "core_n1637",
+          1
+        ],
+        [
+          "core_cpuregs[184]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 257,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1982",
+          1
+        ],
+        [
+          "core_n3498",
+          1
+        ],
+        [
+          "core_n106",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 258,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1497",
+          1
+        ],
+        [
+          "n3204",
+          1
+        ],
+        [
+          "core_n2059",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 259,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1506",
+          1
+        ],
+        [
+          "core_cpuregs[526]",
+          1
+        ],
+        [
+          "core_mem_la_wdata_19_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 260,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1670",
+          1
+        ],
+        [
+          "core_n44",
+          0
+        ],
+        [
+          "core_cpuregs[6]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 261,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N1041",
+          1
+        ],
+        [
+          "core_cpuregs[44]",
+          1
+        ],
+        [
+          "core_n2040",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 262,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1868",
+          1
+        ],
+        [
+          "scan_out",
+          1
+        ],
+        [
+          "core_n3293",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 263,
+      "q": 3,
+      "triggers": [
+        [
+          "core_mem_la_wdata_27_",
+          1
+        ],
+        [
+          "core_cpuregs[165]",
+          1
+        ],
+        [
+          "core_n2152",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 264,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3616",
+          0
+        ],
+        [
+          "core_n1381",
+          1
+        ],
+        [
+          "core_cpuregs[247]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 265,
+      "q": 3,
+      "triggers": [
+        [
+          "core_decoded_imm_j[16]",
+          1
+        ],
+        [
+          "core_r315_B_AS[9]",
+          1
+        ],
+        [
+          "core_mem_la_wdata_14_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 266,
+      "q": 3,
+      "triggers": [
+        [
+          "trap",
+          1
+        ],
+        [
+          "core_cpuregs[379]",
+          1
+        ],
+        [
+          "core_cpuregs[156]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 267,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2216",
+          1
+        ],
+        [
+          "core_n334",
+          0
+        ],
+        [
+          "core_cpuregs[836]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 268,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N456",
+          1
+        ],
+        [
+          "core_n1734",
+          1
+        ],
+        [
+          "core_cpuregs[580]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 269,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[918]",
+          1
+        ],
+        [
+          "core_n904",
+          1
+        ],
+        [
+          "core_cpuregs[64]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 270,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2084",
+          1
+        ],
+        [
+          "core_cpuregs[927]",
+          1
+        ],
+        [
+          "core_N1308",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 271,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n64",
+          1
+        ],
+        [
+          "core_cpuregs[807]",
+          1
+        ],
+        [
+          "core_cpuregs[909]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 272,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2338",
+          1
+        ],
+        [
+          "core_n138",
+          0
+        ],
+        [
+          "core_n1496",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 273,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1773",
+          1
+        ],
+        [
+          "core_cpuregs[454]",
+          1
+        ],
+        [
+          "core_n1516",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 274,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[189]",
+          1
+        ],
+        [
+          "core_n197",
+          0
+        ],
+        [
+          "core_n212",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 275,
+      "q": 3,
+      "triggers": [
+        [
+          "core_r293_n96",
+          1
+        ],
+        [
+          "core_mem_la_wdata_5_",
+          1
+        ],
+        [
+          "mem_wdata[15]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 276,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3513",
+          1
+        ],
+        [
+          "core_cpuregs[398]",
+          1
+        ],
+        [
+          "n3214",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 277,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2289",
+          1
+        ],
+        [
+          "core_n2329",
+          1
+        ],
+        [
+          "core_n368",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 278,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1888",
+          1
+        ],
+        [
+          "core_n3397",
+          1
+        ],
+        [
+          "core_n3396",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 279,
+      "q": 3,
+      "triggers": [
+        [
+          "core_r300_carry[24]",
+          1
+        ],
+        [
+          "core_n1416",
+          1
+        ],
+        [
+          "core_cpuregs[321]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 280,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[731]",
+          1
+        ],
+        [
+          "core_n3348",
+          0
+        ],
+        [
+          "core_n33",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 281,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1868",
+          1
+        ],
+        [
+          "core_cpuregs[479]",
+          1
+        ],
+        [
+          "core_alu_out[7]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 282,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[8]",
+          1
+        ],
+        [
+          "core_n3480",
+          1
+        ],
+        [
+          "core_n2179",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 283,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2111",
+          1
+        ],
+        [
+          "core_n2575",
+          1
+        ],
+        [
+          "core_n2785",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 284,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3465",
+          1
+        ],
+        [
+          "core_n2025",
+          1
+        ],
+        [
+          "core_n1518",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 285,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2097",
+          1
+        ],
+        [
+          "core_n1733",
+          1
+        ],
+        [
+          "core_n1403",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 286,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3250",
+          0
+        ],
+        [
+          "core_n163",
+          0
+        ],
+        [
+          "core_cpuregs[448]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 287,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n308",
+          0
+        ],
+        [
+          "core_add_1569_carry[18]",
+          1
+        ],
+        [
+          "core_cpuregs[45]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 288,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[618]",
+          1
+        ],
+        [
+          "core_n1451",
+          1
+        ],
+        [
+          "core_U4_U25_Z_0",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 289,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[508]",
+          1
+        ],
+        [
+          "core_cpuregs[54]",
+          1
+        ],
+        [
+          "core_n2414",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 290,
+      "q": 3,
+      "triggers": [
+        [
+          "core_mem_rdata_word[2]",
+          1
+        ],
+        [
+          "core_U4_U25_Z_11",
+          1
+        ],
+        [
+          "core_n1323",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 291,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n198",
+          0
+        ],
+        [
+          "core_cpuregs[751]",
+          1
+        ],
+        [
+          "core_n79",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 292,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1536",
+          1
+        ],
+        [
+          "core_cpuregs[48]",
+          1
+        ],
+        [
+          "core_N1304",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 293,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1359",
+          1
+        ],
+        [
+          "core_cpuregs[45]",
+          1
+        ],
+        [
+          "core_alu_wait_2",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 294,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2415",
+          1
+        ],
+        [
+          "core_N141",
+          1
+        ],
+        [
+          "core_n235",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 295,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3515",
+          1
+        ],
+        [
+          "core_cpuregs[84]",
+          1
+        ],
+        [
+          "core_cpuregs[56]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 296,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[656]",
+          1
+        ],
+        [
+          "core_N153",
+          1
+        ],
+        [
+          "core_n2191",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 297,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n255",
+          0
+        ],
+        [
+          "core_n3293",
+          1
+        ],
+        [
+          "core_n3390",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 298,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3205",
+          1
+        ],
+        [
+          "core_n2731",
+          0
+        ],
+        [
+          "core_n2312",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 299,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[853]",
+          1
+        ],
+        [
+          "core_n2199",
+          1
+        ],
+        [
+          "core_cpuregs[556]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 300,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n346",
+          0
+        ],
+        [
+          "core_n2574",
+          1
+        ],
+        [
+          "core_n3208",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 301,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[429]",
+          1
+        ],
+        [
+          "core_cpuregs[199]",
+          1
+        ],
+        [
+          "core_cpuregs[310]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 302,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[595]",
+          1
+        ],
+        [
+          "core_n1607",
+          1
+        ],
+        [
+          "core_n2955",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 303,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[853]",
+          1
+        ],
+        [
+          "core_n2051",
+          1
+        ],
+        [
+          "core_cpuregs[469]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 304,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2326",
+          1
+        ],
+        [
+          "core_N1541",
+          1
+        ],
+        [
+          "core_cpuregs[967]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 305,
+      "q": 3,
+      "triggers": [
+        [
+          "n3202",
+          1
+        ],
+        [
+          "core_n782",
+          1
+        ],
+        [
+          "core_cpuregs[467]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 306,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n95",
+          1
+        ],
+        [
+          "n3199",
+          1
+        ],
+        [
+          "core_n3536",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 307,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3224",
+          1
+        ],
+        [
+          "core_cpuregs[575]",
+          1
+        ],
+        [
+          "core_U4_U24_Z_28",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 308,
+      "q": 3,
+      "triggers": [
+        [
+          "core_mem_la_wdata_15_",
+          1
+        ],
+        [
+          "core_n339",
+          0
+        ],
+        [
+          "core_n2100",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 309,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n573",
+          1
+        ],
+        [
+          "core_n2470",
+          1
+        ],
+        [
+          "core_n1501",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 310,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N1333",
+          1
+        ],
+        [
+          "core_N152",
+          1
+        ],
+        [
+          "core_cpuregs[270]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 311,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1913",
+          1
+        ],
+        [
+          "core_n1966",
+          1
+        ],
+        [
+          "core_cpuregs[406]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 312,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3631",
+          0
+        ],
+        [
+          "core_n1889",
+          1
+        ],
+        [
+          "core_n1731",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 313,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[401]",
+          1
+        ],
+        [
+          "core_n2299",
+          1
+        ],
+        [
+          "core_n1080",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 314,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N449",
+          1
+        ],
+        [
+          "core_n2526",
+          1
+        ],
+        [
+          "core_n1711",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 315,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3342",
+          1
+        ],
+        [
+          "core_cpuregs[170]",
+          1
+        ],
+        [
+          "core_n3211",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 316,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[799]",
+          1
+        ],
+        [
+          "core_cpuregs[828]",
+          1
+        ],
+        [
+          "core_cpuregs[670]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 317,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n193",
+          0
+        ],
+        [
+          "core_n308",
+          0
+        ],
+        [
+          "core_cpuregs[798]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 318,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2334",
+          1
+        ],
+        [
+          "core_cpuregs[811]",
+          1
+        ],
+        [
+          "core_n2687",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 319,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N809",
+          1
+        ],
+        [
+          "core_n267",
+          0
+        ],
+        [
+          "core_n266",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 320,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2019",
+          1
+        ],
+        [
+          "core_n33",
+          0
+        ],
+        [
+          "core_cpuregs[306]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 321,
+      "q": 3,
+      "triggers": [
+        [
+          "core_alu_out[5]",
+          1
+        ],
+        [
+          "core_cpuregs[218]",
+          1
+        ],
+        [
+          "core_n45",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 322,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1026",
+          1
+        ],
+        [
+          "core_cpuregs[327]",
+          1
+        ],
+        [
+          "core_n1946",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 323,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[2]",
+          1
+        ],
+        [
+          "core_n1403",
+          1
+        ],
+        [
+          "core_U4_U24_Z_25",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 324,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N143",
+          1
+        ],
+        [
+          "core_n1909",
+          1
+        ],
+        [
+          "core_mem_rdata_word[29]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 325,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N1333",
+          1
+        ],
+        [
+          "core_n172",
+          0
+        ],
+        [
+          "core_n1449",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 326,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3482",
+          1
+        ],
+        [
+          "core_n2209",
+          1
+        ],
+        [
+          "core_n1481",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 327,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n190",
+          0
+        ],
+        [
+          "core_mem_rdata_word[27]",
+          1
+        ],
+        [
+          "core_n1751",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 328,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[812]",
+          1
+        ],
+        [
+          "core_n92",
+          1
+        ],
+        [
+          "core_cpuregs[611]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 329,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3208",
+          1
+        ],
+        [
+          "core_n258",
+          0
+        ],
+        [
+          "core_cpuregs[165]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 330,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2004",
+          1
+        ],
+        [
+          "core_n241",
+          0
+        ],
+        [
+          "core_n2205",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 331,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1768",
+          1
+        ],
+        [
+          "core_n1252",
+          1
+        ],
+        [
+          "core_n1636",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 332,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n123",
+          0
+        ],
+        [
+          "core_N1526",
+          1
+        ],
+        [
+          "core_instr_xori",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 333,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[465]",
+          1
+        ],
+        [
+          "core_cpuregs[689]",
+          1
+        ],
+        [
+          "core_alu_out[11]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 334,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N1307",
+          1
+        ],
+        [
+          "core_n3131",
+          1
+        ],
+        [
+          "core_alu_out_q[13]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 335,
+      "q": 3,
+      "triggers": [
+        [
+          "core_r315_carry_22_",
+          1
+        ],
+        [
+          "core_n1646",
+          1
+        ],
+        [
+          "n3208",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 336,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1492",
+          1
+        ],
+        [
+          "core_cpuregs[215]",
+          1
+        ],
+        [
+          "core_mem_la_wdata_27_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 337,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n124",
+          0
+        ],
+        [
+          "core_n3316",
+          0
+        ],
+        [
+          "core_n3534",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 338,
+      "q": 3,
+      "triggers": [
+        [
+          "mem_wdata[18]",
+          1
+        ],
+        [
+          "core_cpuregs[760]",
+          1
+        ],
+        [
+          "core_n2301",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 339,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[77]",
+          1
+        ],
+        [
+          "core_n1509",
+          1
+        ],
+        [
+          "core_U4_U25_Z_7",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 340,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1573",
+          1
+        ],
+        [
+          "core_U4_U24_Z_19",
+          1
+        ],
+        [
+          "core_cpuregs[435]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 341,
+      "q": 3,
+      "triggers": [
+        [
+          "core_alu_out_q[23]",
+          1
+        ],
+        [
+          "core_cpuregs[262]",
+          1
+        ],
+        [
+          "core_cpuregs[886]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 342,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1941",
+          1
+        ],
+        [
+          "core_n1526",
+          1
+        ],
+        [
+          "n3168",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 343,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1769",
+          1
+        ],
+        [
+          "core_cpuregs[58]",
+          1
+        ],
+        [
+          "core_n1281",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 344,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1467",
+          1
+        ],
+        [
+          "core_U4_U25_Z_29",
+          1
+        ],
+        [
+          "core_cpuregs[357]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 345,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3512",
+          1
+        ],
+        [
+          "core_cpuregs[108]",
+          1
+        ],
+        [
+          "core_n2859",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 346,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n212",
+          0
+        ],
+        [
+          "core_n3455",
+          1
+        ],
+        [
+          "core_cpuregs[714]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 347,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[971]",
+          1
+        ],
+        [
+          "core_n3394",
+          1
+        ],
+        [
+          "core_mem_rdata_word[19]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 348,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[599]",
+          1
+        ],
+        [
+          "core_cpuregs[873]",
+          1
+        ],
+        [
+          "core_n2777",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 349,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1334",
+          1
+        ],
+        [
+          "core_n2228",
+          1
+        ],
+        [
+          "core_n1732",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 350,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n264",
+          0
+        ],
+        [
+          "core_U4_U24_Z_25",
+          1
+        ],
+        [
+          "core_n3191",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 351,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[460]",
+          1
+        ],
+        [
+          "core_cpuregs[891]",
+          1
+        ],
+        [
+          "core_n3645",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 352,
+      "q": 3,
+      "triggers": [
+        [
+          "core_alu_out_q[20]",
+          1
+        ],
+        [
+          "core_n1430",
+          1
+        ],
+        [
+          "core_cpuregs[165]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 353,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2801",
+          0
+        ],
+        [
+          "core_cpuregs[643]",
+          1
+        ],
+        [
+          "core_n29",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 354,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1657",
+          1
+        ],
+        [
+          "core_n1683",
+          1
+        ],
+        [
+          "core_n2183",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 355,
+      "q": 3,
+      "triggers": [
+        [
+          "core_N144",
+          1
+        ],
+        [
+          "core_is_alu_reg_reg",
+          1
+        ],
+        [
+          "core_n1954",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 356,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3080",
+          1
+        ],
+        [
+          "core_n1414",
+          1
+        ],
+        [
+          "core_n3183",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 357,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[66]",
+          1
+        ],
+        [
+          "n3189",
+          1
+        ],
+        [
+          "core_n2760",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 358,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n316",
+          0
+        ],
+        [
+          "core_N627",
+          1
+        ],
+        [
+          "core_n3494",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 359,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2016",
+          1
+        ],
+        [
+          "core_n1726",
+          1
+        ],
+        [
+          "core_n1996",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 360,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1934",
+          1
+        ],
+        [
+          "core_N173",
+          1
+        ],
+        [
+          "core_cpuregs[123]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 361,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n693",
+          1
+        ],
+        [
+          "core_n2656",
+          1
+        ],
+        [
+          "core_n191",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 362,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1558",
+          1
+        ],
+        [
+          "core_n144",
+          0
+        ],
+        [
+          "core_n3382",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 363,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1197",
+          1
+        ],
+        [
+          "core_n1674",
+          1
+        ],
+        [
+          "core_n3386",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 364,
+      "q": 3,
+      "triggers": [
+        [
+          "n3178",
+          1
+        ],
+        [
+          "core_n1800",
+          1
+        ],
+        [
+          "core_n2933",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 365,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1778",
+          1
+        ],
+        [
+          "core_cpuregs[852]",
+          1
+        ],
+        [
+          "core_U4_U24_Z_9",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 366,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[852]",
+          1
+        ],
+        [
+          "core_n1497",
+          1
+        ],
+        [
+          "core_n69",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 367,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2335",
+          1
+        ],
+        [
+          "core_N1319",
+          1
+        ],
+        [
+          "core_n3431",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 368,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1750",
+          1
+        ],
+        [
+          "core_n1892",
+          1
+        ],
+        [
+          "core_r315_B_AS[17]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 369,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1636",
+          1
+        ],
+        [
+          "core_cpuregs[521]",
+          1
+        ],
+        [
+          "core_cpuregs[655]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 370,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n1724",
+          1
+        ],
+        [
+          "core_cpuregs[108]",
+          1
+        ],
+        [
+          "core_alu_out[27]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 371,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[782]",
+          1
+        ],
+        [
+          "core_n3646",
+          0
+        ],
+        [
+          "core_n3639",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 372,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n3633",
+          1
+        ],
+        [
+          "core_cpuregs[365]",
+          1
+        ],
+        [
+          "core_n1444",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 373,
+      "q": 3,
+      "triggers": [
+        [
+          "core_cpuregs[472]",
+          1
+        ],
+        [
+          "core_n1934",
+          1
+        ],
+        [
+          "core_decoded_imm_j[10]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 374,
+      "q": 3,
+      "triggers": [
+        [
+          "core_n2338",
+          1
+        ],
+        [
+          "core_n221",
+          0
+        ],
+        [
+          "core_n3470",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 375,
+      "q": 4,
+      "triggers": [
+        [
+          "core_mem_la_wstrb_1_",
+          1
+        ],
+        [
+          "n3178",
+          1
+        ],
+        [
+          "core_alu_out[13]",
+          1
+        ],
+        [
+          "core_n1487",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 376,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1422",
+          1
+        ],
+        [
+          "core_cpuregs[909]",
+          1
+        ],
+        [
+          "core_n2063",
+          1
+        ],
+        [
+          "core_n316",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 377,
+      "q": 4,
+      "triggers": [
+        [
+          "core_alu_out_q[22]",
+          1
+        ],
+        [
+          "core_n2838",
+          0
+        ],
+        [
+          "mem_wdata[12]",
+          1
+        ],
+        [
+          "core_n1428",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 378,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[888]",
+          1
+        ],
+        [
+          "core_n89",
+          1
+        ],
+        [
+          "core_n3002",
+          1
+        ],
+        [
+          "core_n419",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 379,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1083",
+          1
+        ],
+        [
+          "core_n1481",
+          1
+        ],
+        [
+          "core_n1552",
+          1
+        ],
+        [
+          "core_cpuregs[729]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 380,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3256",
+          0
+        ],
+        [
+          "core_n913",
+          1
+        ],
+        [
+          "core_cpuregs[833]",
+          1
+        ],
+        [
+          "core_cpuregs[2]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 381,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1082",
+          1
+        ],
+        [
+          "core_n183",
+          0
+        ],
+        [
+          "core_n2127",
+          1
+        ],
+        [
+          "core_n3359",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 382,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[688]",
+          1
+        ],
+        [
+          "core_n3102",
+          0
+        ],
+        [
+          "core_n2142",
+          1
+        ],
+        [
+          "core_cpuregs[127]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 383,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[831]",
+          1
+        ],
+        [
+          "core_lt_1233_B_11_",
+          1
+        ],
+        [
+          "core_cpuregs[75]",
+          1
+        ],
+        [
+          "core_n3305",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 384,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[388]",
+          1
+        ],
+        [
+          "core_n2622",
+          1
+        ],
+        [
+          "core_n1983",
+          1
+        ],
+        [
+          "core_n1508",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 385,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1519",
+          1
+        ],
+        [
+          "core_cpuregs[132]",
+          1
+        ],
+        [
+          "core_n3365",
+          0
+        ],
+        [
+          "core_n2526",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 386,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2417",
+          1
+        ],
+        [
+          "core_N639",
+          1
+        ],
+        [
+          "core_U4_U25_Z_10",
+          1
+        ],
+        [
+          "core_r315_B_AS[23]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 387,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n111",
+          0
+        ],
+        [
+          "core_n2293",
+          1
+        ],
+        [
+          "core_n1861",
+          1
+        ],
+        [
+          "core_alu_out[31]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 388,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1801",
+          1
+        ],
+        [
+          "core_n1743",
+          1
+        ],
+        [
+          "core_alu_out[22]",
+          1
+        ],
+        [
+          "core_n2288",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 389,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[481]",
+          1
+        ],
+        [
+          "core_n1323",
+          1
+        ],
+        [
+          "core_lt_1233_B_28_",
+          1
+        ],
+        [
+          "core_n3326",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 390,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[815]",
+          1
+        ],
+        [
+          "core_n3269",
+          1
+        ],
+        [
+          "core_n2340",
+          1
+        ],
+        [
+          "core_n2093",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 391,
+      "q": 4,
+      "triggers": [
+        [
+          "core_mem_rdata_word[24]",
+          1
+        ],
+        [
+          "core_n2882",
+          1
+        ],
+        [
+          "core_mem_rdata_word[10]",
+          1
+        ],
+        [
+          "core_n119",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 392,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[67]",
+          1
+        ],
+        [
+          "core_n3539",
+          1
+        ],
+        [
+          "n3198",
+          1
+        ],
+        [
+          "core_n3056",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 393,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[565]",
+          1
+        ],
+        [
+          "core_n2313",
+          1
+        ],
+        [
+          "core_n2160",
+          1
+        ],
+        [
+          "core_n2760",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 394,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2342",
+          1
+        ],
+        [
+          "core_lt_1233_B_11_",
+          1
+        ],
+        [
+          "core_cpuregs[292]",
+          1
+        ],
+        [
+          "core_r300_carry[5]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 395,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3234",
+          1
+        ],
+        [
+          "core_n2827",
+          0
+        ],
+        [
+          "core_cpuregs[594]",
+          1
+        ],
+        [
+          "core_cpuregs[7]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 396,
+      "q": 4,
+      "triggers": [
+        [
+          "core_mem_rdata_word[11]",
+          1
+        ],
+        [
+          "core_N635",
+          1
+        ],
+        [
+          "core_n306",
+          0
+        ],
+        [
+          "core_N786",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 397,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n193",
+          0
+        ],
+        [
+          "core_cpuregs[350]",
+          1
+        ],
+        [
+          "core_n2236",
+          1
+        ],
+        [
+          "core_cpuregs[794]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 398,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r293_n56",
+          1
+        ],
+        [
+          "core_n1945",
+          1
+        ],
+        [
+          "core_cpuregs[220]",
+          1
+        ],
+        [
+          "core_n1331",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 399,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1743",
+          1
+        ],
+        [
+          "core_cpuregs[494]",
+          1
+        ],
+        [
+          "core_cpuregs[663]",
+          1
+        ],
+        [
+          "core_n2218",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 400,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[896]",
+          1
+        ],
+        [
+          "core_n1778",
+          1
+        ],
+        [
+          "core_lt_1233_A_23_",
+          1
+        ],
+        [
+          "core_cpuregs[979]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 401,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1491",
+          1
+        ],
+        [
+          "core_n360",
+          1
+        ],
+        [
+          "core_n1648",
+          1
+        ],
+        [
+          "core_n1461",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 402,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3422",
+          1
+        ],
+        [
+          "core_n2990",
+          1
+        ],
+        [
+          "core_n3013",
+          0
+        ],
+        [
+          "core_n1872",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 403,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[281]",
+          1
+        ],
+        [
+          "core_n53",
+          1
+        ],
+        [
+          "core_n3207",
+          1
+        ],
+        [
+          "core_mem_la_wstrb_3_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 404,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[650]",
+          1
+        ],
+        [
+          "core_n2000",
+          1
+        ],
+        [
+          "core_cpuregs[814]",
+          1
+        ],
+        [
+          "core_cpuregs[76]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 405,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[135]",
+          1
+        ],
+        [
+          "core_n347",
+          0
+        ],
+        [
+          "mem_wdata[31]",
+          1
+        ],
+        [
+          "core_n3265",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 406,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N1329",
+          1
+        ],
+        [
+          "core_n1419",
+          1
+        ],
+        [
+          "core_n26",
+          1
+        ],
+        [
+          "mem_wdata[12]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 407,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2882",
+          1
+        ],
+        [
+          "core_n2876",
+          1
+        ],
+        [
+          "core_n142",
+          0
+        ],
+        [
+          "core_r300_carry[19]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 408,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1955",
+          1
+        ],
+        [
+          "core_n925",
+          1
+        ],
+        [
+          "core_n1785",
+          1
+        ],
+        [
+          "core_n2112",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 409,
+      "q": 4,
+      "triggers": [
+        [
+          "core_mem_rdata_word[20]",
+          1
+        ],
+        [
+          "core_cpuregs[437]",
+          1
+        ],
+        [
+          "core_n1054",
+          1
+        ],
+        [
+          "core_lt_1233_B_19_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 410,
+      "q": 4,
+      "triggers": [
+        [
+          "mem_wdata[9]",
+          1
+        ],
+        [
+          "core_n2937",
+          1
+        ],
+        [
+          "core_n3181",
+          1
+        ],
+        [
+          "core_n1759",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 411,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3033",
+          0
+        ],
+        [
+          "core_cpuregs[232]",
+          1
+        ],
+        [
+          "core_n111",
+          0
+        ],
+        [
+          "core_n1739",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 412,
+      "q": 4,
+      "triggers": [
+        [
+          "mem_addr[1]",
+          1
+        ],
+        [
+          "core_cpuregs[360]",
+          1
+        ],
+        [
+          "core_n3293",
+          1
+        ],
+        [
+          "core_alu_out_0_q",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 413,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3180",
+          1
+        ],
+        [
+          "core_cpuregs[199]",
+          1
+        ],
+        [
+          "core_n204",
+          0
+        ],
+        [
+          "core_n3175",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 414,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N1040",
+          1
+        ],
+        [
+          "core_cpuregs[896]",
+          1
+        ],
+        [
+          "core_n294",
+          0
+        ],
+        [
+          "core_n3164",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 415,
+      "q": 4,
+      "triggers": [
+        [
+          "core_lt_1233_A_31_",
+          1
+        ],
+        [
+          "core_mem_rdata_word[0]",
+          1
+        ],
+        [
+          "core_n3401",
+          1
+        ],
+        [
+          "core_cpuregs[596]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 416,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1462",
+          1
+        ],
+        [
+          "core_n1977",
+          1
+        ],
+        [
+          "core_n3271",
+          0
+        ],
+        [
+          "core_cpuregs[150]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 417,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1456",
+          1
+        ],
+        [
+          "core_N1323",
+          1
+        ],
+        [
+          "core_n2028",
+          1
+        ],
+        [
+          "core_cpuregs[186]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 418,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1214",
+          1
+        ],
+        [
+          "core_n1995",
+          1
+        ],
+        [
+          "core_n2346",
+          1
+        ],
+        [
+          "core_N621",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 419,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[350]",
+          1
+        ],
+        [
+          "core_n1334",
+          1
+        ],
+        [
+          "core_n1595",
+          1
+        ],
+        [
+          "core_cpuregs[404]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 420,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n64",
+          1
+        ],
+        [
+          "core_r293_n38",
+          1
+        ],
+        [
+          "core_N791",
+          1
+        ],
+        [
+          "core_add_1569_carry[9]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 421,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[702]",
+          1
+        ],
+        [
+          "core_U4_U25_Z_23",
+          1
+        ],
+        [
+          "core_n187",
+          0
+        ],
+        [
+          "core_n1778",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 422,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N1033",
+          1
+        ],
+        [
+          "core_n2590",
+          1
+        ],
+        [
+          "core_n1984",
+          1
+        ],
+        [
+          "core_n1592",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 423,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[966]",
+          1
+        ],
+        [
+          "core_cpuregs[823]",
+          1
+        ],
+        [
+          "core_cpuregs[631]",
+          1
+        ],
+        [
+          "core_mem_la_wdata_24_",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 424,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2677",
+          1
+        ],
+        [
+          "core_n1853",
+          1
+        ],
+        [
+          "mem_wdata[30]",
+          1
+        ],
+        [
+          "core_n2849",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 425,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2126",
+          1
+        ],
+        [
+          "core_n3218",
+          1
+        ],
+        [
+          "core_cpuregs[811]",
+          1
+        ],
+        [
+          "core_n1863",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 426,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r300_carry[16]",
+          1
+        ],
+        [
+          "core_n129",
+          0
+        ],
+        [
+          "core_cpuregs[956]",
+          1
+        ],
+        [
+          "n3180",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 427,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r293_n91",
+          1
+        ],
+        [
+          "core_n2125",
+          1
+        ],
+        [
+          "core_n1464",
+          1
+        ],
+        [
+          "core_n2785",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 428,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3277",
+          0
+        ],
+        [
+          "core_cpuregs[122]",
+          1
+        ],
+        [
+          "core_n1089",
+          1
+        ],
+        [
+          "core_n3373",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 429,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3571",
+          1
+        ],
+        [
+          "core_n3345",
+          0
+        ],
+        [
+          "core_cpuregs[718]",
+          1
+        ],
+        [
+          "core_cpuregs[163]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 430,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n192",
+          0
+        ],
+        [
+          "core_n2067",
+          1
+        ],
+        [
+          "core_U4_U25_Z_8",
+          1
+        ],
+        [
+          "core_n3280",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 431,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n77",
+          1
+        ],
+        [
+          "core_n1745",
+          1
+        ],
+        [
+          "core_cpuregs[658]",
+          1
+        ],
+        [
+          "core_n1534",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 432,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2524",
+          1
+        ],
+        [
+          "core_n306",
+          0
+        ],
+        [
+          "core_n1921",
+          1
+        ],
+        [
+          "core_n3538",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 433,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[240]",
+          1
+        ],
+        [
+          "core_n1644",
+          1
+        ],
+        [
+          "core_n1866",
+          1
+        ],
+        [
+          "core_r293_n69",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 434,
+      "q": 4,
+      "triggers": [
+        [
+          "n3215",
+          1
+        ],
+        [
+          "core_n2797",
+          0
+        ],
+        [
+          "core_n3538",
+          1
+        ],
+        [
+          "core_n1331",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 435,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r315_B_AS[21]",
+          1
+        ],
+        [
+          "core_n1943",
+          1
+        ],
+        [
+          "core_n2766",
+          0
+        ],
+        [
+          "core_n2110",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 436,
+      "q": 4,
+      "triggers": [
+        [
+          "core_U4_U25_Z_3",
+          1
+        ],
+        [
+          "core_n298",
+          0
+        ],
+        [
+          "core_n2059",
+          1
+        ],
+        [
+          "core_n2579",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 437,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2476",
+          1
+        ],
+        [
+          "core_r293_n82",
+          1
+        ],
+        [
+          "core_r293_n33",
+          1
+        ],
+        [
+          "core_decoded_imm_j[12]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 438,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[363]",
+          1
+        ],
+        [
+          "core_cpuregs[500]",
+          1
+        ],
+        [
+          "core_cpuregs[936]",
+          1
+        ],
+        [
+          "core_n1528",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 439,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1432",
+          1
+        ],
+        [
+          "core_U4_U25_Z_31",
+          1
+        ],
+        [
+          "core_n1487",
+          1
+        ],
+        [
+          "core_cpuregs[533]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2845",
+          1
+        ],
+        [
+          "core_cpuregs[926]",
+          1
+        ],
+        [
+          "core_N1037",
+          1
+        ],
+        [
+          "core_cpuregs[587]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 441,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2311",
+          1
+        ],
+        [
+          "core_n3437",
+          1
+        ],
+        [
+          "core_n2089",
+          1
+        ],
+        [
+          "core_n1441",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 442,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1350",
+          1
+        ],
+        [
+          "core_n331",
+          0
+        ],
+        [
+          "core_cpuregs[635]",
+          1
+        ],
+        [
+          "core_n3246",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 443,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n293",
+          0
+        ],
+        [
+          "core_n407",
+          1
+        ],
+        [
+          "core_n3251",
+          1
+        ],
+        [
+          "core_n3434",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 444,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2185",
+          1
+        ],
+        [
+          "core_cpuregs[545]",
+          1
+        ],
+        [
+          "core_cpuregs[697]",
+          1
+        ],
+        [
+          "core_N625",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 445,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1719",
+          1
+        ],
+        [
+          "mem_addr[2]",
+          1
+        ],
+        [
+          "core_cpuregs[835]",
+          1
+        ],
+        [
+          "core_n240",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 446,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[119]",
+          1
+        ],
+        [
+          "core_cpuregs[125]",
+          1
+        ],
+        [
+          "core_n2126",
+          1
+        ],
+        [
+          "core_n3212",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 447,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3350",
+          1
+        ],
+        [
+          "core_cpuregs[187]",
+          1
+        ],
+        [
+          "core_n336",
+          0
+        ],
+        [
+          "core_cpuregs[15]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 448,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1927",
+          1
+        ],
+        [
+          "core_n346",
+          0
+        ],
+        [
+          "core_n2940",
+          1
+        ],
+        [
+          "core_n2777",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 449,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r300_carry[9]",
+          1
+        ],
+        [
+          "core_alu_out[20]",
+          1
+        ],
+        [
+          "core_n2287",
+          1
+        ],
+        [
+          "core_n2883",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 450,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1828",
+          1
+        ],
+        [
+          "core_N142",
+          1
+        ],
+        [
+          "core_n1672",
+          1
+        ],
+        [
+          "core_N457",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 451,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1838",
+          1
+        ],
+        [
+          "core_cpuregs[403]",
+          1
+        ],
+        [
+          "core_cpuregs[586]",
+          1
+        ],
+        [
+          "core_n1909",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 452,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N633",
+          1
+        ],
+        [
+          "core_cpuregs[356]",
+          1
+        ],
+        [
+          "core_n1806",
+          1
+        ],
+        [
+          "core_n1418",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 453,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r293_n92",
+          1
+        ],
+        [
+          "core_cpuregs[304]",
+          1
+        ],
+        [
+          "core_cpuregs[525]",
+          1
+        ],
+        [
+          "core_n1560",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 454,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N800",
+          1
+        ],
+        [
+          "core_cpuregs[39]",
+          1
+        ],
+        [
+          "n3195",
+          1
+        ],
+        [
+          "core_n1325",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 455,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n298",
+          0
+        ],
+        [
+          "core_n1955",
+          1
+        ],
+        [
+          "core_n266",
+          0
+        ],
+        [
+          "core_n2544",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 456,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[741]",
+          1
+        ],
+        [
+          "core_n143",
+          0
+        ],
+        [
+          "core_cpuregs[356]",
+          1
+        ],
+        [
+          "core_n3268",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 457,
+      "q": 4,
+      "triggers": [
+        [
+          "core_U4_U24_Z_12",
+          1
+        ],
+        [
+          "core_n640",
+          1
+        ],
+        [
+          "core_n3641",
+          0
+        ],
+        [
+          "core_n1776",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 458,
+      "q": 4,
+      "triggers": [
+        [
+          "core_U4_U25_Z_20",
+          1
+        ],
+        [
+          "core_cpuregs[187]",
+          1
+        ],
+        [
+          "core_n89",
+          1
+        ],
+        [
+          "core_n1488",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 459,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[517]",
+          1
+        ],
+        [
+          "core_n1438",
+          1
+        ],
+        [
+          "core_n1904",
+          1
+        ],
+        [
+          "core_N796",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 460,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2130",
+          1
+        ],
+        [
+          "core_cpuregs[126]",
+          1
+        ],
+        [
+          "core_n241",
+          0
+        ],
+        [
+          "core_cpuregs[425]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 461,
+      "q": 4,
+      "triggers": [
+        [
+          "core_r315_B_AS[16]",
+          1
+        ],
+        [
+          "core_n2953",
+          0
+        ],
+        [
+          "core_cpuregs[708]",
+          1
+        ],
+        [
+          "core_n246",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 462,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[266]",
+          1
+        ],
+        [
+          "core_cpuregs[939]",
+          1
+        ],
+        [
+          "core_N803",
+          1
+        ],
+        [
+          "core_n2358",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 463,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2244",
+          1
+        ],
+        [
+          "core_N640",
+          1
+        ],
+        [
+          "core_cpuregs[345]",
+          1
+        ],
+        [
+          "core_n881",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 464,
+      "q": 4,
+      "triggers": [
+        [
+          "core_alu_out_q[16]",
+          1
+        ],
+        [
+          "core_n1910",
+          1
+        ],
+        [
+          "core_n794",
+          1
+        ],
+        [
+          "core_n1690",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 465,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[659]",
+          1
+        ],
+        [
+          "core_n1381",
+          1
+        ],
+        [
+          "core_cpuregs[814]",
+          1
+        ],
+        [
+          "core_cpuregs[454]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 466,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2226",
+          1
+        ],
+        [
+          "core_instr_xori",
+          1
+        ],
+        [
+          "core_cpuregs[346]",
+          1
+        ],
+        [
+          "core_n3370",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 467,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1330",
+          1
+        ],
+        [
+          "core_cpuregs[460]",
+          1
+        ],
+        [
+          "core_r300_carry[4]",
+          1
+        ],
+        [
+          "core_n618",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 468,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2461",
+          1
+        ],
+        [
+          "core_cpu_state[1]",
+          1
+        ],
+        [
+          "core_n73",
+          1
+        ],
+        [
+          "core_n2212",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 469,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[918]",
+          1
+        ],
+        [
+          "core_n1883",
+          1
+        ],
+        [
+          "core_n2494",
+          1
+        ],
+        [
+          "core_n3035",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 470,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1739",
+          1
+        ],
+        [
+          "core_n2688",
+          1
+        ],
+        [
+          "core_n2543",
+          1
+        ],
+        [
+          "core_cpuregs[645]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 471,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1482",
+          1
+        ],
+        [
+          "core_n3179",
+          1
+        ],
+        [
+          "core_n3165",
+          1
+        ],
+        [
+          "core_U4_U25_Z_28",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 472,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3356",
+          0
+        ],
+        [
+          "n3201",
+          1
+        ],
+        [
+          "core_cpuregs[694]",
+          1
+        ],
+        [
+          "core_n30",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 473,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[855]",
+          1
+        ],
+        [
+          "core_n1976",
+          1
+        ],
+        [
+          "core_cpuregs[289]",
+          1
+        ],
+        [
+          "core_r293_n97",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 474,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2295",
+          1
+        ],
+        [
+          "core_cpuregs[435]",
+          1
+        ],
+        [
+          "core_cpu_state[0]",
+          1
+        ],
+        [
+          "core_n353",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 475,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N801",
+          1
+        ],
+        [
+          "core_n2346",
+          1
+        ],
+        [
+          "core_n264",
+          0
+        ],
+        [
+          "core_cpuregs[850]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 476,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1622",
+          1
+        ],
+        [
+          "mem_addr[4]",
+          1
+        ],
+        [
+          "core_n209",
+          0
+        ],
+        [
+          "n3167",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 477,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[970]",
+          1
+        ],
+        [
+          "core_n1141",
+          1
+        ],
+        [
+          "core_mem_la_wdata_27_",
+          1
+        ],
+        [
+          "core_n1925",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 478,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N1328",
+          1
+        ],
+        [
+          "core_cpuregs[315]",
+          1
+        ],
+        [
+          "core_cpuregs[153]",
+          1
+        ],
+        [
+          "core_N1536",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 479,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3515",
+          1
+        ],
+        [
+          "core_n1324",
+          1
+        ],
+        [
+          "mem_addr[0]",
+          1
+        ],
+        [
+          "core_cpuregs[683]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 480,
+      "q": 4,
+      "triggers": [
+        [
+          "n3196",
+          1
+        ],
+        [
+          "core_n3031",
+          0
+        ],
+        [
+          "core_n1497",
+          1
+        ],
+        [
+          "core_n3354",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 481,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[803]",
+          1
+        ],
+        [
+          "core_n2168",
+          1
+        ],
+        [
+          "core_n1696",
+          1
+        ],
+        [
+          "n3215",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 482,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1679",
+          1
+        ],
+        [
+          "core_cpu_state[2]",
+          1
+        ],
+        [
+          "core_n1747",
+          1
+        ],
+        [
+          "core_cpuregs[170]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 483,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[182]",
+          1
+        ],
+        [
+          "core_r293_n101",
+          1
+        ],
+        [
+          "core_N646",
+          1
+        ],
+        [
+          "core_cpuregs[735]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 484,
+      "q": 4,
+      "triggers": [
+        [
+          "core_add_1569_carry[13]",
+          1
+        ],
+        [
+          "core_cpuregs[880]",
+          1
+        ],
+        [
+          "core_n3131",
+          1
+        ],
+        [
+          "core_n1583",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 485,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[64]",
+          1
+        ],
+        [
+          "core_cpuregs[411]",
+          1
+        ],
+        [
+          "core_N1323",
+          1
+        ],
+        [
+          "core_n26",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 486,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[786]",
+          1
+        ],
+        [
+          "core_n1366",
+          1
+        ],
+        [
+          "core_n1367",
+          1
+        ],
+        [
+          "core_N795",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 487,
+      "q": 4,
+      "triggers": [
+        [
+          "core_mem_state[1]",
+          1
+        ],
+        [
+          "core_n2153",
+          1
+        ],
+        [
+          "core_cpuregs[806]",
+          1
+        ],
+        [
+          "core_n2195",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 488,
+      "q": 4,
+      "triggers": [
+        [
+          "n3175",
+          1
+        ],
+        [
+          "core_n1540",
+          1
+        ],
+        [
+          "core_n271",
+          0
+        ],
+        [
+          "core_n357",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 489,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N158",
+          1
+        ],
+        [
+          "core_n1838",
+          1
+        ],
+        [
+          "core_n1789",
+          1
+        ],
+        [
+          "core_n3631",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 490,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2239",
+          1
+        ],
+        [
+          "core_n3262",
+          0
+        ],
+        [
+          "core_n98",
+          1
+        ],
+        [
+          "core_n3041",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 491,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[628]",
+          1
+        ],
+        [
+          "core_n2834",
+          0
+        ],
+        [
+          "scan_out",
+          1
+        ],
+        [
+          "core_alu_out[26]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 492,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2081",
+          1
+        ],
+        [
+          "core_n111",
+          0
+        ],
+        [
+          "core_cpuregs[907]",
+          1
+        ],
+        [
+          "core_n2741",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 493,
+      "q": 4,
+      "triggers": [
+        [
+          "core_N185",
+          1
+        ],
+        [
+          "core_cpuregs[317]",
+          1
+        ],
+        [
+          "core_n120",
+          0
+        ],
+        [
+          "core_cpuregs[202]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 494,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1315",
+          1
+        ],
+        [
+          "core_n2477",
+          1
+        ],
+        [
+          "core_n628",
+          1
+        ],
+        [
+          "core_cpuregs[505]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 495,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[330]",
+          1
+        ],
+        [
+          "core_r315_B_AS[23]",
+          1
+        ],
+        [
+          "core_cpuregs[906]",
+          1
+        ],
+        [
+          "core_N808",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 496,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n1521",
+          1
+        ],
+        [
+          "core_cpuregs[535]",
+          1
+        ],
+        [
+          "core_cpuregs[887]",
+          1
+        ],
+        [
+          "core_U4_U24_Z_3",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 497,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n2956",
+          0
+        ],
+        [
+          "core_n1445",
+          1
+        ],
+        [
+          "core_cpuregs[662]",
+          1
+        ],
+        [
+          "core_n3624",
+          0
+        ]
+      ]
+    },
+    {
+      "id": 498,
+      "q": 4,
+      "triggers": [
+        [
+          "core_cpuregs[797]",
+          1
+        ],
+        [
+          "core_cpuregs[308]",
+          1
+        ],
+        [
+          "core_cpuregs[121]",
+          1
+        ],
+        [
+          "core_cpuregs[135]",
+          1
+        ]
+      ]
+    },
+    {
+      "id": 499,
+      "q": 4,
+      "triggers": [
+        [
+          "core_n3226",
+          1
+        ],
+        [
+          "core_n2126",
+          1
+        ],
+        [
+          "core_r300_carry[8]",
+          1
+        ],
+        [
+          "core_n3625",
+          0
+        ]
+      ]
+    }
+  ]
+}
