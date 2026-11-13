@@ -77,6 +77,84 @@ python3 run_mcatpg.py
 ---
 
 ## 5. Architectural Schematics Directory (`docs/schematics/`)
+
+# Hardware Trojan Detection Project
+
+## Folder Structure
+
+```text
+Hardware-Trojan/
+├── README.md
+├── circuits/
+│   ├── combinational/
+│   │   ├── c2670/
+│   │   │   ├── c2670.v
+│   │   │   └── tb_c2670.v
+│   │   ├── c5315/
+│   │   │   ├── c5315.v
+│   │   │   └── tb_c5315.v
+│   │   ├── c6288/
+│   │   │   ├── c6288.v
+│   │   │   └── tb_c6288.v
+│   │   └── c7552/
+│   │       ├── c7552.v
+│   │       └── tb_c7552.v
+│   └── sequential/
+│       ├── aes_128/
+│       │   ├── aes_128_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       ├── darkriscv/
+│       │   ├── darkriscv_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       ├── femtorv32/
+│       │   ├── femtorv32_electron_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       ├── picorv1/
+│       │   ├── picorv1_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       ├── picorv2/
+│       │   ├── picorv2_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       ├── picorv3/
+│       │   ├── picorv3_scan.spf
+│       │   ├── synthesised_scan.v
+│       │   └── tb_scan.v
+│       └── rsa/
+│           ├── rsa_scan.spf
+│           ├── synthesised_scan.v
+│           └── tb_scan.v
+├── docs/
+│   ├── schematics/
+│   │   ├── schematic_aes_core.png
+│   │   ├── schematic_c2670_alu.png
+│   │   ├── schematic_c5315_alu.png
+│   │   ├── schematic_c6288_multiplier.png
+│   │   ├── schematic_c7552_comparator.png
+│   │   ├── schematic_darkriscv_core.png
+│   │   ├── schematic_femtorv32_core.png
+│   │   ├── schematic_hardware_trojan_anatomy.png
+│   │   ├── schematic_mc_atpg_clique_graph.png
+│   │   ├── schematic_nd_atpg_architecture.png
+│   │   ├── schematic_overall_flow.png
+│   │   ├── schematic_picorv32_core.png
+│   │   ├── schematic_rsa_core.png
+│   │   └── schematic_scan_dft_chain.png
+│   ├── Hardware_Trojan_Detection_Presentation_.pptx 
+│   └── presentation_figure
+├── results/
+│   ├── SUMMARY_RESULTS.md
+│   ├── logs/
+│   └── plots/
+├── scripts/
+│   └── run_all_benchmarks.sh
+└── .git/
+
+
 All architectural diagram assets and schematics are indexed below and located in [`docs/schematics/`](file:///docs/schematics):
 - `schematic_hardware_trojan_anatomy.png`: Trojan trigger network (AND tree of rare nets) and malicious XOR/MUX payload.
 - `schematic_scan_dft_chain.png`: IEEE 1149.1 full-scan architecture with scan shift, capture pulse, and test controls.
