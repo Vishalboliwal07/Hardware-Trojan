@@ -1,0 +1,23 @@
+# Synopsys VCS & EDA Compiler Artifacts
+simv*
+*.daidir/
+csrc/
+*.vcd
+*.vpd
+*.fsdb
+*.stil
+*.vec
+*.log
+*.rpt
+*.key
+flex*.log
+vcs_comp.log
+sim_*.log
+
+# Backups & Temporary Files
+*.orig_prims
+~$*.pptx
+/Hardware_Trojan_Detection_Final_Presentation_Updated.pptx
+*.tmp
+__pycache__/
+*.pyc

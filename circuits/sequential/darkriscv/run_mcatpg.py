@@ -60,7 +60,7 @@ def build_net_to_pin_mapping(netlist_path):
 
     # Match each standard cell instance: <cell_type> <instance_name> ( <ports> );
     instance_pattern = re.compile(r'([A-Za-z0-9_]+)\s+([A-Za-z0-9_\\/\[\]]+)\s*\((.*?)\);', re.DOTALL)
-    port_pattern = re.compile(r'\.(Z|ZN|Q|QN|CO)\s*\(\s*([A-Za-z0-9_\[\]]+)\s*\)')
+    port_pattern = re.compile(r'\.(Z|ZN|Q|QN|CO|S|SO|C|CN|P|GCLK)\s*\(\s*([A-Za-z0-9_\[\]]+)\s*\)')
 
     for m in instance_pattern.finditer(content):
         cell_type, inst_name, port_connections = m.groups()
