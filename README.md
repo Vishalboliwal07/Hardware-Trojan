@@ -58,10 +58,10 @@ python3 run_mcatpg.py
 ### ISCAS-85 Combinational Circuits
 | Circuit | Gates | PIs | Patterns (ND / MC) | Feasible Trojans | Activated Trojans (ND / MC) | Overall MIC (%) (ND / MC) | ATPG Gen Time (ND / MC) | VCS Sim Time (ND / MC) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **c2670** | 406 | 233 | 22,466 / 2,328 | 199 | 179 / 140 | **89.95%** / 70.35% | N/A / 9.33s | 2.07s / 1.43s |
-| **c5315** | 1,162 | 178 | 32,559 / 4,162 | 200 | 192 / 164 | **96.00%** / 82.00% | N/A / 34.55s | 3.89s / 1.81s |
-| **c6288** | 1,779 | 32 | 28,048 / 1,164 | 199 | 198 / 169 | **99.50%** / 84.92% | N/A / 316.25s | 18.14s / 2.92s |
-| **c7552** | 1,191 | 207 | 41,589 / 1,684 | 200 | 177 / 159 | **88.50%** / 79.50% | N/A / 38.24s | 3.42s / 1.50s |
+| **c2670** | 406 | 233 | 22,466 / 2,328 | 199 | 179 / 163 | **89.95%** / 81.91% | N/A / 9.33s | 2.07s / 1.43s |
+| **c5315** | 1,162 | 178 | 32,559 / 4,162 | 200 | 192 / 165 | **96.00%** / 82.50% | N/A / 34.55s | 3.89s / 1.81s |
+| **c6288** | 1,779 | 32 | 28,048 / 1,164 | 199 | 198 / 193 | **99.50%** / 96.98% | N/A / 316.25s | 18.14s / 2.92s |
+| **c7552** | 1,191 | 207 | 41,589 / 1,684 | 200 | 177 / 161 | **88.50%** / 80.50% | N/A / 38.24s | 3.42s / 1.50s |
 
 ### Sequential Full-Scan RISC-V Cores & Cryptographic IPs
 | Circuit | Gates | Scan Cells | Patterns (ND / MC) | Scan Cycles (ND / MC) | Feasible Trojans | Activated Trojans (ND / MC) | Overall MIC (%) (ND / MC) | ATPG Gen Time (ND / MC) | VCS Sim Time (ND / MC) |

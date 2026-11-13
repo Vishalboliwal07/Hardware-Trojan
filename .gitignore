@@ -13,6 +13,7 @@ csrc/
 flex*.log
 vcs_comp.log
 sim_*.log
+activate_cliques.tcl
 
 # Backups & Temporary Files
 *.orig_prims
