@@ -88,15 +88,15 @@ All sequential cores were synthesized with IEEE 1149.1 full internal scan chains
 
 ## 5. Verification Logs Directory
 
-All raw simulation logs, compilation logs, and ATPG outputs are archived in [`consolidated_results/logs/`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs):
-- **`aes_128/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/aes_128/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/aes_128/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/aes_128/vcs_comp.log)
-- **`c2670/`:** [`rareness.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/c2670/rareness.log)
-- **`c5315/`:** [`rareness.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/c5315/rareness.log)
-- **`c6288/`:** [`rareness.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/c6288/rareness.log)
-- **`c7552/`:** [`rareness.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/c7552/rareness.log)
-- **`darkriscv/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/darkriscv/sim_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/darkriscv/vcs_comp.log)
-- **`femtorv32_electron/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/femtorv32_electron/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/femtorv32_electron/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/femtorv32_electron/vcs_comp.log)
-- **`picorv1/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv1/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv1/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv1/vcs_comp.log)
-- **`picorv2/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv2/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv2/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv2/vcs_comp.log)
-- **`picorv3/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv3/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv3/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/picorv3/vcs_comp.log)
-- **`rsa/`:** [`sim_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/rsa/sim_scan.log), [`tmax_scan.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/rsa/tmax_scan.log), [`vcs_comp.log`](file:///c:/Users/Pranay/Downloads/VLSI_project_hardware_trojan/consolidated_results/logs/rsa/vcs_comp.log)
+All raw simulation logs, compilation logs, and ATPG outputs are archived in [`results/logs/`](file:///results/logs):
+- **`aes_128/`:** [`sim_scan.log`](file:///results/logs/aes_128/sim_scan.log), [`tmax_scan.log`](file:///results/logs/aes_128/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/aes_128/vcs_comp.log)
+- **`c2670/`:** [`rareness.log`](file:///results/logs/c2670/rareness.log)
+- **`c5315/`:** [`rareness.log`](file:///results/logs/c5315/rareness.log)
+- **`c6288/`:** [`rareness.log`](file:///results/logs/c6288/rareness.log)
+- **`c7552/`:** [`rareness.log`](file:///results/logs/c7552/rareness.log)
+- **`darkriscv/`:** [`sim_scan.log`](file:///results/logs/darkriscv/sim_scan.log), [`vcs_comp.log`](file:///results/logs/darkriscv/vcs_comp.log)
+- **`femtorv32_electron/`:** [`sim_scan.log`](file:///results/logs/femtorv32_electron/sim_scan.log), [`tmax_scan.log`](file:///results/logs/femtorv32_electron/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/femtorv32_electron/vcs_comp.log)
+- **`picorv1/`:** [`sim_scan.log`](file:///results/logs/picorv1/sim_scan.log), [`tmax_scan.log`](file:///results/logs/picorv1/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/picorv1/vcs_comp.log)
+- **`picorv2/`:** [`sim_scan.log`](file:///results/logs/picorv2/sim_scan.log), [`tmax_scan.log`](file:///results/logs/picorv2/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/picorv2/vcs_comp.log)
+- **`picorv3/`:** [`sim_scan.log`](file:///results/logs/picorv3/sim_scan.log), [`tmax_scan.log`](file:///results/logs/picorv3/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/picorv3/vcs_comp.log)
+- **`rsa/`:** [`sim_scan.log`](file:///results/logs/rsa/sim_scan.log), [`tmax_scan.log`](file:///results/logs/rsa/tmax_scan.log), [`vcs_comp.log`](file:///results/logs/rsa/vcs_comp.log)

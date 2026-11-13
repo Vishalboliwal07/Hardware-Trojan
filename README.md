@@ -173,12 +173,15 @@ All architectural diagram assets and schematics are indexed below and located in
 
 ---
 
-## 6. Future & Remaining Work (Faculty & TA Feedback)
-1. **Physical Layout & DRC/LVS Verification:**
-   - Execute placement and routing (P&R) in Cadence Innovus / Synopsys IC Compiler II on SCL 180nm to evaluate silicon area overhead (<0.5%) and wire congestion.
-2. **Payload Propagation to Primary Observability Points:**
-   - Extend the rare-node activation engine to perform fault-effect propagation through downstream sequential logic to chip primary outputs.
-3. **Scan Shift Power & Thermal Profiling:**
-   - Analyze peak toggle rates during scan shift phases using Synopsys PrimeTime PX to ensure scan testing does not exceed chip thermal power limits.
-4. **Machine Learning Guided Rare-Node Clustering:**
-   - Explore graph neural network (GNN) embeddings to predict hard-to-activate rare node combinations on million-gate SoCs.
+## 6. Grounded Future & Remaining Work Roadmaps
+
+1. **End-to-End Scalable MC-ATPG Engine Implementation & Coverage Optimization:**
+   - Implement dynamic sub-clique relaxation and iterative constraint packing to eliminate over-constraint in dense compatibility graphs, maximizing MC-ATPG coverage across large multi-trigger Trojan suites ($q \ge 3$).
+2. **Scaling ND-ATPG Execution to Ultra-Large Benchmark Circuits:**
+   - Execute ND-ATPG on larger industrial benchmarks (ITC'99 `b17`, `b18`, `b19`, and open-source multi-core SoC designs) by introducing partitioned test pattern generators and bounded pin-flipping to prevent pattern explosion.
+3. **Transition-Probability Rare-Node Detection in Sequential Circuits:**
+   - Develop sequential rare-node identification that natively handles cyclic state transitions, unclocked retention registers, and reachability invariants without relying exclusively on full-scan test mode assumptions.
+4. **Algorithmic Filtering of Fake Rare Signals (False Positives):**
+   - Implement functional dependency filtering to prune statically correlated, clock-gated, or fixed-mode signals (e.g., reset trees, test-mode enables, constant tie cells) that appear statistically rare but cannot trigger independent hardware Trojans.
+5. **Comprehensive Dynamic Simulation & Coverage Closure Across All Circuits:**
+   - Extend cycle-accurate VCS gate-level dynamic simulations to complete 100% trigger coverage closure across all combinational, pipelined sequential, and cryptographic accelerators with accelerated parallel testbench architectures.
